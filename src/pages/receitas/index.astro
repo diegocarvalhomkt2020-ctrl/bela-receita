@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import dados from '../../data/receitas.json';
+
+const receitas = [...dados.receitas].sort((a, b) => b.dataPublicacao.localeCompare(a.dataPublicacao));
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": new URL('/', Astro.site).toString() },
+    { "@type": "ListItem", "position": 2, "name": "Receitas", "item": new URL('/receitas/', Astro.site).toString() },
+  ],
+};
+---
+<Layout title="Receitas" description="Todas as receitas fáceis para air fryer do Bela Receita, com passo a passo simples pra fazer no dia a dia.">
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <nav class="trilha"><a href="/">Início</a> &rsaquo; Receitas</nav>
+
+  <h1>Receitas</h1>
+  <p>Todas as receitas para air fryer, com passo a passo simples pra fazer no dia a dia.</p>
+
+  <div class="grade">
+    {receitas.map((r) => (
+      <a href={`/receitas/${r.id}/`} class="cartao">
+        <img src={r.imagem} alt={r.nome} width="360" height="480" loading="lazy" />
+        <div class="cartao-texto">
+          <h2>{r.nome}</h2>
+          <p>{r.resumo}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <style>
+    .trilha { font-size: 0.85rem; color: var(--cor-texto-suave); margin-bottom: 1rem; }
+    .trilha a { color: var(--cor-texto-suave); }
+    .grade {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .cartao {
+      display: block;
+      text-decoration: none;
+      color: var(--cor-texto);
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .cartao img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+    .cartao-texto { padding: 1rem; }
+    .cartao h2 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+    .cartao p { font-size: 0.85rem; color: var(--cor-texto-suave); margin: 0; }
+  </style>
+</Layout>

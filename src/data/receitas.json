@@ -1,0 +1,249 @@
+{
+  "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
+  "receitas": [
+    {
+      "id": "nuggets-caseiros-air-fryer",
+      "nome": "Nuggets Caseiros de Air Fryer",
+      "subtitulo": "Crocante e Sem Fritura",
+      "resumo": "Aprenda a fazer nuggets caseiros na air fryer, crocantes por fora e macios por dentro, sem óleo e prontos em poucos minutos.",
+      "imagem": "/images/receitas/nuggets.jpg",
+      "dataPublicacao": "2026-08-18",
+      "introducao": "Se você procura uma opção mais saudável e igualmente saborosa do que os nuggets industrializados, essa receita de nuggets caseiros feitos na air fryer é a escolha certa. Além de mais crocantes por fora e macios por dentro, eles são feitos sem fritura em óleo, o que reduz bastante a gordura sem perder o sabor. É uma receita simples, perfeita para o lanche das crianças ou para servir como entrada em qualquer refeição.",
+      "porQue": {
+        "titulo": "Por que fazer nuggets na air fryer?",
+        "texto": "A air fryer permite obter aquela casquinha crocante característica dos nuggets fritos, mas usando bem menos óleo — só o necessário para empanar. O resultado é um nugget mais leve, sem abrir mão da textura que todo mundo gosta."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 15,
+      "tempoExtra": { "label": "Tempo de congelamento", "min": 20 },
+      "ingredientes": [
+        "500g de peito de frango cru",
+        "1 dente de alho",
+        "2 colheres (sopa) de leite",
+        "Sal e pimenta a gosto",
+        "Farinha de trigo (para empanar)",
+        "1 ovo batido",
+        "Farinha panko"
+      ],
+      "modoPreparo": [
+        { "titulo": "Processe o frango", "texto": "no processador de alimentos, bata o frango cru junto com o alho, o sal, a pimenta e o leite, até formar uma pasta homogênea." },
+        { "titulo": "Modele os nuggets", "texto": "com as mãos levemente untadas ou umedecidas, molde pequenas porções da pasta no formato tradicional de nugget." },
+        { "titulo": "Empane em três etapas", "texto": "passe cada nugget primeiro na farinha de trigo, depois no ovo batido e, por último, na farinha panko, garantindo que fiquem bem cobertos." },
+        { "titulo": "Congele antes de assar", "texto": "leve os nuggets ao freezer por cerca de 20 minutos. Esse passo é importante para que eles mantenham o formato e fiquem ainda mais crocantes na air fryer." },
+        { "titulo": "Leve à air fryer", "texto": "asse a 200°C por aproximadamente 15 minutos, virando na metade do tempo para dourar por igual." }
+      ],
+      "dica": "Congelar os nuggets antes de levar à air fryer evita que eles desmanchem durante o preparo e ajuda a formar uma casquinha ainda mais crocante.",
+      "faq": [
+        { "pergunta": "Posso congelar os nuggets prontos para consumir depois?", "resposta": "Sim! Depois de moldados e empanados, você pode congelar em porções e assar direto da air fryer quando quiser, aumentando alguns minutos no tempo de preparo." },
+        { "pergunta": "Dá para trocar o panko por farinha de rosca comum?", "resposta": "Dá, mas o panko deixa a casquinha mais crocante — vale a pena procurar em mercados maiores." }
+      ]
+    },
+    {
+      "id": "croquete-de-carne-air-fryer",
+      "nome": "Croquete de Carne na Air Fryer",
+      "subtitulo": "Casquinha crocante e recheio cremoso",
+      "resumo": "Croquete de carne feito na air fryer, com casquinha crocante por fora e recheio cremoso de carne com molho branco por dentro, sem fritura.",
+      "imagem": "/images/receitas/croquete.png",
+      "dataPublicacao": "2026-08-21",
+      "introducao": "Esse croquete de carne feito na air fryer tem aquela casquinha crocante por fora e um recheio cremoso de carne com molho branco por dentro — sem precisar fritar em óleo. É perfeito como entrada, petisco ou até para complementar o jantar.",
+      "porQue": {
+        "titulo": "Por que fazer croquete na air fryer?",
+        "texto": "A air fryer dá aquela crocância característica da fritura tradicional usando bem menos óleo, só o necessário para empanar. O resultado é um croquete mais leve, sem abrir mão da casquinha dourada."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 15,
+      "tempoExtra": { "label": "Tempo de geladeira", "min": 120 },
+      "ingredientes": [
+        "400g de carne moída refogada",
+        "2 colheres (sopa) de manteiga",
+        "3 colheres (sopa) de farinha de trigo",
+        "1 xícara de leite",
+        "Ovo para empanar",
+        "Farinha panko para empanar"
+      ],
+      "modoPreparo": [
+        { "titulo": "Refogue a carne", "texto": "refogue os 400g de carne moída com cebola e alho até dourar." },
+        { "titulo": "Prepare o molho branco", "texto": "derreta a manteiga, adicione a farinha de trigo e o leite aos poucos, mexendo até formar um molho branco espesso." },
+        { "titulo": "Misture", "texto": "junte o molho branco com a carne refogada até incorporar bem." },
+        { "titulo": "Leve à geladeira", "texto": "deixe a massa na geladeira por 2 horas, até firmar completamente." },
+        { "titulo": "Modele os croquetes", "texto": "com a massa fria, modele os croquetes no formato desejado." },
+        { "titulo": "Empane", "texto": "passe cada croquete no ovo e depois na farinha panko." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por 15 minutos, até dourarem por igual." }
+      ],
+      "dica": "Não pule o tempo de geladeira — é o que garante que os croquetes mantenham o formato e não desmanchem durante o preparo.",
+      "faq": [
+        { "pergunta": "Posso congelar os croquetes antes de assar?", "resposta": "Sim! Depois de empanados, você pode congelar em porções e assar direto do freezer, aumentando alguns minutos no tempo de preparo." },
+        { "pergunta": "Dá para fazer com frango desfiado em vez de carne moída?", "resposta": "Dá, é uma ótima variação — só ajuste o tempero conforme o recheio escolhido." }
+      ]
+    },
+    {
+      "id": "pao-de-mel-caseiro-air-fryer",
+      "nome": "Pão de Mel Caseiro na Air Fryer",
+      "subtitulo": "Macio, especiado e banhado no chocolate",
+      "resumo": "Pão de mel caseiro feito na air fryer, macio, com canela e cacau, finalizado com uma banhada generosa de chocolate.",
+      "imagem": "/images/receitas/pao-de-mel.png",
+      "dataPublicacao": "2026-08-21",
+      "introducao": "Esse pão de mel caseiro feito na air fryer fica macio, levemente especiado com canela e cacau, e é finalizado com uma banhada generosa de chocolate. É mais rápido que a receita tradicional no forno e fica pronto para adoçar o lanche da tarde.",
+      "porQue": {
+        "titulo": "Por que fazer pão de mel na air fryer?",
+        "texto": "A air fryer assa as forminhas de forma uniforme e mais rápida que o forno convencional, mantendo o pão de mel macio por dentro sem ressecar."
+      },
+      "porcoes": 6,
+      "porcoesLabel": "unidades",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 20,
+      "tempoExtra": null,
+      "ingredientes": [
+        "1 xícara de mel",
+        "1 xícara de leite",
+        "½ xícara de açúcar mascavo",
+        "2 xícaras de farinha de trigo",
+        "2 colheres (sopa) de cacau em pó",
+        "1 colher (chá) de canela",
+        "1 colher (chá) de bicarbonato",
+        "1 colher (chá) de fermento",
+        "Chocolate derretido para banhar depois de frio"
+      ],
+      "modoPreparo": [
+        { "titulo": "Misture os ingredientes", "texto": "em uma tigela, misture o mel, o leite, o açúcar mascavo, a farinha, o cacau, a canela, o bicarbonato e o fermento até formar uma massa homogênea." },
+        { "titulo": "Distribua nas forminhas", "texto": "despeje a massa em forminhas próprias para pão de mel." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 170°C por aproximadamente 20 minutos." },
+        { "titulo": "Deixe esfriar", "texto": "retire da air fryer e deixe esfriar completamente antes de desenformar." },
+        { "titulo": "Banhe em chocolate", "texto": "mergulhe cada pão de mel no chocolate derretido, cobrindo bem." }
+      ],
+      "dica": "Banhar o pão de mel só depois de completamente frio evita que o chocolate derreta ou escorra pela superfície do bolinho.",
+      "faq": [
+        { "pergunta": "Posso usar mel de qualquer tipo?", "resposta": "Sim, qualquer mel puro funciona bem — só evite os muito líquidos, que podem deixar a massa mais mole." },
+        { "pergunta": "Dá para fazer sem forminhas específicas?", "resposta": "Dá, você pode usar forminhas de brigadeiro ou de cupcake pequenas como alternativa." }
+      ]
+    },
+    {
+      "id": "bolo-formigueiro-air-fryer",
+      "nome": "Bolo Formigueiro na Air Fryer",
+      "subtitulo": "Fofinho e com chocolate granulado",
+      "resumo": "O clássico bolo formigueiro feito na air fryer, fofinho e com chocolate granulado espalhado por toda a massa.",
+      "imagem": "/images/receitas/bolo-formigueiro.png",
+      "dataPublicacao": "2026-08-21",
+      "introducao": "O clássico bolo formigueiro feito na air fryer fica fofinho, com aquele chocolate granulado espalhado por toda a massa. É uma receita simples, ótima para o café da tarde ou para adoçar o dia com pouco trabalho — e a air fryer deixa tudo pronto sem precisar acender o forno.",
+      "porQue": {
+        "titulo": "Por que fazer bolo formigueiro na air fryer?",
+        "texto": "A air fryer assa o bolo de forma mais rápida que o forno convencional, mantendo a massa fofinha por dentro e levemente dourada por cima. É uma boa opção para quem quer fazer um bolo pequeno sem esquentar a cozinha toda."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 30,
+      "tempoExtra": null,
+      "ingredientes": [
+        "4 colheres (sopa) de manteiga",
+        "1½ xícara de açúcar",
+        "4 ovos, com gemas e claras separadas",
+        "2 xícaras de farinha de trigo",
+        "1 xícara de leite",
+        "100g de chocolate granulado",
+        "1 colher (sopa) de fermento"
+      ],
+      "modoPreparo": [
+        { "titulo": "Bata a manteiga com o açúcar", "texto": "bata até formar um creme claro." },
+        { "titulo": "Adicione as gemas", "texto": "acrescente as 4 gemas e bata bem até incorporar." },
+        { "titulo": "Junte os ingredientes secos e o leite", "texto": "adicione a farinha de trigo, o leite e o chocolate granulado, misturando bem." },
+        { "titulo": "Bata as claras em neve", "texto": "em outro recipiente, bata as 4 claras até formarem picos firmes." },
+        { "titulo": "Incorpore as claras", "texto": "misture as claras delicadamente à massa, por último, com movimentos suaves." },
+        { "titulo": "Adicione o fermento", "texto": "acrescente o fermento e misture levemente, sem bater." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 170°C por aproximadamente 30 minutos." }
+      ],
+      "dica": "A clara em neve deve ser incorporada delicadamente. Se bater a massa depois de acrescentá-la, o bolo pode murchar.",
+      "faq": [
+        { "pergunta": "Por que meu bolo murchou depois de assar?", "resposta": "Provavelmente a massa foi batida com força depois que as claras em neve foram incorporadas — isso tira o ar que dá a leveza ao bolo. Misture sempre com movimentos delicados nessa etapa." },
+        { "pergunta": "Posso trocar o chocolate granulado por gotas de chocolate?", "resposta": "Pode, mas o granulado tradicional é o que dá a textura crocante característica do bolo formigueiro." }
+      ]
+    },
+    {
+      "id": "batata-recheada-com-carne-moida",
+      "nome": "Batata Recheada com Carne Moída na Air Fryer",
+      "subtitulo": "Crocante por fora, gratinada por dentro",
+      "resumo": "Batata recheada com carne moída feita na air fryer: por fora crocante, por dentro cremosa e gratinada.",
+      "imagem": "/images/receitas/batata-recheada.jpg",
+      "dataPublicacao": "2026-08-19",
+      "introducao": "Se você quer um jantar completo e reconfortante sem sujar a cozinha toda, essa batata recheada com carne moída feita na air fryer é a pedida certa. A casca fica sequinha e levemente crocante, enquanto o recheio de carne temperada com requeijão e queijo gratinado deixa tudo ainda mais gostoso. É uma receita simples de fazer, perfeita para o almoço ou jantar da semana.",
+      "porQue": {
+        "titulo": "Por que fazer batata recheada na air fryer?",
+        "texto": "A air fryer assa a batata de forma uniforme, deixando a casca crocante sem precisar untar com muito óleo. Depois de recheada, o calor concentrado da air fryer também gratina o queijo rapidinho, sem ressecar o recheio."
+      },
+      "porcoes": 2,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 30,
+      "tempoExtra": { "label": "Tempo de gratinar", "min": 8 },
+      "ingredientes": [
+        "2 batatas grandes",
+        "300g de carne moída",
+        "1 cebola",
+        "Temperos a gosto",
+        "Requeijão",
+        "Queijo para gratinar"
+      ],
+      "modoPreparo": [
+        { "titulo": "Prepare as batatas", "texto": "fure as batatas com um garfo em vários pontos." },
+        { "titulo": "Asse embrulhada", "texto": "envolva as batatas em papel-alumínio e asse na air fryer a 200°C por 30 minutos." },
+        { "titulo": "Abra as batatas", "texto": "corte ao meio e retire parte do miolo com cuidado, formando um espaço para o recheio." },
+        { "titulo": "Amasse o miolo", "texto": "misture o miolo retirado com o requeijão até formar um creme." },
+        { "titulo": "Refogue a carne", "texto": "refogue os 300g de carne moída com cebola picada e temperos a gosto." },
+        { "titulo": "Recheie", "texto": "preencha as batatas com a carne refogada." },
+        { "titulo": "Cubra com queijo", "texto": "distribua o queijo por cima de cada batata." },
+        { "titulo": "Gratine", "texto": "volte à air fryer por aproximadamente 8 minutos, até o queijo derreter e dourar." }
+      ],
+      "dica": "Retirar bem o miolo da batata antes de rechear ajuda a caber mais recheio e deixa a casca ainda mais crocante depois de assada de novo.",
+      "faq": [
+        { "pergunta": "Posso usar outro tipo de carne no recheio?", "resposta": "Sim! Frango desfiado ou carne de panela também funcionam bem no lugar da carne moída." },
+        { "pergunta": "Dá para preparar com antecedência?", "resposta": "Dá. Você pode assar as batatas e fazer o recheio com antecedência, montar tudo e deixar na geladeira — na hora de servir, é só levar à air fryer para gratinar." }
+      ]
+    },
+    {
+      "id": "churros-assados-com-doce-de-leite",
+      "nome": "Churros Assados na Air Fryer com Doce de Leite",
+      "subtitulo": "Crocante por fora, macio por dentro",
+      "resumo": "Churros assados na air fryer, crocantes por fora e macios por dentro, passados no açúcar com canela e recheados com doce de leite.",
+      "imagem": "/images/receitas/churros.jpg",
+      "dataPublicacao": "2026-08-19",
+      "introducao": "Estes churros assados air fryer provam que dá pra ter aquele lanche crocante sem fritura. Ficam crocantes por fora e macios por dentro, com bem menos óleo do que a versão tradicional. Passados no açúcar com canela e recheados com doce de leite, são perfeitos para o lanche da tarde ou uma sobremesa rápida.",
+      "porQue": {
+        "titulo": "Por que fazer churros assados air fryer?",
+        "texto": "A air fryer assa a massa de forma uniforme, criando aquela casquinha dourada característica do churros frito, mas sem precisar de um litro de óleo quente. O resultado é mais leve, e a limpeza depois é muito mais simples."
+      },
+      "porcoes": 12,
+      "porcoesLabel": "unidades",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 15,
+      "tempoExtra": null,
+      "ingredientes": [
+        "1 xícara de água",
+        "1 colher (sopa) de manteiga",
+        "1 pitada de sal",
+        "1 xícara de farinha de trigo",
+        "1 ovo",
+        "Açúcar com canela",
+        "Doce de leite"
+      ],
+      "modoPreparo": [
+        { "titulo": "Ferva a água", "texto": "ferva a água com a manteiga e uma pitada de sal." },
+        { "titulo": "Adicione a farinha", "texto": "desligue o fogo e acrescente toda a farinha de uma vez, mexendo bem." },
+        { "titulo": "Misture até formar a massa", "texto": "mexa até formar uma massa lisa e homogênea." },
+        { "titulo": "Adicione o ovo", "texto": "deixe a massa amornar e acrescente o ovo, misturando bem até incorporar." },
+        { "titulo": "Modele os churros", "texto": "coloque a massa em um saco de confeitar com bico pitanga e modele os churros." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 180°C por aproximadamente 15 minutos, até dourarem." },
+        { "titulo": "Finalize", "texto": "passe os churros ainda quentes no açúcar com canela." },
+        { "titulo": "Recheie", "texto": "finalize recheando com doce de leite." }
+      ],
+      "dica": "Deixar a massa amornar antes de adicionar o ovo evita que ele coagule com o calor — assim a massa fica lisa e mais fácil de modelar.",
+      "faq": [
+        { "pergunta": "Posso rechear com outro doce?", "resposta": "Sim! Nutella, goiabada derretida ou doce de leite com coco também combinam bem." },
+        { "pergunta": "Os churros ficam crocantes mesmo sem fritar?", "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados — a diferença é que absorvem bem menos gordura que a versão frita." }
+      ]
+    }
+  ]
+}

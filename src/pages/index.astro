@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import dados from '../data/receitas.json';
+
+const recentes = [...dados.receitas]
+  .sort((a, b) => b.dataPublicacao.localeCompare(a.dataPublicacao))
+  .slice(0, 6);
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Bela Receita",
+  "url": Astro.site?.toString(),
+};
+---
+<Layout title="Receitas fáceis para Airfryer" description="Receitas para airfryer fáceis e saborosas: frangos crocantes, lanches, legumes e doces. Passo a passo simples pra fazer no dia a dia.">
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
+  <h1>Receitas deliciosas para sua Airfryer</h1>
+  <p>Aprenda a fazer pratos saborosos e práticos com nossa ajuda.</p>
+  <p><a href="/receitas/">Ver todas as receitas →</a></p>
+
+  <h2>Receitas recentes</h2>
+  <div class="grade">
+    {recentes.map((r) => (
+      <a href={`/receitas/${r.id}/`} class="cartao">
+        <img src={r.imagem} alt={r.nome} width="360" height="480" loading="lazy" />
+        <div class="cartao-texto">
+          <h3>{r.nome}</h3>
+          <p>{r.resumo}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <style>
+    .grade {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .cartao {
+      display: block;
+      text-decoration: none;
+      color: var(--cor-texto);
+      background: var(--cor-superficie);
+      border: 1px solid var(--cor-borda);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .cartao img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+    .cartao-texto { padding: 1rem; }
+    .cartao h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+    .cartao p { font-size: 0.85rem; color: var(--cor-texto-suave); margin: 0; }
+  </style>
+</Layout>
