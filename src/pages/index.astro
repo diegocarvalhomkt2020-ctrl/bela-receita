@@ -12,9 +12,17 @@ const websiteSchema = {
   "name": "Bela Receita",
   "url": Astro.site?.toString(),
 };
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bela Receita",
+  "url": Astro.site?.toString(),
+};
 ---
 <Layout title="Receitas fáceis para Airfryer" description="Receitas para airfryer fáceis e saborosas: frangos crocantes, lanches, legumes e doces. Passo a passo simples pra fazer no dia a dia." image={recentes[0]?.imagem}>
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 
   <h1>Receitas deliciosas para sua Airfryer</h1>
   <p>Aprenda a fazer pratos saborosos e práticos com nossa ajuda.</p>
