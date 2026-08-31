@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://belareceita.dicasinteligentes.com/sitemap.xml
+Sitemap: https://belareceita.dicasinteligentes.com/sitemap-index.xml
