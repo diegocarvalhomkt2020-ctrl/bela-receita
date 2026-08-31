@@ -13,7 +13,7 @@ const websiteSchema = {
   "url": Astro.site?.toString(),
 };
 ---
-<Layout title="Receitas fáceis para Airfryer" description="Receitas para airfryer fáceis e saborosas: frangos crocantes, lanches, legumes e doces. Passo a passo simples pra fazer no dia a dia.">
+<Layout title="Receitas fáceis para Airfryer" description="Receitas para airfryer fáceis e saborosas: frangos crocantes, lanches, legumes e doces. Passo a passo simples pra fazer no dia a dia." image={recentes[0]?.imagem}>
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 
   <h1>Receitas deliciosas para sua Airfryer</h1>
@@ -24,7 +24,7 @@ const websiteSchema = {
   <div class="grade">
     {recentes.map((r) => (
       <a href={`/receitas/${r.id}/`} class="cartao">
-        <img src={r.imagem} alt={r.nome} width="360" height="480" loading="lazy" />
+        <img src={r.imagem} alt={r.resumo} width="360" height="480" loading="lazy" />
         <div class="cartao-texto">
           <h3>{r.nome}</h3>
           <p>{r.resumo}</p>

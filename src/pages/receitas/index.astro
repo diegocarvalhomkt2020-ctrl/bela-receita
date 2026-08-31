@@ -13,7 +13,7 @@ const breadcrumbSchema = {
   ],
 };
 ---
-<Layout title="Receitas" description="Todas as receitas fáceis para air fryer do Bela Receita, com passo a passo simples pra fazer no dia a dia.">
+<Layout title="Receitas" description="Todas as receitas fáceis para air fryer do Bela Receita, com passo a passo simples pra fazer no dia a dia." image={receitas[0]?.imagem}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <nav class="trilha"><a href="/">Início</a> &rsaquo; Receitas</nav>
@@ -24,7 +24,7 @@ const breadcrumbSchema = {
   <div class="grade">
     {receitas.map((r) => (
       <a href={`/receitas/${r.id}/`} class="cartao">
-        <img src={r.imagem} alt={r.nome} width="360" height="480" loading="lazy" />
+        <img src={r.imagem} alt={r.resumo} width="360" height="480" loading="lazy" />
         <div class="cartao-texto">
           <h2>{r.nome}</h2>
           <p>{r.resumo}</p>

@@ -2,6 +2,49 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "coxinha-de-frango-air-fryer",
+      "nome": "Coxinha de Frango na Air Fryer",
+      "subtitulo": "Casquinha crocante, sem fritura",
+      "resumo": "Coxinha de frango feita na air fryer, com casquinha crocante por fora e recheio cremoso de frango desfiado, sem precisar fritar em óleo.",
+      "imagem": "/images/receitas/coxinha.png",
+      "dataPublicacao": "2026-08-31",
+      "introducao": "A coxinha é um dos salgados mais queridos do Brasil, mas fritar em casa dá trabalho e deixa a cozinha cheia de cheiro de óleo. Essa versão feita na air fryer mantém a casquinha crocante que todo mundo ama, com bem menos gordura e sem sujeira.",
+      "porQue": {
+        "titulo": "Por que fazer coxinha na air fryer?",
+        "texto": "A air fryer forma uma casca dourada e crocante parecida com a fritura tradicional, usando só uma leve camada de óleo ou azeite pincelado antes de assar. O resultado é uma coxinha mais leve, sem o excesso de gordura da fritura em imersão."
+      },
+      "porcoes": 12,
+      "porcoesLabel": "unidades",
+      "tempoPreparoMin": 30,
+      "tempoCozimentoMin": 18,
+      "tempoExtra": { "label": "Tempo de geladeira", "min": 30 },
+      "ingredientes": [
+        "500g de peito de frango cozido e desfiado",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "2 xícaras de caldo de frango (do cozimento)",
+        "2 xícaras de farinha de trigo",
+        "2 colheres (sopa) de manteiga",
+        "Sal e pimenta a gosto",
+        "1 ovo batido",
+        "Farinha panko para empanar"
+      ],
+      "modoPreparo": [
+        { "titulo": "Refogue o recheio", "texto": "refogue a cebola e o alho na manteiga, junte o frango desfiado, tempere com sal e pimenta, e reserve." },
+        { "titulo": "Prepare a massa", "texto": "leve o caldo de frango ao fogo, adicione a farinha de trigo de uma vez e mexa até formar uma massa lisa que solta do fundo da panela." },
+        { "titulo": "Deixe esfriar", "texto": "espere a massa amornar até dar pra manusear sem queimar as mãos." },
+        { "titulo": "Modele as coxinhas", "texto": "pegue porções da massa, abra na palma da mão, recheie com o frango e feche no formato tradicional de coxinha." },
+        { "titulo": "Leve à geladeira", "texto": "deixe as coxinhas na geladeira por 30 minutos pra firmar antes de empanar." },
+        { "titulo": "Empane", "texto": "passe cada coxinha no ovo batido e depois na farinha panko." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por aproximadamente 18 minutos, virando na metade do tempo, até dourarem por igual." }
+      ],
+      "dica": "Pincelar um fio de azeite por cima das coxinhas antes de assar ajuda a casquinha dourar mais uniforme, parecido com o efeito da fritura.",
+      "faq": [
+        { "pergunta": "Posso congelar as coxinhas antes de assar?", "resposta": "Sim! Depois de empanadas, congele em porções e asse direto do freezer, aumentando alguns minutos no tempo de preparo." },
+        { "pergunta": "Dá pra fazer com outro recheio, tipo carne seca ou queijo?", "resposta": "Dá, é só trocar o recheio de frango pelo que preferir — a massa e o modo de empanar continuam os mesmos." }
+      ]
+    },
+    {
       "id": "nuggets-caseiros-air-fryer",
       "nome": "Nuggets Caseiros de Air Fryer",
       "subtitulo": "Crocante e Sem Fritura",

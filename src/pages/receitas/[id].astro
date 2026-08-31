@@ -57,7 +57,7 @@ const recipeSchema = {
   })),
 };
 ---
-<Layout title={r.nome} description={r.resumo}>
+<Layout title={r.nome} description={r.resumo} image={r.imagem}>
   <script type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
@@ -69,7 +69,7 @@ const recipeSchema = {
   <h1>{r.nome}</h1>
   <p class="subtitulo">{r.subtitulo}</p>
 
-  <img src={r.imagem} alt={r.nome} class="foto-capa" width="720" height="960" />
+  <img src={r.imagem} alt={r.resumo} class="foto-capa" width="720" height="960" />
 
   <p>{r.introducao}</p>
 
