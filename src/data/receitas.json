@@ -41,7 +41,7 @@
       "dica": "Pincelar um fio de azeite por cima das coxinhas antes de assar ajuda a casquinha dourar mais uniforme, parecido com o efeito da fritura.",
       "faq": [
         { "pergunta": "Posso congelar as coxinhas antes de assar?", "resposta": "Sim! Depois de empanadas, congele em porções e asse direto do freezer, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá pra fazer com outro recheio, tipo carne seca ou queijo?", "resposta": "Dá, é só trocar o recheio de frango pelo que preferir — a massa e o modo de empanar continuam os mesmos." }
+        { "pergunta": "Dá pra fazer com outro recheio, tipo carne seca ou queijo?", "resposta": "Dá, é só trocar o recheio de frango pelo que preferir. A massa e o modo de empanar continuam os mesmos." }
       ]
     },
     {
@@ -54,7 +54,7 @@
       "introducao": "Se você procura uma opção mais saudável e igualmente saborosa do que os nuggets industrializados, essa receita de nuggets caseiros feitos na air fryer é a escolha certa. Além de mais crocantes por fora e macios por dentro, eles são feitos sem fritura em óleo, o que reduz bastante a gordura sem perder o sabor. É uma receita simples, perfeita para o lanche das crianças ou para servir como entrada em qualquer refeição.",
       "porQue": {
         "titulo": "Por que fazer nuggets na air fryer?",
-        "texto": "A air fryer permite obter aquela casquinha crocante característica dos nuggets fritos, mas usando bem menos óleo — só o necessário para empanar. O resultado é um nugget mais leve, sem abrir mão da textura que todo mundo gosta."
+        "texto": "A air fryer permite obter aquela casquinha crocante característica dos nuggets fritos, mas usando bem menos óleo, só o necessário para empanar. O resultado é um nugget mais leve, sem abrir mão da textura que todo mundo gosta."
       },
       "porcoes": 4,
       "porcoesLabel": "porções",
@@ -80,7 +80,7 @@
       "dica": "Congelar os nuggets antes de levar à air fryer evita que eles desmanchem durante o preparo e ajuda a formar uma casquinha ainda mais crocante.",
       "faq": [
         { "pergunta": "Posso congelar os nuggets prontos para consumir depois?", "resposta": "Sim! Depois de moldados e empanados, você pode congelar em porções e assar direto da air fryer quando quiser, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá para trocar o panko por farinha de rosca comum?", "resposta": "Dá, mas o panko deixa a casquinha mais crocante — vale a pena procurar em mercados maiores." }
+        { "pergunta": "Dá para trocar o panko por farinha de rosca comum?", "resposta": "Dá, mas o panko deixa a casquinha mais crocante. Vale a pena procurar em mercados maiores." }
       ]
     },
     {
@@ -90,7 +90,7 @@
       "resumo": "Croquete de carne feito na air fryer, com casquinha crocante por fora e recheio cremoso de carne com molho branco por dentro, sem fritura.",
       "imagem": "/images/receitas/croquete.png",
       "dataPublicacao": "2026-08-21",
-      "introducao": "Esse croquete de carne feito na air fryer tem aquela casquinha crocante por fora e um recheio cremoso de carne com molho branco por dentro — sem precisar fritar em óleo. É perfeito como entrada, petisco ou até para complementar o jantar.",
+      "introducao": "Esse croquete de carne feito na air fryer tem aquela casquinha crocante por fora e um recheio cremoso de carne com molho branco por dentro, sem precisar fritar em óleo. É perfeito como entrada, petisco ou até para complementar o jantar.",
       "porQue": {
         "titulo": "Por que fazer croquete na air fryer?",
         "texto": "A air fryer dá aquela crocância característica da fritura tradicional usando bem menos óleo, só o necessário para empanar. O resultado é um croquete mais leve, sem abrir mão da casquinha dourada."
@@ -117,10 +117,10 @@
         { "titulo": "Empane", "texto": "passe cada croquete no ovo e depois na farinha panko." },
         { "titulo": "Asse", "texto": "leve à air fryer a 200°C por 15 minutos, até dourarem por igual." }
       ],
-      "dica": "Não pule o tempo de geladeira — é o que garante que os croquetes mantenham o formato e não desmanchem durante o preparo.",
+      "dica": "Não pule o tempo de geladeira: é o que garante que os croquetes mantenham o formato e não desmanchem durante o preparo.",
       "faq": [
         { "pergunta": "Posso congelar os croquetes antes de assar?", "resposta": "Sim! Depois de empanados, você pode congelar em porções e assar direto do freezer, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá para fazer com frango desfiado em vez de carne moída?", "resposta": "Dá, é uma ótima variação — só ajuste o tempero conforme o recheio escolhido." }
+        { "pergunta": "Dá para fazer com frango desfiado em vez de carne moída?", "resposta": "Dá, é uma ótima variação. Só ajuste o tempero conforme o recheio escolhido." }
       ]
     },
     {
@@ -160,7 +160,7 @@
       ],
       "dica": "Banhar o pão de mel só depois de completamente frio evita que o chocolate derreta ou escorra pela superfície do bolinho.",
       "faq": [
-        { "pergunta": "Posso usar mel de qualquer tipo?", "resposta": "Sim, qualquer mel puro funciona bem — só evite os muito líquidos, que podem deixar a massa mais mole." },
+        { "pergunta": "Posso usar mel de qualquer tipo?", "resposta": "Sim, qualquer mel puro funciona bem. Só evite os muito líquidos, que podem deixar a massa mais mole." },
         { "pergunta": "Dá para fazer sem forminhas específicas?", "resposta": "Dá, você pode usar forminhas de brigadeiro ou de cupcake pequenas como alternativa." }
       ]
     },
@@ -171,7 +171,7 @@
       "resumo": "O clássico bolo formigueiro feito na air fryer, fofinho e com chocolate granulado espalhado por toda a massa.",
       "imagem": "/images/receitas/bolo-formigueiro.png",
       "dataPublicacao": "2026-08-21",
-      "introducao": "O clássico bolo formigueiro feito na air fryer fica fofinho, com aquele chocolate granulado espalhado por toda a massa. É uma receita simples, ótima para o café da tarde ou para adoçar o dia com pouco trabalho — e a air fryer deixa tudo pronto sem precisar acender o forno.",
+      "introducao": "O clássico bolo formigueiro feito na air fryer fica fofinho, com aquele chocolate granulado espalhado por toda a massa. É uma receita simples, ótima para o café da tarde ou para adoçar o dia com pouco trabalho, e a air fryer deixa tudo pronto sem precisar acender o forno.",
       "porQue": {
         "titulo": "Por que fazer bolo formigueiro na air fryer?",
         "texto": "A air fryer assa o bolo de forma mais rápida que o forno convencional, mantendo a massa fofinha por dentro e levemente dourada por cima. É uma boa opção para quem quer fazer um bolo pequeno sem esquentar a cozinha toda."
@@ -201,7 +201,7 @@
       ],
       "dica": "A clara em neve deve ser incorporada delicadamente. Se bater a massa depois de acrescentá-la, o bolo pode murchar.",
       "faq": [
-        { "pergunta": "Por que meu bolo murchou depois de assar?", "resposta": "Provavelmente a massa foi batida com força depois que as claras em neve foram incorporadas — isso tira o ar que dá a leveza ao bolo. Misture sempre com movimentos delicados nessa etapa." },
+        { "pergunta": "Por que meu bolo murchou depois de assar?", "resposta": "Provavelmente a massa foi batida com força depois que as claras em neve foram incorporadas. Isso tira o ar que dá a leveza ao bolo. Misture sempre com movimentos delicados nessa etapa." },
         { "pergunta": "Posso trocar o chocolate granulado por gotas de chocolate?", "resposta": "Pode, mas o granulado tradicional é o que dá a textura crocante característica do bolo formigueiro." }
       ]
     },
@@ -243,7 +243,7 @@
       "dica": "Retirar bem o miolo da batata antes de rechear ajuda a caber mais recheio e deixa a casca ainda mais crocante depois de assada de novo.",
       "faq": [
         { "pergunta": "Posso usar outro tipo de carne no recheio?", "resposta": "Sim! Frango desfiado ou carne de panela também funcionam bem no lugar da carne moída." },
-        { "pergunta": "Dá para preparar com antecedência?", "resposta": "Dá. Você pode assar as batatas e fazer o recheio com antecedência, montar tudo e deixar na geladeira — na hora de servir, é só levar à air fryer para gratinar." }
+        { "pergunta": "Dá para preparar com antecedência?", "resposta": "Dá. Você pode assar as batatas e fazer o recheio com antecedência, montar tudo e deixar na geladeira. Na hora de servir, é só levar à air fryer para gratinar." }
       ]
     },
     {
@@ -282,10 +282,10 @@
         { "titulo": "Finalize", "texto": "passe os churros ainda quentes no açúcar com canela." },
         { "titulo": "Recheie", "texto": "finalize recheando com doce de leite." }
       ],
-      "dica": "Deixar a massa amornar antes de adicionar o ovo evita que ele coagule com o calor — assim a massa fica lisa e mais fácil de modelar.",
+      "dica": "Deixar a massa amornar antes de adicionar o ovo evita que ele coagule com o calor, assim a massa fica lisa e mais fácil de modelar.",
       "faq": [
         { "pergunta": "Posso rechear com outro doce?", "resposta": "Sim! Nutella, goiabada derretida ou doce de leite com coco também combinam bem." },
-        { "pergunta": "Os churros ficam crocantes mesmo sem fritar?", "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados — a diferença é que absorvem bem menos gordura que a versão frita." }
+        { "pergunta": "Os churros ficam crocantes mesmo sem fritar?", "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados. A diferença é que absorvem bem menos gordura que a versão frita." }
       ]
     }
   ]
