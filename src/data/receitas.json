@@ -2,6 +2,45 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "batata-frita-crocante-air-fryer",
+      "nome": "Batata Frita Crocante na Air Fryer",
+      "subtitulo": "Sequinha por fora, macia por dentro, sem óleo escondido",
+      "resumo": "Batata frita feita na air fryer com a casquinha crocante de fritura de verdade, usando só uma colher de óleo. O segredo não é a air fryer, é o preparo antes de assar.",
+      "imagem": "/images/receitas/batata-frita-crocante.png",
+      "dataPublicacao": "2026-09-02",
+      "introducao": "Batata frita na air fryer que sai murcha ou mole por dentro quase sempre é erro de preparo, não da máquina. O amido que sobra na batata depois de cortada é o que mais atrapalha a crocância, e é bem fácil de resolver antes de ligar a air fryer.",
+      "porQue": {
+        "titulo": "Por que a batata às vezes não fica crocante?",
+        "texto": "Batata crua solta amido assim que é cortada. Se esse amido ficar na superfície, ele cozinha no vapor liberado pela própria batata dentro da cesta, e o resultado é uma casca mole em vez de crocante. Tirar esse excesso de amido antes de assar é o que faz a diferença entre uma batata frita de restaurante e uma murcha."
+      },
+      "porcoes": 3,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 20,
+      "tempoExtra": { "label": "De molho na água", "min": 30 },
+      "ingredientes": [
+        "4 batatas médias (tipo Asterix ou inglesa)",
+        "1 colher (sopa) de óleo ou azeite",
+        "Sal a gosto",
+        "Páprica doce ou alho em pó (opcional)"
+      ],
+      "modoPreparo": [
+        { "titulo": "Corte em palitos", "texto": "descasque as batatas e corte em palitos uniformes, de mais ou menos 1cm de espessura. Palito muito fino queima antes de cozinhar por dentro." },
+        { "titulo": "Deixe de molho", "texto": "coloque os palitos numa tigela com água fria por 30 minutos. Isso tira o excesso de amido da superfície, que é o que mais atrapalha a crocância." },
+        { "titulo": "Seque muito bem", "texto": "escorra a água e seque as batatas com um pano de prato ou papel-toalha até não sobrar nenhuma umidade visível. Batata molhada não fica crocante, cozinha no vapor." },
+        { "titulo": "Tempere", "texto": "misture as batatas com o óleo, sal e os temperos escolhidos, garantindo que cada palito fique levemente coberto." },
+        { "titulo": "Arrume em camada única", "texto": "coloque as batatas na cesta da air fryer sem empilhar. Se não couber tudo numa camada só, asse em duas leva em vez de amontoar." },
+        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por 18 a 20 minutos, sacudindo a cesta na metade do tempo pra dourar por igual." },
+        { "titulo": "Sirva na hora", "texto": "batata frita perde a crocância rápido depois de fria, então sirva assim que sair da air fryer." }
+      ],
+      "dica": "O erro mais comum não é a temperatura, é a quantidade: cesta cheia demais faz a batata cozinhar no próprio vapor em vez de dourar. Se sobrar batata, é melhor assar em duas levas do que amontoar tudo de uma vez.",
+      "faq": [
+        { "pergunta": "Precisa mesmo deixar de molho?", "resposta": "Ajuda bastante. Sem esse passo a batata ainda fica boa, mas o de molho é o que aproxima mais da crocância de fritura de verdade, tirando o excesso de amido da superfície." },
+        { "pergunta": "Dá pra usar batata congelada pronta?", "resposta": "Dá, e fica mais rápido (não precisa do passo de molho, já vem sem esse excesso de amido). Siga as instruções da embalagem pra tempo e temperatura, geralmente entre 15 e 18 minutos a 200°C." },
+        { "pergunta": "Por que minha batata ficou mole em vez de crocante?", "resposta": "As causas mais comuns são: cesta cheia demais (empilhada), batata que não foi seca direito antes de temperar, ou pouco óleo, o suficiente pra selar a superfície é o que ajuda a dourar." }
+      ]
+    },
+    {
       "id": "coxinha-de-frango-air-fryer",
       "nome": "Coxinha de Frango na Air Fryer",
       "subtitulo": "Casquinha crocante, sem fritura",
