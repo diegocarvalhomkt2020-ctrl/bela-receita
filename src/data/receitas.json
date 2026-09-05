@@ -2,6 +2,42 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "pizza-na-air-fryer",
+      "nome": "Pizza na Air Fryer",
+      "subtitulo": "Pronta em 20 minutos, com a borda crocante que o forno de casa não consegue fazer",
+      "resumo": "Pizza feita na air fryer com o meio nunca cru e a borda bem crocante. O segredo não é o recheio, é pré-assar a massa vazia antes de cobrir.",
+      "imagem": "/images/receitas/pizza-air-fryer.png",
+      "dataPublicacao": "2026-09-04",
+      "introducao": "Pizza na air fryer costuma sair com o meio cru quando o recheio vai direto sobre a massa crua. Pré-assar a massa sozinha por alguns minutos antes de cobrir resolve isso, e o resultado sai pronto em bem menos tempo que o forno de casa.",
+      "porQue": {
+        "titulo": "Por que pré-assar a massa vazia primeiro?",
+        "texto": "O peso do recheio, molho, queijo e ingredientes, impede que o calor chegue direto ao centro da massa enquanto ela ainda está crua. Pré-assando a massa sozinha por alguns minutos, ela já ganha uma base firme antes de receber o peso do recheio, e o centro cozinha por igual em vez de ficar cru."
+      },
+      "porcoes": 2,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 10,
+      "tempoCozimentoMin": 10,
+      "ingredientes": [
+        "1 disco de massa de pizza (pronta ou caseira)",
+        "Molho de tomate",
+        "Muçarela ralada ou fatiada",
+        "Ingredientes de sua preferência (calabresa, orégano, azeitona, etc.)"
+      ],
+      "modoPreparo": [
+        { "titulo": "Abra a massa", "texto": "estique o disco de massa do tamanho da cesta da air fryer." },
+        { "titulo": "Pré-asse a massa vazia", "texto": "leve só a massa, sem cobertura, à air fryer a 200°C por 4 minutos. É esse passo que evita o meio cru depois." },
+        { "titulo": "Cubra", "texto": "retire, espalhe o molho de tomate, a muçarela e os ingredientes escolhidos." },
+        { "titulo": "Volte à air fryer", "texto": "por mais 6 minutos a 200°C, até o queijo derreter e borbulhar." },
+        { "titulo": "Sirva", "texto": "retire com cuidado (a cesta fica bem quente) e sirva na hora, enquanto a borda ainda está crocante." }
+      ],
+      "dica": "O erro mais comum é colocar o recheio direto na massa crua. O peso do molho e do queijo não deixa o calor chegar no centro a tempo, e a pizza sai com o meio cru mesmo com a borda pronta. Pré-assar a massa sozinha por alguns minutos resolve isso de vez.",
+      "faq": [
+        { "pergunta": "Preciso usar massa pronta ou dá pra fazer caseira?", "resposta": "Os dois funcionam. Massa pronta agiliza o processo, e massa caseira também pré-assa bem, só respeite o mesmo tempo de pré-assada antes de cobrir." },
+        { "pergunta": "Por que minha pizza sempre sai com o meio cru?", "resposta": "É quase sempre porque o recheio foi direto na massa crua. Pré-assar a massa vazia por alguns minutos antes de cobrir é o que resolve, ela já ganha uma base firme antes de receber o peso do recheio." },
+        { "pergunta": "Dá pra fazer uma pizza grande de uma vez?", "resposta": "Depende do tamanho da cesta da sua air fryer. Se não couber uma pizza inteira, é melhor fazer em porções menores do que espremer a massa, o ar precisa circular pra assar por igual." }
+      ]
+    },
+    {
       "id": "batata-frita-crocante-air-fryer",
       "nome": "Batata Frita Crocante na Air Fryer",
       "subtitulo": "Sequinha por fora, macia por dentro, sem óleo escondido",
