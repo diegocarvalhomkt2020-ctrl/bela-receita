@@ -2,6 +2,45 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "pudim-de-leite-condensado-air-fryer",
+      "nome": "Pudim de Leite Condensado na Air Fryer",
+      "subtitulo": "Cremoso e sem furinhos, sem precisar ligar o forno",
+      "resumo": "Pudim de leite condensado feito na air fryer, com a mesma cremosidade do pudim de forno. O segredo pra não ficar com furinhos não é a temperatura, é coar a massa antes de assar.",
+      "imagem": "/images/receitas/pudim-air-fryer.png",
+      "dataPublicacao": "2026-09-04",
+      "introducao": "Pudim de leite condensado é sobremesa clássica de qualquer mesa brasileira, e sai perfeito na air fryer sem precisar ligar o forno inteiro. O passo que a maioria pula, e que faz toda diferença na textura final, é coar a massa antes de despejar na forma.",
+      "porQue": {
+        "titulo": "Por que coar a massa faz diferença?",
+        "texto": "Ao bater leite, leite condensado e ovos no liquidificador, se formam pequenas bolhas de ar e pedacinhos da clara que não se misturam por completo. Se essa massa for direto pra forma, esses pontos viram os furinhos característicos do pudim malfeito. Coar numa peneira fina antes de despejar remove isso e deixa a textura lisa e cremosa."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 40,
+      "tempoExtra": { "label": "Na geladeira antes de desenformar", "min": 240 },
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "A mesma medida de leite (usando a lata do leite condensado)",
+        "3 ovos",
+        "1 xícara de açúcar (pra calda)"
+      ],
+      "modoPreparo": [
+        { "titulo": "Faça a calda", "texto": "leve o açúcar ao fogo baixo numa forma de pudim que caiba na sua air fryer, até derreter e virar caramelo dourado. Espalhe pelo fundo e pelas laterais da forma ainda quente." },
+        { "titulo": "Bata a massa", "texto": "no liquidificador, bata o leite condensado, o leite e os ovos por cerca de 3 minutos, até incorporar bem." },
+        { "titulo": "Coe a massa", "texto": "passe a massa batida por uma peneira fina antes de despejar na forma. É esse passo que evita os furinhos no pudim pronto." },
+        { "titulo": "Despeje na forma caramelizada", "texto": "cubra a forma com papel-alumínio, bem fechada." },
+        { "titulo": "Leve à air fryer", "texto": "a 160°C por 35 a 40 minutos. Cada air fryer varia um pouco, então cheque com um palito depois dos 30 minutos: se sair limpo, está pronto." },
+        { "titulo": "Espere esfriar e leve à geladeira", "texto": "deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 4 horas, idealmente durante a noite, antes de desenformar." },
+        { "titulo": "Desenforme", "texto": "passe uma faca fina pelas bordas, coloque um prato por cima e vire com cuidado de uma vez só." }
+      ],
+      "dica": "O erro mais comum não é o tempo de air fryer, é pular a peneira. Sem coar, sobra bolha de ar e pedacinho de clara na massa, e é isso que vira furinho depois de assado. Coar leva 1 minuto e resolve o problema quase sozinho.",
+      "faq": [
+        { "pergunta": "Posso usar uma forma de alumínio descartável?", "resposta": "Pode, desde que caiba folgada dentro da cesta da sua air fryer, com espaço pro ar circular ao redor." },
+        { "pergunta": "Por que meu pudim ficou com furinhos mesmo coando?", "resposta": "Geralmente é temperatura alta demais ou tempo de forno passado do ponto. Manter em torno de 160°C e checar com o palito a partir dos 30 minutos evita isso." },
+        { "pergunta": "Dá pra desenformar na hora, sem esperar a geladeira?", "resposta": "Não é recomendado. O pudim precisa desse tempo gelado pra firmar de verdade e soltar a calda por igual; desenformar quente costuma quebrar ou desmanchar." }
+      ]
+    },
+    {
       "id": "pizza-na-air-fryer",
       "nome": "Pizza na Air Fryer",
       "subtitulo": "Pronta em 20 minutos, com a borda crocante que o forno de casa não consegue fazer",
