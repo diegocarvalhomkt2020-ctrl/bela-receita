@@ -31,15 +31,10 @@ const breadcrumbSchema = {
     </div>
   )}
 
-  {leadmagnet.capturaAtiva && leadmagnet.formActionUrl && (
+  {leadmagnet.capturaAtiva && leadmagnet.formEmbedId && (
     <div class="bloco-form">
       <p class="selo">GUIA GRATUITO · PDF</p>
-      <p>Deixe seu e-mail e receba o guia agora:</p>
-      <iframe
-        src={leadmagnet.formActionUrl}
-        title="Formulário de inscrição"
-        loading="lazy"
-      />
+      <div data-reach-form={leadmagnet.formEmbedId}></div>
     </div>
   )}
 
@@ -77,12 +72,6 @@ const breadcrumbSchema = {
       padding: 0.7rem 1.3rem;
       border-radius: 999px;
       font-weight: 700;
-    }
-    .bloco-form iframe {
-      width: 100%;
-      min-height: 420px;
-      border: none;
-      margin-top: 0.75rem;
     }
     .cta-final {
       margin-top: 2rem;

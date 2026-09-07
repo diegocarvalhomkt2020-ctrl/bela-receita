@@ -1,6 +1,6 @@
 {
-  "capturaAtiva": false,
-  "formActionUrl": "",
+  "capturaAtiva": true,
+  "formEmbedId": "7902a873-cae9-4064-b39e-76b31d7db3df",
   "arquivoPdf": "/downloads/guia-5-erros-air-fryer.pdf",
   "titulo": "Os 5 erros que estragam qualquer receita na Air Fryer",
   "descricao": "Um guia rápido e gratuito: o que mais faz a receita \"não dar certo\" não é a receita, é o jeito de usar o aparelho."
