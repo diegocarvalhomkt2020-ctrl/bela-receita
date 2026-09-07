@@ -1,0 +1,207 @@
+---
+// Componente de calculadora compartilhado entre os sites da rede.
+// Só cuida da moldura visual e do estilo. Cada página põe seus próprios
+// campos e sua própria lógica dentro do slot.
+// Os estilos são globais de propósito, escopados sob .calc: conteúdo vindo
+// por slot não recebe estilo escopado do componente no Astro.
+const { titulo, subtitulo } = Astro.props;
+---
+
+<section class="calc">
+  {titulo && <h2 class="calc-titulo">{titulo}</h2>}
+  {subtitulo && <p class="calc-sub">{subtitulo}</p>}
+  <slot />
+</section>
+
+<style is:global>
+  .calc {
+    background: var(--cor-superficie);
+    border: 1px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-acento);
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  .calc-titulo {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+  .calc-sub {
+    margin: 0.5rem 0 0;
+    color: var(--cor-texto-suave);
+    font-size: 0.94rem;
+  }
+
+  .calc-campos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin-top: 1.4rem;
+  }
+  .calc-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 0;
+  }
+  .calc-campo.largo { grid-column: 1 / -1; }
+  .calc-campo label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--cor-texto);
+  }
+  .calc-campo .ajuda {
+    font-size: 0.78rem;
+    color: var(--cor-texto-suave);
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  .calc input[type="number"],
+  .calc input[type="text"],
+  .calc select,
+  .calc textarea {
+    width: 100%;
+    padding: 0.6rem 0.65rem;
+    font: inherit;
+    font-size: 1rem;
+    color: var(--cor-texto);
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+  }
+  .calc textarea {
+    min-height: 8.5rem;
+    resize: vertical;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  .calc input:focus-visible,
+  .calc select:focus-visible,
+  .calc textarea:focus-visible,
+  .calc button:focus-visible {
+    outline: 2px solid var(--cor-acento);
+    outline-offset: 1px;
+  }
+
+  .calc-acoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+  }
+  .calc button {
+    font: inherit;
+    font-weight: 700;
+    padding: 0.65rem 1.2rem;
+    border: 1px solid var(--cor-acento);
+    border-radius: 4px;
+    background: var(--cor-acento);
+    color: #fff;
+    cursor: pointer;
+  }
+  .calc button.secundario {
+    background: transparent;
+    color: var(--cor-acento);
+  }
+  .calc button:hover { filter: brightness(1.08); }
+
+  .calc-resultado {
+    margin-top: 1.5rem;
+    padding: 1.2rem 1.25rem;
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-borda);
+    border-left: 4px solid var(--cor-acento);
+  }
+  .calc-resultado[hidden] { display: none; }
+  .calc-resultado h3 {
+    margin: 0 0 0.7rem;
+    font-size: 0.78rem;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--cor-texto-suave);
+  }
+  .calc-num {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--cor-acento);
+    font-variant-numeric: tabular-nums;
+  }
+  .calc-num .un {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-texto-suave);
+  }
+  .calc-dupla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem 1.5rem;
+  }
+  .calc-linhas {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    font-size: 0.94rem;
+  }
+  .calc-linhas li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px dashed var(--cor-borda);
+  }
+  .calc-linhas li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .calc-linhas b { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .calc-aviso {
+    margin-top: 1rem;
+    padding: 0.75rem 0.9rem;
+    background: var(--cor-superficie);
+    border-left: 3px solid var(--cor-vale-saber);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .calc-aviso strong { color: var(--cor-vale-saber); }
+
+  .calc-conta {
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+  }
+  .calc-conta summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--cor-acento);
+    padding: 0.3rem 0;
+  }
+  .calc-conta .corpo {
+    padding: 0.7rem 0 0;
+    color: var(--cor-texto-suave);
+    line-height: 1.6;
+  }
+  .calc-conta code {
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-borda);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.88em;
+  }
+
+  .calc-erro {
+    margin-top: 1rem;
+    color: var(--cor-acento);
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  .calc-erro[hidden] { display: none; }
+
+  @media (max-width: 520px) {
+    .calc { padding: 1.15rem; }
+    .calc-num { font-size: 1.6rem; }
+  }
+</style>

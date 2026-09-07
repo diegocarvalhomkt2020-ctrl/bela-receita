@@ -1,0 +1,307 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Calculadora from '../../components/Calculadora.astro';
+
+const SITE = 'https://belareceita.dicasinteligentes.com';
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: `${SITE}/` },
+    { "@type": "ListItem", position: 2, name: "Ferramentas", item: `${SITE}/ferramentas/` },
+    { "@type": "ListItem", position: 3, name: "Conversor de temperatura do forno", item: `${SITE}/ferramentas/temperatura-do-forno/` },
+  ],
+};
+
+const faixas = [
+  { nome: "Forno muito baixo", min: 100, max: 140, uso: "Secar merengue, desidratar fruta, manter prato aquecido" },
+  { nome: "Forno baixo", min: 140, max: 160, uso: "Bolo denso, cheesecake, assado longo de carne dura" },
+  { nome: "Forno médio-baixo", min: 160, max: 180, uso: "Bolo comum, biscoito amanteigado, pudim em banho-maria" },
+  { nome: "Forno médio", min: 180, max: 200, uso: "A faixa mais usada. Bolo, torta, frango assado, gratinado" },
+  { nome: "Forno médio-alto", min: 200, max: 220, uso: "Pão, pizza caseira, batata assada, legume que precisa dourar" },
+  { nome: "Forno alto", min: 220, max: 250, uso: "Pizza fina, pão de fermentação, dourar o final de um assado" },
+  { nome: "Forno muito alto", min: 250, max: 300, uso: "Pizza em forno próprio, gratinar rápido sem cozinhar o interior" },
+];
+
+const faq = [
+  {
+    pergunta: "Meu forno só tem número de 1 a 10. Qual corresponde a 180 graus?",
+    resposta: "Não existe correspondência confiável. A numeração do botão varia de fabricante para fabricante e não segue norma. O jeito seguro é usar um termômetro de forno, que custa pouco e resolve de vez, ou aprender a posição do seu botão comparando com uma receita que você já acerta.",
+  },
+  {
+    pergunta: "O que é gas mark que aparece em receita traduzida?",
+    resposta: "É a escala usada em fornos britânicos, de 1 a 9. Ela é padronizada e por isso tem conversão exata, ao contrário do número do forno brasileiro. Gas mark 4 são 180 °C, e gas mark 6 são 200 °C.",
+  },
+  {
+    pergunta: "Forno médio é 180 ou 200 graus?",
+    resposta: "A faixa de forno médio vai de 180 a 200 °C, e receita brasileira usa os dois valores chamando de médio. Quando a receita não especifica, 180 °C é a escolha mais segura, porque errar para menos custa alguns minutos a mais e errar para mais queima.",
+  },
+  {
+    pergunta: "Preciso preaquecer sempre?",
+    resposta: "Para massa que cresce, como bolo, pão e suflê, sim, porque o choque de calor inicial faz parte do crescimento. Para assado longo de carne e legume, o preaquecimento importa menos. Na dúvida, preaqueça: raramente atrapalha.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.pergunta,
+    acceptedAnswer: { "@type": "Answer", text: item.resposta },
+  })),
+};
+
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Conversor de temperatura do forno",
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: "Qualquer navegador",
+  url: `${SITE}/ferramentas/temperatura-do-forno/`,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
+};
+---
+
+<Layout
+  title="Temperatura do forno: converter °C, °F e gas mark"
+  description="Converta a temperatura do forno entre Celsius, Fahrenheit e gas mark, e descubra a que faixa ela corresponde quando a receita só diz forno baixo, médio ou alto."
+  image="/images/receitas/pao-de-mel.png"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(appSchema)} />
+
+  <p><a href="/ferramentas/">← Ferramentas</a></p>
+  <h1>Conversor de temperatura do forno</h1>
+
+  <p>
+    Receita brasileira fala em forno médio, receita americana fala em 350 °F e
+    receita inglesa fala em gas mark 4. Todas querem a mesma coisa. Esta
+    ferramenta traduz entre as três e mostra em que faixa a temperatura cai.
+  </p>
+
+  <Calculadora
+    titulo="Converter temperatura"
+    subtitulo="Digite o valor na escala que a sua receita usa."
+  >
+    <div class="calc-campos">
+      <div class="calc-campo">
+        <label for="valor">Valor da receita</label>
+        <input type="number" id="valor" value="180" step="1" />
+      </div>
+      <div class="calc-campo">
+        <label for="escala">Escala</label>
+        <select id="escala">
+          <option value="c">Graus Celsius (°C)</option>
+          <option value="f">Graus Fahrenheit (°F)</option>
+          <option value="g">Gas mark (forno inglês)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="calc-acoes">
+      <button type="button" id="btn-conv">Converter</button>
+    </div>
+
+    <p class="calc-erro" id="erro" hidden></p>
+
+    <div class="calc-resultado" id="resultado" hidden>
+      <h3 id="r-faixa">Forno médio</h3>
+      <div class="calc-dupla">
+        <div>
+          <span class="calc-num" id="r-c">180 <span class="un">°C</span></span>
+          <span class="ajuda">Celsius</span>
+        </div>
+        <div>
+          <span class="calc-num" id="r-f">356 <span class="un">°F</span></span>
+          <span class="ajuda">Fahrenheit</span>
+        </div>
+        <div>
+          <span class="calc-num" id="r-g">4</span>
+          <span class="ajuda">gas mark</span>
+        </div>
+      </div>
+      <p class="calc-aviso" id="r-uso"></p>
+      <details class="calc-conta">
+        <summary>Como a conta é feita</summary>
+        <div class="corpo">
+          <p>Celsius para Fahrenheit: <code>(°C × 9 ÷ 5) + 32</code>. O caminho inverso é <code>(°F &minus; 32) × 5 ÷ 9</code>.</p>
+          <p>Gas mark não é fórmula, é uma tabela fixa do padrão britânico. Quando o valor cai entre dois pontos da tabela, a ferramenta mostra o mais próximo.</p>
+          <p>A faixa (baixo, médio, alto) é a convenção usada em receita brasileira, e não uma norma técnica.</p>
+        </div>
+      </details>
+    </div>
+  </Calculadora>
+
+  <h2>A tabela completa das faixas</h2>
+  <p>
+    Quando a receita só diz "forno médio", é esta a tradução que a maioria dos
+    livros de cozinha brasileiros usa.
+  </p>
+  <div class="tabela-wrap">
+    <table>
+      <thead>
+        <tr><th>Faixa</th><th>Celsius</th><th>Para que serve</th></tr>
+      </thead>
+      <tbody>
+        {faixas.map((f) => (
+          <tr>
+            <td><strong>{f.nome}</strong></td>
+            <td class="num">{f.min} a {f.max} °C</td>
+            <td>{f.uso}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>O problema do botão numerado</h2>
+  <p>
+    Boa parte dos fornos a gás vendidos no Brasil tem um botão com números, em
+    geral de 1 a 5 ou de 1 a 10, sem nenhuma indicação de temperatura. É
+    tentador procurar uma tabela que diga que 3 são 180 °C, e existem várias
+    circulando por aí. O problema é que <strong>essa correspondência não é
+    padronizada</strong>: cada fabricante calibra o seu, e o mesmo número em duas
+    marcas diferentes pode dar 30 °C de diferença.
+  </p>
+  <p>
+    Por isso esta ferramenta não converte para número de botão. Seria inventar
+    precisão que não existe. Duas saídas honestas:
+  </p>
+  <ul>
+    <li>
+      <strong>Termômetro de forno</strong>, aquele de pendurar na grade. Custa
+      pouco, resolve de vez e ainda mostra que quase nenhum forno doméstico
+      mantém a temperatura estável.
+    </li>
+    <li>
+      <strong>Calibrar pela receita que você já acerta.</strong> Se o seu bolo
+      de sempre fica bom no 3, então o seu 3 é o forno médio da receita. A
+      partir daí você tem uma referência real, e não uma tabela genérica.
+    </li>
+  </ul>
+
+  <h2>Gas mark, que esse sim tem conversão exata</h2>
+  <p>
+    Diferente do botão brasileiro, o gas mark britânico é padronizado, então a
+    conversão é confiável. Se você segue receita em inglês, vai encontrar
+    bastante. Gas mark 4 são 180 °C e gas mark 6 são 200 °C, que cobrem a
+    maioria dos casos.
+  </p>
+
+  <h2>Perguntas frequentes</h2>
+  {faq.map((item) => (
+    <div class="faq-item">
+      <h3>{item.pergunta}</h3>
+      <p>{item.resposta}</p>
+    </div>
+  ))}
+
+  <p class="volta">
+    Se a sua receita é de forno mas você vai usar air fryer, use o
+    <a href="/ferramentas/forno-para-air-fryer/">conversor de forno para air fryer</a>,
+    que ajusta tempo e temperatura juntos.
+  </p>
+</Layout>
+
+<style>
+  .tabela-wrap { overflow-x: auto; margin: 1.2rem 0 2rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 460px; font-size: 0.94rem; }
+  th, td { padding: 0.6rem 0.7rem; text-align: left; border-bottom: 1px solid var(--cor-borda); vertical-align: top; }
+  th { background: var(--cor-superficie); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--cor-texto-suave); }
+  td.num { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .faq-item { margin-bottom: 1.4rem; }
+  .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+  .faq-item p { margin-top: 0; }
+  .volta { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--cor-borda); }
+  ul { line-height: 1.7; }
+  li { margin-bottom: 0.6rem; }
+</style>
+
+<script>
+  const GAS = [
+    { g: 1, c: 140 }, { g: 2, c: 150 }, { g: 3, c: 170 }, { g: 4, c: 180 },
+    { g: 5, c: 190 }, { g: 6, c: 200 }, { g: 7, c: 220 }, { g: 8, c: 230 },
+    { g: 9, c: 240 },
+  ];
+
+  const FAIXAS = [
+    { nome: 'Forno muito baixo', min: 0,   max: 140, uso: 'Serve para secar merengue, desidratar fruta ou manter prato aquecido.' },
+    { nome: 'Forno baixo',       min: 140, max: 160, uso: 'Serve para bolo denso, cheesecake e assado longo de carne dura.' },
+    { nome: 'Forno médio-baixo', min: 160, max: 180, uso: 'Serve para bolo comum, biscoito amanteigado e pudim em banho-maria.' },
+    { nome: 'Forno médio',       min: 180, max: 200, uso: 'É a faixa mais usada em receita brasileira: bolo, torta, frango assado e gratinado.' },
+    { nome: 'Forno médio-alto',  min: 200, max: 220, uso: 'Serve para pão, pizza caseira, batata assada e legume que precisa dourar.' },
+    { nome: 'Forno alto',        min: 220, max: 250, uso: 'Serve para pizza fina, pão de fermentação natural e dourar o final de um assado.' },
+    { nome: 'Forno muito alto',  min: 250, max: 999, uso: 'Faixa de forno próprio de pizza. Poucos fornos domésticos chegam com estabilidade.' },
+  ];
+
+  const el = (id) => document.getElementById(id);
+
+  function gasMaisProximo(c) {
+    let melhor = GAS[0];
+    let dist = Math.abs(GAS[0].c - c);
+    for (const item of GAS) {
+      const d = Math.abs(item.c - c);
+      if (d < dist) { dist = d; melhor = item; }
+    }
+    return { valor: melhor.g, exato: dist === 0, fora: c < 130 || c > 250 };
+  }
+
+  function converter() {
+    const valor = parseFloat(el('valor').value);
+    const escala = el('escala').value;
+    const erro = el('erro');
+    const resultado = el('resultado');
+
+    if (!Number.isFinite(valor)) {
+      erro.textContent = 'Digite um número para converter.';
+      erro.hidden = false;
+      resultado.hidden = true;
+      return;
+    }
+
+    let c;
+    if (escala === 'c') {
+      c = valor;
+    } else if (escala === 'f') {
+      c = (valor - 32) * 5 / 9;
+    } else {
+      const achado = GAS.find((item) => item.g === Math.round(valor));
+      if (!achado) {
+        erro.textContent = 'Gas mark vai de 1 a 9. Digite um número dentro dessa faixa.';
+        erro.hidden = false;
+        resultado.hidden = true;
+        return;
+      }
+      c = achado.c;
+    }
+    erro.hidden = true;
+
+    const cRedondo = Math.round(c);
+    const f = Math.round((c * 9 / 5) + 32);
+    const gm = gasMaisProximo(c);
+    const faixa = FAIXAS.find((x) => cRedondo >= x.min && cRedondo < x.max) || FAIXAS[FAIXAS.length - 1];
+
+    el('r-c').innerHTML = cRedondo + ' <span class="un">°C</span>';
+    el('r-f').innerHTML = f + ' <span class="un">°F</span>';
+    el('r-g').innerHTML = gm.fora
+      ? '<span class="un">fora da escala</span>'
+      : (gm.exato ? String(gm.valor) : '~' + gm.valor);
+    el('r-faixa').textContent = faixa.nome;
+    el('r-uso').innerHTML = '<strong>' + faixa.nome + '.</strong> ' + faixa.uso;
+
+    resultado.hidden = false;
+  }
+
+  const botao = el('btn-conv');
+  if (botao) {
+    botao.addEventListener('click', converter);
+    ['valor', 'escala'].forEach((id) => {
+      const campo = el(id);
+      if (campo) campo.addEventListener('change', converter);
+    });
+    converter();
+  }
+</script>

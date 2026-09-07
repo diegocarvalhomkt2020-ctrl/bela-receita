@@ -1,0 +1,112 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const SITE = 'https://belareceita.dicasinteligentes.com';
+
+const ferramentas = [
+  {
+    href: '/ferramentas/forno-para-air-fryer/',
+    nome: 'Conversor de forno para air fryer',
+    resumo: 'Tempo e temperatura da receita de forno convertidos para a air fryer, com ajuste por tipo de prato e hora de conferir.',
+    emoji: '🔥',
+  },
+  {
+    href: '/ferramentas/ajustar-porcoes/',
+    nome: 'Ajustar porções da receita',
+    resumo: 'Muda o rendimento da receita arredondando para medidas que existem na cozinha, e avisa o que não escala em proporção.',
+    emoji: '⚖️',
+  },
+  {
+    href: '/ferramentas/temperatura-do-forno/',
+    nome: 'Conversor de temperatura do forno',
+    resumo: 'Celsius, Fahrenheit e gas mark, mais a faixa que a receita quer dizer quando fala em forno médio.',
+    emoji: '🌡️',
+  },
+];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: `${SITE}/` },
+    { "@type": "ListItem", position: 2, name: "Ferramentas", item: `${SITE}/ferramentas/` },
+  ],
+};
+
+const listaSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: ferramentas.map((f, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: f.nome,
+    url: `${SITE}${f.href}`,
+  })),
+};
+---
+
+<Layout
+  title="Calculadoras e conversores de cozinha"
+  description="Calculadoras de cozinha grátis: converter forno para air fryer, ajustar as porções de uma receita e traduzir a temperatura do forno entre Celsius e Fahrenheit."
+  image="/images/receitas/batata-frita-crocante.png"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(listaSchema)} />
+
+  <p><a href="/">← Início</a></p>
+  <h1>Ferramentas de cozinha</h1>
+
+  <p>
+    Calculadoras rápidas para as contas que aparecem no meio de uma receita.
+    Todas funcionam direto no navegador, sem cadastro, e mostram como a conta
+    foi feita.
+  </p>
+
+  <ul class="grade">
+    {ferramentas.map((f) => (
+      <li>
+        <a href={f.href}>
+          <span class="emoji" aria-hidden="true">{f.emoji}</span>
+          <span class="texto">
+            <strong>{f.nome}</strong>
+            <span class="resumo">{f.resumo}</span>
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Por que essas e não outras</h2>
+  <p>
+    Cada uma nasceu de uma conta que a gente refazia toda vez ao cozinhar: a
+    receita está em forno e a air fryer é o que tem em casa, a receita rende
+    quatro e a mesa tem seis, ou a receita americana fala em 350 graus que não
+    são os nossos. São contas simples, mas erradas com frequência, e errar
+    nelas custa o prato inteiro.
+  </p>
+  <p>
+    Nenhuma delas puxa para marca nenhuma. Onde existe uma escolha discutível,
+    como a quantidade de fermento ao dobrar uma receita, a ferramenta mostra o
+    critério que usou em vez de esconder.
+  </p>
+
+  <p class="volta"><a href="/receitas/">Ver as receitas do site</a></p>
+</Layout>
+
+<style>
+  .grade { list-style: none; padding: 0; margin: 2rem 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .grade a {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: 1.1rem 1.15rem;
+    background: var(--cor-superficie);
+    border: 1px solid var(--cor-borda);
+    border-left: 4px solid var(--cor-acento);
+    text-decoration: none; color: var(--cor-texto);
+  }
+  .grade a:hover { background: var(--cor-fundo); }
+  .grade .emoji { font-size: 1.5rem; line-height: 1.2; flex: none; }
+  .grade .texto { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+  .grade strong { color: var(--cor-acento); font-family: Georgia, serif; font-size: 1.05rem; }
+  .grade .resumo { font-size: 0.92rem; color: var(--cor-texto-suave); line-height: 1.5; }
+  .volta { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--cor-borda); }
+</style>

@@ -1,0 +1,306 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Calculadora from '../../components/Calculadora.astro';
+
+const SITE = 'https://belareceita.dicasinteligentes.com';
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Início", item: `${SITE}/` },
+    { "@type": "ListItem", position: 2, name: "Ferramentas", item: `${SITE}/ferramentas/` },
+    { "@type": "ListItem", position: 3, name: "Conversor de forno para air fryer", item: `${SITE}/ferramentas/forno-para-air-fryer/` },
+  ],
+};
+
+const faq = [
+  {
+    pergunta: "Qual a regra geral para converter forno em air fryer?",
+    resposta: "Baixar cerca de 20 °C na temperatura e cortar cerca de 20% do tempo. É um ponto de partida bom, não uma regra exata: prato empanado e legume costumam ficar prontos ainda mais rápido, e massa de bolo pede corte menor para não dourar por fora antes de assar por dentro.",
+  },
+  {
+    pergunta: "Precisa preaquecer a air fryer?",
+    resposta: "Na maioria das receitas, sim. Três minutos na temperatura de trabalho já bastam. Preaquecer sela a superfície do alimento logo de cara, o que ajuda a manter o interior suculento e a deixar o exterior crocante. Sem preaquecer, o alimento passa os primeiros minutos apenas esquentando junto com o aparelho.",
+  },
+  {
+    pergunta: "Por que a minha air fryer não chega na temperatura da receita?",
+    resposta: "A maioria dos modelos domésticos vai até 200 °C. Se a receita de forno pede 240 °C, a conversão daria 220 °C e sua air fryer não alcança. Nesse caso use o máximo do aparelho e acrescente alguns minutos, conferindo antes do fim.",
+  },
+  {
+    pergunta: "Preciso virar a comida no meio do tempo?",
+    resposta: "Sempre que possível. A air fryer circula ar quente, mas a face que fica encostada na cesta recebe menos circulação. Virar ou chacoalhar na metade do tempo é o que evita um lado crocante e o outro murcho.",
+  },
+  {
+    pergunta: "A conversão vale para qualquer modelo de air fryer?",
+    resposta: "Vale como ponto de partida. Modelo de cesta funda aquece diferente de modelo tipo forno, e aparelho mais potente cozinha mais rápido. Por isso a ferramenta sugere um horário de conferência antes do tempo final: é nele que você aprende o ajuste do seu aparelho e passa a acertar de primeira.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.pergunta,
+    acceptedAnswer: { "@type": "Answer", text: item.resposta },
+  })),
+};
+
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Conversor de forno para air fryer",
+  applicationCategory: "UtilitiesApplication",
+  operatingSystem: "Qualquer navegador",
+  url: `${SITE}/ferramentas/forno-para-air-fryer/`,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
+};
+---
+
+<Layout
+  title="Conversor de forno para air fryer: tempo e temperatura"
+  description="Coloque o tempo e a temperatura da receita de forno e veja quanto usar na air fryer, com ajuste por tipo de prato e horário de conferência. Ferramenta gratuita."
+  image="/images/receitas/batata-frita-crocante.png"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(appSchema)} />
+
+  <p><a href="/ferramentas/">← Ferramentas</a></p>
+  <h1>Conversor de forno para air fryer</h1>
+
+  <p>
+    Receita escrita para forno não funciona igual na air fryer. O ar circula
+    muito mais rápido num espaço muito menor, então a mesma temperatura queima
+    a superfície antes do meio cozinhar. Esta ferramenta faz a conversão e
+    ajusta conforme o tipo de prato, porque empanado e massa de bolo não se
+    comportam do mesmo jeito.
+  </p>
+
+  <Calculadora
+    titulo="Converter a receita"
+    subtitulo="Preencha o que está escrito na receita de forno."
+  >
+    <div class="calc-campos">
+      <div class="calc-campo">
+        <label for="temp">Temperatura do forno</label>
+        <input type="number" id="temp" value="200" min="80" max="300" step="5" />
+        <span class="ajuda">Em graus Celsius</span>
+      </div>
+      <div class="calc-campo">
+        <label for="tempo">Tempo da receita</label>
+        <input type="number" id="tempo" value="40" min="1" max="600" step="1" />
+        <span class="ajuda">Em minutos</span>
+      </div>
+      <div class="calc-campo largo">
+        <label for="tipo">Tipo de prato</label>
+        <select id="tipo">
+          <option value="geral">Não sei dizer, usar a regra geral</option>
+          <option value="empanado">Empanado ou crocante (nuggets, batata, coxinha)</option>
+          <option value="carne">Carne em peça ou pedaço (frango, pernil, costela)</option>
+          <option value="legume">Legume ou vegetal</option>
+          <option value="massa">Massa doce ou salgada (bolo, torta, pão)</option>
+          <option value="congelado">Congelado industrializado</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="calc-acoes">
+      <button type="button" id="btn-converter">Converter</button>
+    </div>
+
+    <p class="calc-erro" id="erro" hidden></p>
+
+    <div class="calc-resultado" id="resultado" hidden>
+      <h3>Na air fryer</h3>
+      <div class="calc-dupla">
+        <div>
+          <span class="calc-num" id="r-temp">180 <span class="un">°C</span></span>
+          <span class="ajuda">temperatura</span>
+        </div>
+        <div>
+          <span class="calc-num" id="r-tempo">32 <span class="un">min</span></span>
+          <span class="ajuda">tempo total</span>
+        </div>
+      </div>
+      <ul class="calc-linhas">
+        <li><span>Preaquecer antes de colocar</span> <b>3 min</b></li>
+        <li><span>Chacoalhar ou virar aos</span> <b id="r-virar">16 min</b></li>
+        <li><span>Primeira conferida aos</span> <b id="r-conferir">22 min</b></li>
+      </ul>
+      <p class="calc-aviso" id="aviso" hidden></p>
+      <details class="calc-conta">
+        <summary>Como a conta é feita</summary>
+        <div class="corpo" id="conta"></div>
+      </details>
+    </div>
+  </Calculadora>
+
+  <h2>De onde vem a regra dos 20 graus</h2>
+  <p>
+    Forno tradicional aquece um volume grande de ar que fica praticamente
+    parado. A air fryer é um forno de convecção pequeno: uma ventoinha empurra
+    o ar quente contra o alimento o tempo todo. Esse ar em movimento transfere
+    calor bem mais rápido que ar parado na mesma temperatura, e é por isso que
+    manter os mesmos 200 °C da receita costuma queimar a superfície.
+  </p>
+  <p>
+    Baixar cerca de 20 °C compensa essa diferença de transferência de calor.
+    Cortar cerca de 20% do tempo compensa o volume menor, que aquece e
+    estabiliza mais rápido. As duas correções juntas chegam perto do resultado
+    original na maioria das receitas.
+  </p>
+
+  <h2>Por que o tipo de prato muda o corte</h2>
+  <p>
+    A regra única falha justamente nos extremos, e é aí que a maioria das
+    tabelas prontas erra.
+  </p>
+  <ul>
+    <li>
+      <strong>Empanado e legume</strong> ganham mais com a circulação de ar,
+      porque a superfície seca rápido e a crocância aparece antes. Aceitam
+      corte maior de tempo, perto de 25%.
+    </li>
+    <li>
+      <strong>Massa de bolo, torta e pão</strong> precisam de calor mais suave
+      e mais tempo para o interior firmar. Corte agressivo aqui produz o
+      clássico bolo dourado por fora e cru no meio. Por isso a ferramenta baixa
+      só 15 °C e corta menos tempo nesse caso.
+    </li>
+    <li>
+      <strong>Carne em peça</strong> depende de calor chegar ao centro, então
+      segue perto da regra geral. Aqui o termômetro vale mais que o relógio.
+    </li>
+  </ul>
+
+  <h2>Os três erros que estragam a conversão</h2>
+  <p>
+    <strong>Encher demais a cesta.</strong> É o erro mais comum e o que mais
+    estraga o resultado. Se o alimento fica empilhado, o ar não circula e a air
+    fryer vira um forno pequeno e abafado. Prefira duas levas a uma cesta cheia.
+  </p>
+  <p>
+    <strong>Não preaquecer.</strong> Sem preaquecer, os primeiros minutos são
+    gastos esquentando o aparelho junto com a comida, o que muda a conta toda.
+    Três minutos resolvem.
+  </p>
+  <p>
+    <strong>Confiar no relógio na primeira vez.</strong> Cada aparelho é um
+    pouco diferente. A conferência antes do tempo final existe para você
+    descobrir o ajuste do seu, e não precisar mais chutar depois.
+  </p>
+
+  <h2>Perguntas frequentes</h2>
+  {faq.map((item) => (
+    <div class="faq-item">
+      <h3>{item.pergunta}</h3>
+      <p>{item.resposta}</p>
+    </div>
+  ))}
+
+  <p class="volta"><a href="/ferramentas/">Ver as outras ferramentas</a> ou <a href="/receitas/">ir para as receitas</a>.</p>
+</Layout>
+
+<style>
+  .faq-item { margin-bottom: 1.4rem; }
+  .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+  .faq-item p { margin-top: 0; }
+  .volta { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--cor-borda); }
+  ul { line-height: 1.7; }
+  li { margin-bottom: 0.6rem; }
+</style>
+
+<script>
+  const AJUSTES = {
+    geral:      { grausMenos: 20, fatorTempo: 0.80, nome: 'regra geral' },
+    empanado:   { grausMenos: 20, fatorTempo: 0.75, nome: 'empanado ou crocante' },
+    carne:      { grausMenos: 20, fatorTempo: 0.80, nome: 'carne em peça' },
+    legume:     { grausMenos: 20, fatorTempo: 0.75, nome: 'legume' },
+    massa:      { grausMenos: 15, fatorTempo: 0.85, nome: 'massa doce ou salgada' },
+    congelado:  { grausMenos: 20, fatorTempo: 0.80, nome: 'congelado industrializado' },
+  };
+
+  const TEMP_MAX_COMUM = 200;
+
+  const el = (id) => document.getElementById(id);
+  const arred5 = (n) => Math.round(n / 5) * 5;
+
+  function converter() {
+    const temp = parseFloat(el('temp').value);
+    const tempo = parseFloat(el('tempo').value);
+    const tipo = el('tipo').value;
+    const erro = el('erro');
+    const resultado = el('resultado');
+
+    if (!Number.isFinite(temp) || !Number.isFinite(tempo) || temp <= 0 || tempo <= 0) {
+      erro.textContent = 'Preencha a temperatura e o tempo da receita com números maiores que zero.';
+      erro.hidden = false;
+      resultado.hidden = true;
+      return;
+    }
+    erro.hidden = true;
+
+    const ajuste = AJUSTES[tipo] || AJUSTES.geral;
+
+    let tempAlvo = arred5(temp - ajuste.grausMenos);
+    let estourou = false;
+    if (tempAlvo > TEMP_MAX_COMUM) {
+      tempAlvo = TEMP_MAX_COMUM;
+      estourou = true;
+    }
+
+    let tempoAlvo = Math.max(1, Math.round(tempo * ajuste.fatorTempo));
+    if (estourou) tempoAlvo = Math.round(tempoAlvo * 1.1);
+
+    const virar = Math.max(1, Math.round(tempoAlvo / 2));
+    const conferir = Math.max(1, Math.round(tempoAlvo * 0.7));
+
+    el('r-temp').innerHTML = tempAlvo + ' <span class="un">°C</span>';
+    el('r-tempo').innerHTML = tempoAlvo + ' <span class="un">min</span>';
+    el('r-virar').textContent = virar + ' min';
+    el('r-conferir').textContent = conferir + ' min';
+
+    const aviso = el('aviso');
+    if (estourou) {
+      aviso.innerHTML = '<strong>Atenção:</strong> a conversão pediria mais de ' +
+        TEMP_MAX_COMUM + ' °C, que é o teto da maioria das air fryers domésticas. ' +
+        'O resultado acima já usa o máximo comum e acrescenta cerca de 10% no tempo para compensar. ' +
+        'Confira antes do fim.';
+      aviso.hidden = false;
+    } else if (tipo === 'massa') {
+      aviso.innerHTML = '<strong>Massa pede cuidado extra:</strong> se dourar cedo demais, ' +
+        'cubra com papel-alumínio e siga o tempo. Espeto ou palito saindo limpo vale mais que o relógio.';
+      aviso.hidden = false;
+    } else if (tipo === 'carne') {
+      aviso.innerHTML = '<strong>Em carne, o termômetro manda mais que o relógio.</strong> ' +
+        'Frango inteiro cozido chega a 74 °C no centro, e essa medida é mais confiável que o tempo.';
+      aviso.hidden = false;
+    } else {
+      aviso.hidden = true;
+    }
+
+    el('conta').innerHTML =
+      '<p>Partindo de <code>' + temp + ' °C</code> por <code>' + tempo + ' min</code>, ' +
+      'com o ajuste de <strong>' + ajuste.nome + '</strong>:</p>' +
+      '<p>Temperatura: <code>' + temp + ' &minus; ' + ajuste.grausMenos + '</code>, arredondado para múltiplo de 5' +
+      (estourou ? ', e limitado a ' + TEMP_MAX_COMUM + ' °C' : '') + '.</p>' +
+      '<p>Tempo: <code>' + tempo + ' × ' + ajuste.fatorTempo + '</code>' +
+      (estourou ? ', mais 10% pela temperatura limitada' : '') + '.</p>' +
+      '<p>A conferida sai em 70% do tempo final, que é onde dá tempo de corrigir se o seu aparelho ' +
+      'for mais rápido que a média.</p>';
+
+    resultado.hidden = false;
+  }
+
+  const botao = el('btn-converter');
+  if (botao) {
+    botao.addEventListener('click', converter);
+    ['temp', 'tempo', 'tipo'].forEach((id) => {
+      const campo = el(id);
+      if (campo) campo.addEventListener('change', converter);
+    });
+    converter();
+  }
+</script>
