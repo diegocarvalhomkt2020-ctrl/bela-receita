@@ -34,7 +34,11 @@ const breadcrumbSchema = {
   {leadmagnet.capturaAtiva && leadmagnet.formEmbedId && (
     <div class="bloco-form">
       <p class="selo">GUIA GRATUITO · PDF</p>
-      <div data-reach-form={leadmagnet.formEmbedId}></div>
+      <iframe
+        src={`https://reach-forms.hostingerusercontent.com/form/${leadmagnet.formEmbedId}`}
+        title="Formulário de inscrição"
+        loading="lazy"
+      />
     </div>
   )}
 
@@ -72,6 +76,11 @@ const breadcrumbSchema = {
       padding: 0.7rem 1.3rem;
       border-radius: 999px;
       font-weight: 700;
+    }
+    .bloco-form iframe {
+      width: 100%;
+      min-height: 380px;
+      border: none;
     }
     .cta-final {
       margin-top: 2rem;
