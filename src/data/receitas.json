@@ -2,6 +2,67 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "pao-de-alho-air-fryer",
+      "nome": "Pão de Alho na Air Fryer",
+      "subtitulo": "Sem precisar acender a churrasqueira",
+      "resumo": "Pão de alho recheado feito na air fryer, com o recheio derretido por dentro e a casca dourada por fora. O segredo é embrulhar em papel alumínio antes de assar, pra o recheio derreter em vez de secar.",
+      "imagem": "/images/receitas/pao-de-alho-air-fryer.png",
+      "dataPublicacao": "2026-09-13",
+      "introducao": "Pão de alho de churrasco costuma exigir acender a churrasqueira só pra esquentar o pão. Na air fryer sai pronto em poucos minutos, e o passo que garante o recheio derretido por dentro (em vez de ressecado) é embrulhar o pão em papel alumínio antes da primeira leva no forno.",
+      "porQue": {
+        "titulo": "Por que embrulhar em papel alumínio antes de assar?",
+        "texto": "Levar o pão recheado direto pra air fryer sem embrulhar expõe o recheio ao ar quente e seco, que resseca a superfície antes do calor derreter tudo por dentro. O papel alumínio prende o vapor do próprio recheio nos primeiros minutos, derretendo o requeijão e a manteiga por igual antes de abrir o embrulho pra dourar a casca no final."
+      },
+      "porcoes": 6,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 10,
+      "tempoCozimentoMin": 12,
+      "ingredientes": [
+        "200g de requeijão cremoso",
+        "4 dentes de alho amassados",
+        "2 colheres (sopa) de manteiga",
+        "Cheiro-verde e uma pitada de sal a gosto",
+        "1 pão italiano"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Misture o recheio",
+          "texto": "numa tigela, misture o requeijão cremoso, o alho amassado, a manteiga, o cheiro-verde e o sal até formar uma pasta homogênea."
+        },
+        {
+          "titulo": "Corte o pão",
+          "texto": "faça cortes profundos no pão italiano, de cima até quase o fundo, sem separar as fatias."
+        },
+        {
+          "titulo": "Recheie",
+          "texto": "espalhe a pasta generosamente dentro de cada corte, cobrindo os dois lados."
+        },
+        {
+          "titulo": "Embrulhe e leve à air fryer",
+          "texto": "embrulhe o pão inteiro em papel alumínio e leve à air fryer a 180°C por 8 minutos."
+        },
+        {
+          "titulo": "Abra e doure",
+          "texto": "retire o papel alumínio e deixe mais 4 minutos a 180°C, até a casca dourar."
+        }
+      ],
+      "dica": "O erro mais comum é levar o pão recheado direto pra air fryer sem embrulhar. Sem o papel alumínio no começo, o ar quente resseca a superfície do recheio antes dele derreter por dentro, e o resultado sai com o requeijão mais firme do que cremoso. Embrulhar nos primeiros minutos resolve isso.",
+      "faq": [
+        {
+          "pergunta": "Posso usar pão francês em vez de pão italiano?",
+          "resposta": "Pode, mas o pão italiano segura melhor o recheio por ser mais macio e absorver a pasta sem esfarelar tanto. Com pão francês, corte com mais cuidado pra não rasgar as fatias."
+        },
+        {
+          "pergunta": "Dá pra pular o papel alumínio pra ganhar tempo?",
+          "resposta": "Dá, mas o recheio sai mais seco. O papel alumínio nos primeiros minutos é o que faz o requeijão e a manteiga derreterem por igual antes da casca dourar — pular esse passo é a causa mais comum de recheio ressecado."
+        },
+        {
+          "pergunta": "Posso usar manteiga de alho pronta em vez de fazer a pasta?",
+          "resposta": "Pode substituir a manteiga e o alho amassado por manteiga de alho pronta, mantendo o requeijão à parte pra dar cremosidade. Ajuste o sal, já que a manteiga pronta costuma vir temperada."
+        }
+      ]
+    },
+    {
       "id": "pudim-de-leite-condensado-air-fryer",
       "nome": "Pudim de Leite Condensado na Air Fryer",
       "subtitulo": "Cremoso e sem furinhos, sem precisar ligar o forno",
@@ -17,7 +78,10 @@
       "porcoesLabel": "fatias",
       "tempoPreparoMin": 15,
       "tempoCozimentoMin": 40,
-      "tempoExtra": { "label": "Na geladeira antes de desenformar", "min": 240 },
+      "tempoExtra": {
+        "label": "Na geladeira antes de desenformar",
+        "min": 240
+      },
       "ingredientes": [
         "1 lata de leite condensado",
         "A mesma medida de leite (usando a lata do leite condensado)",
@@ -25,19 +89,49 @@
         "1 xícara de açúcar (pra calda)"
       ],
       "modoPreparo": [
-        { "titulo": "Faça a calda", "texto": "leve o açúcar ao fogo baixo numa forma de pudim que caiba na sua air fryer, até derreter e virar caramelo dourado. Espalhe pelo fundo e pelas laterais da forma ainda quente." },
-        { "titulo": "Bata a massa", "texto": "no liquidificador, bata o leite condensado, o leite e os ovos por cerca de 3 minutos, até incorporar bem." },
-        { "titulo": "Coe a massa", "texto": "passe a massa batida por uma peneira fina antes de despejar na forma. É esse passo que evita os furinhos no pudim pronto." },
-        { "titulo": "Despeje na forma caramelizada", "texto": "cubra a forma com papel-alumínio, bem fechada." },
-        { "titulo": "Leve à air fryer", "texto": "a 160°C por 35 a 40 minutos. Cada air fryer varia um pouco, então cheque com um palito depois dos 30 minutos: se sair limpo, está pronto." },
-        { "titulo": "Espere esfriar e leve à geladeira", "texto": "deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 4 horas, idealmente durante a noite, antes de desenformar." },
-        { "titulo": "Desenforme", "texto": "passe uma faca fina pelas bordas, coloque um prato por cima e vire com cuidado de uma vez só." }
+        {
+          "titulo": "Faça a calda",
+          "texto": "leve o açúcar ao fogo baixo numa forma de pudim que caiba na sua air fryer, até derreter e virar caramelo dourado. Espalhe pelo fundo e pelas laterais da forma ainda quente."
+        },
+        {
+          "titulo": "Bata a massa",
+          "texto": "no liquidificador, bata o leite condensado, o leite e os ovos por cerca de 3 minutos, até incorporar bem."
+        },
+        {
+          "titulo": "Coe a massa",
+          "texto": "passe a massa batida por uma peneira fina antes de despejar na forma. É esse passo que evita os furinhos no pudim pronto."
+        },
+        {
+          "titulo": "Despeje na forma caramelizada",
+          "texto": "cubra a forma com papel-alumínio, bem fechada."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "a 160°C por 35 a 40 minutos. Cada air fryer varia um pouco, então cheque com um palito depois dos 30 minutos: se sair limpo, está pronto."
+        },
+        {
+          "titulo": "Espere esfriar e leve à geladeira",
+          "texto": "deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 4 horas, idealmente durante a noite, antes de desenformar."
+        },
+        {
+          "titulo": "Desenforme",
+          "texto": "passe uma faca fina pelas bordas, coloque um prato por cima e vire com cuidado de uma vez só."
+        }
       ],
       "dica": "O erro mais comum não é o tempo de air fryer, é pular a peneira. Sem coar, sobra bolha de ar e pedacinho de clara na massa, e é isso que vira furinho depois de assado. Coar leva 1 minuto e resolve o problema quase sozinho.",
       "faq": [
-        { "pergunta": "Posso usar uma forma de alumínio descartável?", "resposta": "Pode, desde que caiba folgada dentro da cesta da sua air fryer, com espaço pro ar circular ao redor." },
-        { "pergunta": "Por que meu pudim ficou com furinhos mesmo coando?", "resposta": "Geralmente é temperatura alta demais ou tempo de forno passado do ponto. Manter em torno de 160°C e checar com o palito a partir dos 30 minutos evita isso." },
-        { "pergunta": "Dá pra desenformar na hora, sem esperar a geladeira?", "resposta": "Não é recomendado. O pudim precisa desse tempo gelado pra firmar de verdade e soltar a calda por igual; desenformar quente costuma quebrar ou desmanchar." }
+        {
+          "pergunta": "Posso usar uma forma de alumínio descartável?",
+          "resposta": "Pode, desde que caiba folgada dentro da cesta da sua air fryer, com espaço pro ar circular ao redor."
+        },
+        {
+          "pergunta": "Por que meu pudim ficou com furinhos mesmo coando?",
+          "resposta": "Geralmente é temperatura alta demais ou tempo de forno passado do ponto. Manter em torno de 160°C e checar com o palito a partir dos 30 minutos evita isso."
+        },
+        {
+          "pergunta": "Dá pra desenformar na hora, sem esperar a geladeira?",
+          "resposta": "Não é recomendado. O pudim precisa desse tempo gelado pra firmar de verdade e soltar a calda por igual; desenformar quente costuma quebrar ou desmanchar."
+        }
       ]
     },
     {
@@ -63,17 +157,41 @@
         "Ingredientes de sua preferência (calabresa, orégano, azeitona, etc.)"
       ],
       "modoPreparo": [
-        { "titulo": "Abra a massa", "texto": "estique o disco de massa do tamanho da cesta da air fryer." },
-        { "titulo": "Pré-asse a massa vazia", "texto": "leve só a massa, sem cobertura, à air fryer a 200°C por 4 minutos. É esse passo que evita o meio cru depois." },
-        { "titulo": "Cubra", "texto": "retire, espalhe o molho de tomate, a muçarela e os ingredientes escolhidos." },
-        { "titulo": "Volte à air fryer", "texto": "por mais 6 minutos a 200°C, até o queijo derreter e borbulhar." },
-        { "titulo": "Sirva", "texto": "retire com cuidado (a cesta fica bem quente) e sirva na hora, enquanto a borda ainda está crocante." }
+        {
+          "titulo": "Abra a massa",
+          "texto": "estique o disco de massa do tamanho da cesta da air fryer."
+        },
+        {
+          "titulo": "Pré-asse a massa vazia",
+          "texto": "leve só a massa, sem cobertura, à air fryer a 200°C por 4 minutos. É esse passo que evita o meio cru depois."
+        },
+        {
+          "titulo": "Cubra",
+          "texto": "retire, espalhe o molho de tomate, a muçarela e os ingredientes escolhidos."
+        },
+        {
+          "titulo": "Volte à air fryer",
+          "texto": "por mais 6 minutos a 200°C, até o queijo derreter e borbulhar."
+        },
+        {
+          "titulo": "Sirva",
+          "texto": "retire com cuidado (a cesta fica bem quente) e sirva na hora, enquanto a borda ainda está crocante."
+        }
       ],
       "dica": "O erro mais comum é colocar o recheio direto na massa crua. O peso do molho e do queijo não deixa o calor chegar no centro a tempo, e a pizza sai com o meio cru mesmo com a borda pronta. Pré-assar a massa sozinha por alguns minutos resolve isso de vez.",
       "faq": [
-        { "pergunta": "Preciso usar massa pronta ou dá pra fazer caseira?", "resposta": "Os dois funcionam. Massa pronta agiliza o processo, e massa caseira também pré-assa bem, só respeite o mesmo tempo de pré-assada antes de cobrir." },
-        { "pergunta": "Por que minha pizza sempre sai com o meio cru?", "resposta": "É quase sempre porque o recheio foi direto na massa crua. Pré-assar a massa vazia por alguns minutos antes de cobrir é o que resolve, ela já ganha uma base firme antes de receber o peso do recheio." },
-        { "pergunta": "Dá pra fazer uma pizza grande de uma vez?", "resposta": "Depende do tamanho da cesta da sua air fryer. Se não couber uma pizza inteira, é melhor fazer em porções menores do que espremer a massa, o ar precisa circular pra assar por igual." }
+        {
+          "pergunta": "Preciso usar massa pronta ou dá pra fazer caseira?",
+          "resposta": "Os dois funcionam. Massa pronta agiliza o processo, e massa caseira também pré-assa bem, só respeite o mesmo tempo de pré-assada antes de cobrir."
+        },
+        {
+          "pergunta": "Por que minha pizza sempre sai com o meio cru?",
+          "resposta": "É quase sempre porque o recheio foi direto na massa crua. Pré-assar a massa vazia por alguns minutos antes de cobrir é o que resolve, ela já ganha uma base firme antes de receber o peso do recheio."
+        },
+        {
+          "pergunta": "Dá pra fazer uma pizza grande de uma vez?",
+          "resposta": "Depende do tamanho da cesta da sua air fryer. Se não couber uma pizza inteira, é melhor fazer em porções menores do que espremer a massa, o ar precisa circular pra assar por igual."
+        }
       ]
     },
     {
@@ -92,7 +210,10 @@
       "porcoesLabel": "porções",
       "tempoPreparoMin": 15,
       "tempoCozimentoMin": 20,
-      "tempoExtra": { "label": "De molho na água", "min": 30 },
+      "tempoExtra": {
+        "label": "De molho na água",
+        "min": 30
+      },
       "ingredientes": [
         "4 batatas médias (tipo Asterix ou inglesa)",
         "1 colher (sopa) de óleo ou azeite",
@@ -100,19 +221,49 @@
         "Páprica doce ou alho em pó (opcional)"
       ],
       "modoPreparo": [
-        { "titulo": "Corte em palitos", "texto": "descasque as batatas e corte em palitos uniformes, de mais ou menos 1cm de espessura. Palito muito fino queima antes de cozinhar por dentro." },
-        { "titulo": "Deixe de molho", "texto": "coloque os palitos numa tigela com água fria por 30 minutos. Isso tira o excesso de amido da superfície, que é o que mais atrapalha a crocância." },
-        { "titulo": "Seque muito bem", "texto": "escorra a água e seque as batatas com um pano de prato ou papel-toalha até não sobrar nenhuma umidade visível. Batata molhada não fica crocante, cozinha no vapor." },
-        { "titulo": "Tempere", "texto": "misture as batatas com o óleo, sal e os temperos escolhidos, garantindo que cada palito fique levemente coberto." },
-        { "titulo": "Arrume em camada única", "texto": "coloque as batatas na cesta da air fryer sem empilhar. Se não couber tudo numa camada só, asse em duas leva em vez de amontoar." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por 18 a 20 minutos, sacudindo a cesta na metade do tempo pra dourar por igual." },
-        { "titulo": "Sirva na hora", "texto": "batata frita perde a crocância rápido depois de fria, então sirva assim que sair da air fryer." }
+        {
+          "titulo": "Corte em palitos",
+          "texto": "descasque as batatas e corte em palitos uniformes, de mais ou menos 1cm de espessura. Palito muito fino queima antes de cozinhar por dentro."
+        },
+        {
+          "titulo": "Deixe de molho",
+          "texto": "coloque os palitos numa tigela com água fria por 30 minutos. Isso tira o excesso de amido da superfície, que é o que mais atrapalha a crocância."
+        },
+        {
+          "titulo": "Seque muito bem",
+          "texto": "escorra a água e seque as batatas com um pano de prato ou papel-toalha até não sobrar nenhuma umidade visível. Batata molhada não fica crocante, cozinha no vapor."
+        },
+        {
+          "titulo": "Tempere",
+          "texto": "misture as batatas com o óleo, sal e os temperos escolhidos, garantindo que cada palito fique levemente coberto."
+        },
+        {
+          "titulo": "Arrume em camada única",
+          "texto": "coloque as batatas na cesta da air fryer sem empilhar. Se não couber tudo numa camada só, asse em duas leva em vez de amontoar."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 200°C por 18 a 20 minutos, sacudindo a cesta na metade do tempo pra dourar por igual."
+        },
+        {
+          "titulo": "Sirva na hora",
+          "texto": "batata frita perde a crocância rápido depois de fria, então sirva assim que sair da air fryer."
+        }
       ],
       "dica": "O erro mais comum não é a temperatura, é a quantidade: cesta cheia demais faz a batata cozinhar no próprio vapor em vez de dourar. Se sobrar batata, é melhor assar em duas levas do que amontoar tudo de uma vez.",
       "faq": [
-        { "pergunta": "Precisa mesmo deixar de molho?", "resposta": "Ajuda bastante. Sem esse passo a batata ainda fica boa, mas o de molho é o que aproxima mais da crocância de fritura de verdade, tirando o excesso de amido da superfície." },
-        { "pergunta": "Dá pra usar batata congelada pronta?", "resposta": "Dá, e fica mais rápido (não precisa do passo de molho, já vem sem esse excesso de amido). Siga as instruções da embalagem pra tempo e temperatura, geralmente entre 15 e 18 minutos a 200°C." },
-        { "pergunta": "Por que minha batata ficou mole em vez de crocante?", "resposta": "As causas mais comuns são: cesta cheia demais (empilhada), batata que não foi seca direito antes de temperar, ou pouco óleo, o suficiente pra selar a superfície é o que ajuda a dourar." }
+        {
+          "pergunta": "Precisa mesmo deixar de molho?",
+          "resposta": "Ajuda bastante. Sem esse passo a batata ainda fica boa, mas o de molho é o que aproxima mais da crocância de fritura de verdade, tirando o excesso de amido da superfície."
+        },
+        {
+          "pergunta": "Dá pra usar batata congelada pronta?",
+          "resposta": "Dá, e fica mais rápido (não precisa do passo de molho, já vem sem esse excesso de amido). Siga as instruções da embalagem pra tempo e temperatura, geralmente entre 15 e 18 minutos a 200°C."
+        },
+        {
+          "pergunta": "Por que minha batata ficou mole em vez de crocante?",
+          "resposta": "As causas mais comuns são: cesta cheia demais (empilhada), batata que não foi seca direito antes de temperar, ou pouco óleo, o suficiente pra selar a superfície é o que ajuda a dourar."
+        }
       ]
     },
     {
@@ -131,7 +282,10 @@
       "porcoesLabel": "unidades",
       "tempoPreparoMin": 30,
       "tempoCozimentoMin": 18,
-      "tempoExtra": { "label": "Tempo de geladeira", "min": 30 },
+      "tempoExtra": {
+        "label": "Tempo de geladeira",
+        "min": 30
+      },
       "ingredientes": [
         "500g de peito de frango cozido e desfiado",
         "1 cebola picada",
@@ -144,18 +298,45 @@
         "Farinha panko para empanar"
       ],
       "modoPreparo": [
-        { "titulo": "Refogue o recheio", "texto": "refogue a cebola e o alho na manteiga, junte o frango desfiado, tempere com sal e pimenta, e reserve." },
-        { "titulo": "Prepare a massa", "texto": "leve o caldo de frango ao fogo, adicione a farinha de trigo de uma vez e mexa até formar uma massa lisa que solta do fundo da panela." },
-        { "titulo": "Deixe esfriar", "texto": "espere a massa amornar até dar pra manusear sem queimar as mãos." },
-        { "titulo": "Modele as coxinhas", "texto": "pegue porções da massa, abra na palma da mão, recheie com o frango e feche no formato tradicional de coxinha." },
-        { "titulo": "Leve à geladeira", "texto": "deixe as coxinhas na geladeira por 30 minutos pra firmar antes de empanar." },
-        { "titulo": "Empane", "texto": "passe cada coxinha no ovo batido e depois na farinha panko." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por aproximadamente 18 minutos, virando na metade do tempo, até dourarem por igual." }
+        {
+          "titulo": "Refogue o recheio",
+          "texto": "refogue a cebola e o alho na manteiga, junte o frango desfiado, tempere com sal e pimenta, e reserve."
+        },
+        {
+          "titulo": "Prepare a massa",
+          "texto": "leve o caldo de frango ao fogo, adicione a farinha de trigo de uma vez e mexa até formar uma massa lisa que solta do fundo da panela."
+        },
+        {
+          "titulo": "Deixe esfriar",
+          "texto": "espere a massa amornar até dar pra manusear sem queimar as mãos."
+        },
+        {
+          "titulo": "Modele as coxinhas",
+          "texto": "pegue porções da massa, abra na palma da mão, recheie com o frango e feche no formato tradicional de coxinha."
+        },
+        {
+          "titulo": "Leve à geladeira",
+          "texto": "deixe as coxinhas na geladeira por 30 minutos pra firmar antes de empanar."
+        },
+        {
+          "titulo": "Empane",
+          "texto": "passe cada coxinha no ovo batido e depois na farinha panko."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 200°C por aproximadamente 18 minutos, virando na metade do tempo, até dourarem por igual."
+        }
       ],
       "dica": "Pincelar um fio de azeite por cima das coxinhas antes de assar ajuda a casquinha dourar mais uniforme, parecido com o efeito da fritura.",
       "faq": [
-        { "pergunta": "Posso congelar as coxinhas antes de assar?", "resposta": "Sim! Depois de empanadas, congele em porções e asse direto do freezer, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá pra fazer com outro recheio, tipo carne seca ou queijo?", "resposta": "Dá, é só trocar o recheio de frango pelo que preferir. A massa e o modo de empanar continuam os mesmos." }
+        {
+          "pergunta": "Posso congelar as coxinhas antes de assar?",
+          "resposta": "Sim! Depois de empanadas, congele em porções e asse direto do freezer, aumentando alguns minutos no tempo de preparo."
+        },
+        {
+          "pergunta": "Dá pra fazer com outro recheio, tipo carne seca ou queijo?",
+          "resposta": "Dá, é só trocar o recheio de frango pelo que preferir. A massa e o modo de empanar continuam os mesmos."
+        }
       ]
     },
     {
@@ -174,7 +355,10 @@
       "porcoesLabel": "porções",
       "tempoPreparoMin": 20,
       "tempoCozimentoMin": 15,
-      "tempoExtra": { "label": "Tempo de congelamento", "min": 20 },
+      "tempoExtra": {
+        "label": "Tempo de congelamento",
+        "min": 20
+      },
       "ingredientes": [
         "500g de peito de frango cru",
         "1 dente de alho",
@@ -185,16 +369,37 @@
         "Farinha panko"
       ],
       "modoPreparo": [
-        { "titulo": "Processe o frango", "texto": "no processador de alimentos, bata o frango cru junto com o alho, o sal, a pimenta e o leite, até formar uma pasta homogênea." },
-        { "titulo": "Modele os nuggets", "texto": "com as mãos levemente untadas ou umedecidas, molde pequenas porções da pasta no formato tradicional de nugget." },
-        { "titulo": "Empane em três etapas", "texto": "passe cada nugget primeiro na farinha de trigo, depois no ovo batido e, por último, na farinha panko, garantindo que fiquem bem cobertos." },
-        { "titulo": "Congele antes de assar", "texto": "leve os nuggets ao freezer por cerca de 20 minutos. Esse passo é importante para que eles mantenham o formato e fiquem ainda mais crocantes na air fryer." },
-        { "titulo": "Leve à air fryer", "texto": "asse a 200°C por aproximadamente 15 minutos, virando na metade do tempo para dourar por igual." }
+        {
+          "titulo": "Processe o frango",
+          "texto": "no processador de alimentos, bata o frango cru junto com o alho, o sal, a pimenta e o leite, até formar uma pasta homogênea."
+        },
+        {
+          "titulo": "Modele os nuggets",
+          "texto": "com as mãos levemente untadas ou umedecidas, molde pequenas porções da pasta no formato tradicional de nugget."
+        },
+        {
+          "titulo": "Empane em três etapas",
+          "texto": "passe cada nugget primeiro na farinha de trigo, depois no ovo batido e, por último, na farinha panko, garantindo que fiquem bem cobertos."
+        },
+        {
+          "titulo": "Congele antes de assar",
+          "texto": "leve os nuggets ao freezer por cerca de 20 minutos. Esse passo é importante para que eles mantenham o formato e fiquem ainda mais crocantes na air fryer."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 200°C por aproximadamente 15 minutos, virando na metade do tempo para dourar por igual."
+        }
       ],
       "dica": "Congelar os nuggets antes de levar à air fryer evita que eles desmanchem durante o preparo e ajuda a formar uma casquinha ainda mais crocante.",
       "faq": [
-        { "pergunta": "Posso congelar os nuggets prontos para consumir depois?", "resposta": "Sim! Depois de moldados e empanados, você pode congelar em porções e assar direto da air fryer quando quiser, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá para trocar o panko por farinha de rosca comum?", "resposta": "Dá, mas o panko deixa a casquinha mais crocante. Vale a pena procurar em mercados maiores." }
+        {
+          "pergunta": "Posso congelar os nuggets prontos para consumir depois?",
+          "resposta": "Sim! Depois de moldados e empanados, você pode congelar em porções e assar direto da air fryer quando quiser, aumentando alguns minutos no tempo de preparo."
+        },
+        {
+          "pergunta": "Dá para trocar o panko por farinha de rosca comum?",
+          "resposta": "Dá, mas o panko deixa a casquinha mais crocante. Vale a pena procurar em mercados maiores."
+        }
       ]
     },
     {
@@ -213,7 +418,10 @@
       "porcoesLabel": "porções",
       "tempoPreparoMin": 20,
       "tempoCozimentoMin": 15,
-      "tempoExtra": { "label": "Tempo de geladeira", "min": 120 },
+      "tempoExtra": {
+        "label": "Tempo de geladeira",
+        "min": 120
+      },
       "ingredientes": [
         "400g de carne moída refogada",
         "2 colheres (sopa) de manteiga",
@@ -223,18 +431,45 @@
         "Farinha panko para empanar"
       ],
       "modoPreparo": [
-        { "titulo": "Refogue a carne", "texto": "refogue os 400g de carne moída com cebola e alho até dourar." },
-        { "titulo": "Prepare o molho branco", "texto": "derreta a manteiga, adicione a farinha de trigo e o leite aos poucos, mexendo até formar um molho branco espesso." },
-        { "titulo": "Misture", "texto": "junte o molho branco com a carne refogada até incorporar bem." },
-        { "titulo": "Leve à geladeira", "texto": "deixe a massa na geladeira por 2 horas, até firmar completamente." },
-        { "titulo": "Modele os croquetes", "texto": "com a massa fria, modele os croquetes no formato desejado." },
-        { "titulo": "Empane", "texto": "passe cada croquete no ovo e depois na farinha panko." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 200°C por 15 minutos, até dourarem por igual." }
+        {
+          "titulo": "Refogue a carne",
+          "texto": "refogue os 400g de carne moída com cebola e alho até dourar."
+        },
+        {
+          "titulo": "Prepare o molho branco",
+          "texto": "derreta a manteiga, adicione a farinha de trigo e o leite aos poucos, mexendo até formar um molho branco espesso."
+        },
+        {
+          "titulo": "Misture",
+          "texto": "junte o molho branco com a carne refogada até incorporar bem."
+        },
+        {
+          "titulo": "Leve à geladeira",
+          "texto": "deixe a massa na geladeira por 2 horas, até firmar completamente."
+        },
+        {
+          "titulo": "Modele os croquetes",
+          "texto": "com a massa fria, modele os croquetes no formato desejado."
+        },
+        {
+          "titulo": "Empane",
+          "texto": "passe cada croquete no ovo e depois na farinha panko."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 200°C por 15 minutos, até dourarem por igual."
+        }
       ],
       "dica": "Não pule o tempo de geladeira: é o que garante que os croquetes mantenham o formato e não desmanchem durante o preparo.",
       "faq": [
-        { "pergunta": "Posso congelar os croquetes antes de assar?", "resposta": "Sim! Depois de empanados, você pode congelar em porções e assar direto do freezer, aumentando alguns minutos no tempo de preparo." },
-        { "pergunta": "Dá para fazer com frango desfiado em vez de carne moída?", "resposta": "Dá, é uma ótima variação. Só ajuste o tempero conforme o recheio escolhido." }
+        {
+          "pergunta": "Posso congelar os croquetes antes de assar?",
+          "resposta": "Sim! Depois de empanados, você pode congelar em porções e assar direto do freezer, aumentando alguns minutos no tempo de preparo."
+        },
+        {
+          "pergunta": "Dá para fazer com frango desfiado em vez de carne moída?",
+          "resposta": "Dá, é uma ótima variação. Só ajuste o tempero conforme o recheio escolhido."
+        }
       ]
     },
     {
@@ -266,16 +501,37 @@
         "Chocolate derretido para banhar depois de frio"
       ],
       "modoPreparo": [
-        { "titulo": "Misture os ingredientes", "texto": "em uma tigela, misture o mel, o leite, o açúcar mascavo, a farinha, o cacau, a canela, o bicarbonato e o fermento até formar uma massa homogênea." },
-        { "titulo": "Distribua nas forminhas", "texto": "despeje a massa em forminhas próprias para pão de mel." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 170°C por aproximadamente 20 minutos." },
-        { "titulo": "Deixe esfriar", "texto": "retire da air fryer e deixe esfriar completamente antes de desenformar." },
-        { "titulo": "Banhe em chocolate", "texto": "mergulhe cada pão de mel no chocolate derretido, cobrindo bem." }
+        {
+          "titulo": "Misture os ingredientes",
+          "texto": "em uma tigela, misture o mel, o leite, o açúcar mascavo, a farinha, o cacau, a canela, o bicarbonato e o fermento até formar uma massa homogênea."
+        },
+        {
+          "titulo": "Distribua nas forminhas",
+          "texto": "despeje a massa em forminhas próprias para pão de mel."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 170°C por aproximadamente 20 minutos."
+        },
+        {
+          "titulo": "Deixe esfriar",
+          "texto": "retire da air fryer e deixe esfriar completamente antes de desenformar."
+        },
+        {
+          "titulo": "Banhe em chocolate",
+          "texto": "mergulhe cada pão de mel no chocolate derretido, cobrindo bem."
+        }
       ],
       "dica": "Banhar o pão de mel só depois de completamente frio evita que o chocolate derreta ou escorra pela superfície do bolinho.",
       "faq": [
-        { "pergunta": "Posso usar mel de qualquer tipo?", "resposta": "Sim, qualquer mel puro funciona bem. Só evite os muito líquidos, que podem deixar a massa mais mole." },
-        { "pergunta": "Dá para fazer sem forminhas específicas?", "resposta": "Dá, você pode usar forminhas de brigadeiro ou de cupcake pequenas como alternativa." }
+        {
+          "pergunta": "Posso usar mel de qualquer tipo?",
+          "resposta": "Sim, qualquer mel puro funciona bem. Só evite os muito líquidos, que podem deixar a massa mais mole."
+        },
+        {
+          "pergunta": "Dá para fazer sem forminhas específicas?",
+          "resposta": "Dá, você pode usar forminhas de brigadeiro ou de cupcake pequenas como alternativa."
+        }
       ]
     },
     {
@@ -305,18 +561,45 @@
         "1 colher (sopa) de fermento"
       ],
       "modoPreparo": [
-        { "titulo": "Bata a manteiga com o açúcar", "texto": "bata até formar um creme claro." },
-        { "titulo": "Adicione as gemas", "texto": "acrescente as 4 gemas e bata bem até incorporar." },
-        { "titulo": "Junte os ingredientes secos e o leite", "texto": "adicione a farinha de trigo, o leite e o chocolate granulado, misturando bem." },
-        { "titulo": "Bata as claras em neve", "texto": "em outro recipiente, bata as 4 claras até formarem picos firmes." },
-        { "titulo": "Incorpore as claras", "texto": "misture as claras delicadamente à massa, por último, com movimentos suaves." },
-        { "titulo": "Adicione o fermento", "texto": "acrescente o fermento e misture levemente, sem bater." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 170°C por aproximadamente 30 minutos." }
+        {
+          "titulo": "Bata a manteiga com o açúcar",
+          "texto": "bata até formar um creme claro."
+        },
+        {
+          "titulo": "Adicione as gemas",
+          "texto": "acrescente as 4 gemas e bata bem até incorporar."
+        },
+        {
+          "titulo": "Junte os ingredientes secos e o leite",
+          "texto": "adicione a farinha de trigo, o leite e o chocolate granulado, misturando bem."
+        },
+        {
+          "titulo": "Bata as claras em neve",
+          "texto": "em outro recipiente, bata as 4 claras até formarem picos firmes."
+        },
+        {
+          "titulo": "Incorpore as claras",
+          "texto": "misture as claras delicadamente à massa, por último, com movimentos suaves."
+        },
+        {
+          "titulo": "Adicione o fermento",
+          "texto": "acrescente o fermento e misture levemente, sem bater."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 170°C por aproximadamente 30 minutos."
+        }
       ],
       "dica": "A clara em neve deve ser incorporada delicadamente. Se bater a massa depois de acrescentá-la, o bolo pode murchar.",
       "faq": [
-        { "pergunta": "Por que meu bolo murchou depois de assar?", "resposta": "Provavelmente a massa foi batida com força depois que as claras em neve foram incorporadas. Isso tira o ar que dá a leveza ao bolo. Misture sempre com movimentos delicados nessa etapa." },
-        { "pergunta": "Posso trocar o chocolate granulado por gotas de chocolate?", "resposta": "Pode, mas o granulado tradicional é o que dá a textura crocante característica do bolo formigueiro." }
+        {
+          "pergunta": "Por que meu bolo murchou depois de assar?",
+          "resposta": "Provavelmente a massa foi batida com força depois que as claras em neve foram incorporadas. Isso tira o ar que dá a leveza ao bolo. Misture sempre com movimentos delicados nessa etapa."
+        },
+        {
+          "pergunta": "Posso trocar o chocolate granulado por gotas de chocolate?",
+          "resposta": "Pode, mas o granulado tradicional é o que dá a textura crocante característica do bolo formigueiro."
+        }
       ]
     },
     {
@@ -335,7 +618,10 @@
       "porcoesLabel": "porções",
       "tempoPreparoMin": 15,
       "tempoCozimentoMin": 30,
-      "tempoExtra": { "label": "Tempo de gratinar", "min": 8 },
+      "tempoExtra": {
+        "label": "Tempo de gratinar",
+        "min": 8
+      },
       "ingredientes": [
         "2 batatas grandes",
         "300g de carne moída",
@@ -345,19 +631,49 @@
         "Queijo para gratinar"
       ],
       "modoPreparo": [
-        { "titulo": "Prepare as batatas", "texto": "fure as batatas com um garfo em vários pontos." },
-        { "titulo": "Asse embrulhada", "texto": "envolva as batatas em papel-alumínio e asse na air fryer a 200°C por 30 minutos." },
-        { "titulo": "Abra as batatas", "texto": "corte ao meio e retire parte do miolo com cuidado, formando um espaço para o recheio." },
-        { "titulo": "Amasse o miolo", "texto": "misture o miolo retirado com o requeijão até formar um creme." },
-        { "titulo": "Refogue a carne", "texto": "refogue os 300g de carne moída com cebola picada e temperos a gosto." },
-        { "titulo": "Recheie", "texto": "preencha as batatas com a carne refogada." },
-        { "titulo": "Cubra com queijo", "texto": "distribua o queijo por cima de cada batata." },
-        { "titulo": "Gratine", "texto": "volte à air fryer por aproximadamente 8 minutos, até o queijo derreter e dourar." }
+        {
+          "titulo": "Prepare as batatas",
+          "texto": "fure as batatas com um garfo em vários pontos."
+        },
+        {
+          "titulo": "Asse embrulhada",
+          "texto": "envolva as batatas em papel-alumínio e asse na air fryer a 200°C por 30 minutos."
+        },
+        {
+          "titulo": "Abra as batatas",
+          "texto": "corte ao meio e retire parte do miolo com cuidado, formando um espaço para o recheio."
+        },
+        {
+          "titulo": "Amasse o miolo",
+          "texto": "misture o miolo retirado com o requeijão até formar um creme."
+        },
+        {
+          "titulo": "Refogue a carne",
+          "texto": "refogue os 300g de carne moída com cebola picada e temperos a gosto."
+        },
+        {
+          "titulo": "Recheie",
+          "texto": "preencha as batatas com a carne refogada."
+        },
+        {
+          "titulo": "Cubra com queijo",
+          "texto": "distribua o queijo por cima de cada batata."
+        },
+        {
+          "titulo": "Gratine",
+          "texto": "volte à air fryer por aproximadamente 8 minutos, até o queijo derreter e dourar."
+        }
       ],
       "dica": "Retirar bem o miolo da batata antes de rechear ajuda a caber mais recheio e deixa a casca ainda mais crocante depois de assada de novo.",
       "faq": [
-        { "pergunta": "Posso usar outro tipo de carne no recheio?", "resposta": "Sim! Frango desfiado ou carne de panela também funcionam bem no lugar da carne moída." },
-        { "pergunta": "Dá para preparar com antecedência?", "resposta": "Dá. Você pode assar as batatas e fazer o recheio com antecedência, montar tudo e deixar na geladeira. Na hora de servir, é só levar à air fryer para gratinar." }
+        {
+          "pergunta": "Posso usar outro tipo de carne no recheio?",
+          "resposta": "Sim! Frango desfiado ou carne de panela também funcionam bem no lugar da carne moída."
+        },
+        {
+          "pergunta": "Dá para preparar com antecedência?",
+          "resposta": "Dá. Você pode assar as batatas e fazer o recheio com antecedência, montar tudo e deixar na geladeira. Na hora de servir, é só levar à air fryer para gratinar."
+        }
       ]
     },
     {
@@ -387,19 +703,49 @@
         "Doce de leite"
       ],
       "modoPreparo": [
-        { "titulo": "Ferva a água", "texto": "ferva a água com a manteiga e uma pitada de sal." },
-        { "titulo": "Adicione a farinha", "texto": "desligue o fogo e acrescente toda a farinha de uma vez, mexendo bem." },
-        { "titulo": "Misture até formar a massa", "texto": "mexa até formar uma massa lisa e homogênea." },
-        { "titulo": "Adicione o ovo", "texto": "deixe a massa amornar e acrescente o ovo, misturando bem até incorporar." },
-        { "titulo": "Modele os churros", "texto": "coloque a massa em um saco de confeitar com bico pitanga e modele os churros." },
-        { "titulo": "Asse", "texto": "leve à air fryer a 180°C por aproximadamente 15 minutos, até dourarem." },
-        { "titulo": "Finalize", "texto": "passe os churros ainda quentes no açúcar com canela." },
-        { "titulo": "Recheie", "texto": "finalize recheando com doce de leite." }
+        {
+          "titulo": "Ferva a água",
+          "texto": "ferva a água com a manteiga e uma pitada de sal."
+        },
+        {
+          "titulo": "Adicione a farinha",
+          "texto": "desligue o fogo e acrescente toda a farinha de uma vez, mexendo bem."
+        },
+        {
+          "titulo": "Misture até formar a massa",
+          "texto": "mexa até formar uma massa lisa e homogênea."
+        },
+        {
+          "titulo": "Adicione o ovo",
+          "texto": "deixe a massa amornar e acrescente o ovo, misturando bem até incorporar."
+        },
+        {
+          "titulo": "Modele os churros",
+          "texto": "coloque a massa em um saco de confeitar com bico pitanga e modele os churros."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "leve à air fryer a 180°C por aproximadamente 15 minutos, até dourarem."
+        },
+        {
+          "titulo": "Finalize",
+          "texto": "passe os churros ainda quentes no açúcar com canela."
+        },
+        {
+          "titulo": "Recheie",
+          "texto": "finalize recheando com doce de leite."
+        }
       ],
       "dica": "Deixar a massa amornar antes de adicionar o ovo evita que ele coagule com o calor, assim a massa fica lisa e mais fácil de modelar.",
       "faq": [
-        { "pergunta": "Posso rechear com outro doce?", "resposta": "Sim! Nutella, goiabada derretida ou doce de leite com coco também combinam bem." },
-        { "pergunta": "Os churros ficam crocantes mesmo sem fritar?", "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados. A diferença é que absorvem bem menos gordura que a versão frita." }
+        {
+          "pergunta": "Posso rechear com outro doce?",
+          "resposta": "Sim! Nutella, goiabada derretida ou doce de leite com coco também combinam bem."
+        },
+        {
+          "pergunta": "Os churros ficam crocantes mesmo sem fritar?",
+          "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados. A diferença é que absorvem bem menos gordura que a versão frita."
+        }
       ]
     }
   ]
