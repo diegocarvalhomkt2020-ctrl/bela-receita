@@ -2,6 +2,78 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "trufa-de-chocolate",
+      "nome": "Trufa de Chocolate Caseira",
+      "subtitulo": "Ganache lisa e cremosa, só com creme de leite e chocolate",
+      "resumo": "Trufa de chocolate caseira com ganache lisa e cremosa, feita só com creme de leite e chocolate meio amargo. O segredo é aquecer o creme sem deixar ferver.",
+      "imagem": "/images/receitas/trufa-de-chocolate.png",
+      "dataPublicacao": "2026-09-18",
+      "introducao": "Trufa de chocolate parece coisa de confeitaria, mas a base é só creme de leite e chocolate. O que separa uma ganache lisa e brilhante de uma que talha e fica granulada é um detalhe que a maioria não percebe: a temperatura do creme na hora de despejar sobre o chocolate.",
+      "porQue": {
+        "titulo": "Por que o creme de leite não pode ferver?",
+        "texto": "Creme de leite fervendo passa do ponto de calor que o chocolate aguenta. A gordura do cacau se separa do resto e a ganache talha, ficando oleosa ou granulada em vez de lisa. Aquecer só até começar a soltar fumaça, com bolhinhas pequenas nas bordas da panela, derrete o chocolate por igual e mantém a textura cremosa depois de gelada."
+      },
+      "porcoes": 35,
+      "porcoesLabel": "trufas pequenas",
+      "tempoPreparoMin": 25,
+      "tempoCozimentoMin": 5,
+      "tempoExtra": {
+        "label": "Na geladeira até firmar",
+        "min": 120
+      },
+      "ingredientes": [
+        "200 ml de creme de leite",
+        "400 g de chocolate meio amargo picado",
+        "Chocolate meio amargo extra pra banhar",
+        "Cacau em pó ou granulado pra finalizar"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Pique o chocolate",
+          "texto": "coloque os 400 g de chocolate meio amargo picado numa tigela. Quanto mais miúdo o pedaço, mais rápido e mais parelho ele derrete."
+        },
+        {
+          "titulo": "Aqueça o creme sem ferver",
+          "texto": "leve o creme de leite ao fogo baixo numa panela pequena até começar a soltar fumaça e formar bolhinhas nas bordas. Desligue antes de borbulhar por inteiro."
+        },
+        {
+          "titulo": "Despeje sobre o chocolate",
+          "texto": "derrame o creme quente sobre o chocolate picado e deixe descansar 1 minuto, sem mexer, pra o calor começar a derreter."
+        },
+        {
+          "titulo": "Misture até ficar liso",
+          "texto": "mexa com uma espátula, do centro pra fora, até o chocolate derreter por completo e a ganache ficar lisa e brilhante."
+        },
+        {
+          "titulo": "Leve à geladeira",
+          "texto": "cubra e leve à geladeira por cerca de 2 horas, até a ganache firmar o suficiente pra ser modelada."
+        },
+        {
+          "titulo": "Modele as bolinhas",
+          "texto": "com uma colher, retire porções de cerca de 15 g e enrole entre as palmas das mãos, o que rende umas 35 trufas pequenas. Se o calor das mãos amolecer demais, volte a massa à geladeira por 10 minutos."
+        },
+        {
+          "titulo": "Banhe e finalize",
+          "texto": "derreta o chocolate extra, banhe cada bolinha e passe no cacau em pó ou no granulado antes que o banho endureça."
+        }
+      ],
+      "dica": "O erro mais comum é deixar o creme ferver. Ele parece pouca coisa, mas é o que decide se a ganache vai ficar lisa ou talhar. Se você tem dúvida do ponto, desligue quando as primeiras bolhas pequenas aparecerem nas bordas, mesmo que pareça cedo.",
+      "faq": [
+        {
+          "pergunta": "Posso usar chocolate ao leite em vez de meio amargo?",
+          "resposta": "Pode, mas a proporção muda. Chocolate ao leite firma menos, então use mais chocolate pra a mesma quantidade de creme (algo perto de 3 partes de chocolate pra 1 de creme), ou a ganache não vai firmar direito pra modelar."
+        },
+        {
+          "pergunta": "A ganache não firmou depois de 2 horas, e agora?",
+          "resposta": "Espere mais um pouco na geladeira antes de desistir. Se continuar mole, aqueça a massa em banho-maria, misture mais chocolate picado até derreter e leve à geladeira de novo."
+        },
+        {
+          "pergunta": "Quanto tempo as trufas duram?",
+          "resposta": "Guardadas em pote fechado na geladeira, duram até 5 dias, por causa do creme de leite. Tire uns 10 minutos antes de servir pra a textura ficar mais macia."
+        }
+      ]
+    },
+    {
       "id": "pao-de-alho-air-fryer",
       "nome": "Pão de Alho na Air Fryer",
       "subtitulo": "Sem precisar acender a churrasqueira",
