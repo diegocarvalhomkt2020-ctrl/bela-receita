@@ -2,6 +2,66 @@
   "_nota": "Conteudo migrado do WordPress (belareceita.dicasinteligentes.com) para Astro, mesmo padrao dos outros sites da rede.",
   "receitas": [
     {
+      "id": "rosti-de-batata-air-fryer",
+      "nome": "Rösti de Batata na Air Fryer",
+      "subtitulo": "A batata suíça crocante por fora e macia por dentro, com 3 ingredientes",
+      "resumo": "Rösti de batata na air fryer, crocante por fora e macio por dentro, com só batata, manteiga e sal. O segredo é espremer bem a batata ralada.",
+      "imagem": "/images/receitas/rosti-de-batata-air-fryer.png",
+      "dataPublicacao": "2026-09-22",
+      "introducao": "Rösti é a batata suíça: um disco de batata ralada, dourado e crocante por fora e macio por dentro, que serve de café da manhã reforçado ou acompanhamento. Na air fryer ele dispensa frigideira e quase não precisa de gordura. O passo que decide o resultado é o mais fácil de pular: espremer a batata ralada num pano até sair toda a água.",
+      "porQue": {
+        "titulo": "Por que espremer a batata ralada é o passo mais importante?",
+        "texto": "Batata crua ralada solta muita água. Se essa água ficar na massa, ela vira vapor no calor e impede a batata de dourar, e o rösti sai mole e cozido em vez de crocante. Espremendo bem num pano limpo, a superfície seca e doura por igual."
+      },
+      "porcoes": 3,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 20,
+      "ingredientes": [
+        "4 batatas médias cruas",
+        "2 colheres (sopa) de manteiga derretida",
+        "Sal a gosto",
+        "Pimenta a gosto"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Rale as batatas",
+          "texto": "rale as batatas cruas no ralo grosso. Se der, use logo em seguida, porque a batata ralada escurece ao ficar parada."
+        },
+        {
+          "titulo": "Esprema muito bem",
+          "texto": "coloque a batata ralada num pano limpo e esprema com força, até sair toda a água."
+        },
+        {
+          "titulo": "Tempere",
+          "texto": "numa tigela, misture a batata com a manteiga derretida, o sal e a pimenta."
+        },
+        {
+          "titulo": "Monte o disco",
+          "texto": "espalhe numa forma pequena que caiba na cesta, formando um disco compacto, pressionando bem com as costas de uma colher."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 200°C por cerca de 20 minutos, virando na metade do tempo com cuidado, usando um prato ou uma espátula larga."
+        }
+      ],
+      "dica": "O erro mais comum é espremer pouco. Se a batata continuar úmida, o rösti fica mole por dentro e sem cor por fora. Esprema até o pano ficar bem molhado e a batata parecer quase seca ao toque.",
+      "faq": [
+        {
+          "pergunta": "Por que o rösti não ficou crocante?",
+          "resposta": "Quase sempre é a água que ficou na batata. Esprema mais na próxima vez e evite deixar a massa espessa demais na forma, porque camada muito grossa demora mais pra dourar por dentro."
+        },
+        {
+          "pergunta": "Posso acrescentar cebola ou queijo?",
+          "resposta": "Pode, mas com cuidado. Cebola solta água, então pique bem miúdo e esprema também. Queijo ralado dá sabor e ajuda a dourar, sem exagerar pra não amolecer o disco."
+        },
+        {
+          "pergunta": "A batata escureceu depois de ralada, o que fazer?",
+          "resposta": "Escurecer é normal, porque a batata crua ralada oxida em contato com o ar. Rale e monte logo antes de assar, e não deixe a massa esperando por muito tempo."
+        }
+      ]
+    },
+    {
       "id": "trufa-de-chocolate",
       "nome": "Trufa de Chocolate Caseira",
       "subtitulo": "Ganache lisa e cremosa, só com creme de leite e chocolate",
