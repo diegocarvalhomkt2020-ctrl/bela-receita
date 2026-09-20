@@ -77,7 +77,7 @@
       "id": "pao-de-alho-air-fryer",
       "nome": "Pão de Alho na Air Fryer",
       "subtitulo": "Sem precisar acender a churrasqueira",
-      "resumo": "Pão de alho recheado feito na air fryer, com o recheio derretido por dentro e a casca dourada por fora. O segredo é embrulhar em papel alumínio antes de assar, pra o recheio derreter em vez de secar.",
+      "resumo": "Pão de alho recheado feito na air fryer, com o recheio derretido por dentro e a casca dourada por fora. O segredo é embrulhar em papel alumínio antes de assar.",
       "imagem": "/images/receitas/pao-de-alho-air-fryer.png",
       "dataPublicacao": "2026-09-13",
       "introducao": "Pão de alho de churrasco costuma exigir acender a churrasqueira só pra esquentar o pão. Na air fryer sai pronto em poucos minutos, e o passo que garante o recheio derretido por dentro (em vez de ressecado) é embrulhar o pão em papel alumínio antes da primeira leva no forno.",
@@ -126,7 +126,7 @@
         },
         {
           "pergunta": "Dá pra pular o papel alumínio pra ganhar tempo?",
-          "resposta": "Dá, mas o recheio sai mais seco. O papel alumínio nos primeiros minutos é o que faz o requeijão e a manteiga derreterem por igual antes da casca dourar — pular esse passo é a causa mais comum de recheio ressecado."
+          "resposta": "Dá, mas o recheio sai mais seco. O papel alumínio nos primeiros minutos é o que faz o requeijão e a manteiga derreterem por igual antes da casca dourar. Pular esse passo é a causa mais comum de recheio ressecado."
         },
         {
           "pergunta": "Posso usar manteiga de alho pronta em vez de fazer a pasta?",
@@ -138,7 +138,7 @@
       "id": "pudim-de-leite-condensado-air-fryer",
       "nome": "Pudim de Leite Condensado na Air Fryer",
       "subtitulo": "Cremoso e sem furinhos, sem precisar ligar o forno",
-      "resumo": "Pudim de leite condensado feito na air fryer, com a mesma cremosidade do pudim de forno. O segredo pra não ficar com furinhos não é a temperatura, é coar a massa antes de assar.",
+      "resumo": "Pudim de leite condensado feito na air fryer, com a mesma cremosidade do pudim de forno. O segredo pra não ficar com furinhos é coar a massa antes de assar.",
       "imagem": "/images/receitas/pudim-air-fryer.png",
       "dataPublicacao": "2026-09-04",
       "introducao": "Pudim de leite condensado é sobremesa clássica de qualquer mesa brasileira, e sai perfeito na air fryer sem precisar ligar o forno inteiro. O passo que a maioria pula, e que faz toda diferença na textura final, é coar a massa antes de despejar na forma.",
@@ -270,7 +270,7 @@
       "id": "batata-frita-crocante-air-fryer",
       "nome": "Batata Frita Crocante na Air Fryer",
       "subtitulo": "Sequinha por fora, macia por dentro, sem óleo escondido",
-      "resumo": "Batata frita feita na air fryer com a casquinha crocante de fritura de verdade, usando só uma colher de óleo. O segredo não é a air fryer, é o preparo antes de assar.",
+      "resumo": "Batata frita feita na air fryer com a casquinha crocante de fritura de verdade, usando só uma colher de óleo. O segredo está no preparo antes de assar.",
       "imagem": "/images/receitas/batata-frita-crocante.png",
       "dataPublicacao": "2026-09-02",
       "introducao": "Batata frita na air fryer que sai murcha ou mole por dentro quase sempre é erro de preparo, não da máquina. O amido que sobra na batata depois de cortada é o que mais atrapalha a crocância, e é bem fácil de resolver antes de ligar a air fryer.",
