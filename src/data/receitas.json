@@ -879,6 +879,78 @@
           "resposta": "Ficam! A air fryer forma uma casquinha crocante por fora, mesmo sendo assados. A diferença é que absorvem bem menos gordura que a versão frita."
         }
       ]
+    },
+    {
+      "id": "bolo-de-fuba-cremoso-air-fryer",
+      "nome": "Bolo de Fubá Cremoso na Air Fryer",
+      "subtitulo": "Cria sozinho uma camada cremosa no fundo, sem ligar o forno",
+      "resumo": "Bolo de fubá cremoso na air fryer, com o topo fofinho e uma camada cremosa no fundo. O segredo é a massa bem líquida, batida toda no liquidificador.",
+      "imagem": "/images/receitas/bolo-de-fuba-cremoso-air-fryer.png",
+      "dataPublicacao": "2026-09-25",
+      "introducao": "Bolo de fubá cremoso é daqueles que parecem ter dois bolos numa fatia só: o topo fofo e, embaixo, uma camada cremosa que se forma sozinha durante o assar. Na air fryer sai em menos de uma hora, e o que faz a camada cremosa aparecer é um detalhe que assusta quem está começando: a massa fica bem líquida, e é assim mesmo.",
+      "porQue": {
+        "titulo": "Por que a massa fica tão líquida e por que isso é bom?",
+        "texto": "Com pouca farinha e bastante leite, a massa vai pro forno bem fina, quase como uma vitamina. Durante o assar, o fundo cozinha de um jeito diferente do resto: fica cremoso, enquanto a parte de cima sobe e vira bolo. Se você tentar engrossar a massa com mais farinha por achar que está errado, perde justamente a camada cremosa."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 10,
+      "tempoCozimentoMin": 35,
+      "tempoExtra": {
+        "label": "Descansar antes de cortar",
+        "min": 20
+      },
+      "ingredientes": [
+        "3 ovos",
+        "2 xícaras de leite",
+        "1 xícara de açúcar",
+        "1/2 xícara de fubá",
+        "3 colheres (sopa) de farinha de trigo",
+        "2 colheres (sopa) de manteiga",
+        "50 g de queijo parmesão ralado",
+        "1 colher (sopa) de fermento em pó"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Bata tudo, menos o fermento",
+          "texto": "no liquidificador, bata os ovos, o leite, o açúcar, o fubá, a farinha, a manteiga e o parmesão até ficar homogêneo."
+        },
+        {
+          "titulo": "Acrescente o fermento por último",
+          "texto": "junte o fermento e bata só por alguns segundos, o suficiente pra misturar."
+        },
+        {
+          "titulo": "Unte a forma",
+          "texto": "use uma forma redonda que caiba na cesta da sua air fryer, untada com manteiga e um pouco de fubá."
+        },
+        {
+          "titulo": "Despeje a massa",
+          "texto": "ela vai estar bem líquida, e isso é o esperado. Não acrescente farinha."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 170°C por cerca de 35 minutos, até o topo ficar dourado e firme."
+        },
+        {
+          "titulo": "Espere descansar",
+          "texto": "deixe amornar por uns 20 minutos antes de cortar, pra a camada cremosa firmar um pouco e a fatia não desmanchar."
+        }
+      ],
+      "dica": "O erro mais comum é achar que a massa está errada por ser tão líquida e acrescentar farinha. É justamente essa consistência que forma a camada cremosa no fundo. Outra dica: o palito pode sair com um pouco de creme na ponta, e isso é normal nesse bolo. O que precisa estar firme é o topo.",
+      "faq": [
+        {
+          "pergunta": "Posso usar outra forma que não seja redonda?",
+          "resposta": "Pode, desde que caiba na cesta da air fryer com espaço pro ar circular. Forma muito grande deixa a massa fina demais e o bolo assa mais rápido, então confira o ponto antes."
+        },
+        {
+          "pergunta": "Por que meu bolo ficou sem a camada cremosa?",
+          "resposta": "Geralmente a massa ficou grossa demais, por excesso de farinha ou fubá, ou o bolo ficou tempo demais na air fryer. Siga a medida da receita e comece a conferir o topo a partir dos 30 minutos."
+        },
+        {
+          "pergunta": "Dá pra fazer sem queijo parmesão?",
+          "resposta": "Dá, mas o parmesão dá um toque salgado que equilibra o doce do bolo. Se tirar, o sabor fica mais simples e mais doce, e você pode usar queijo ralado comum no lugar."
+        }
+      ]
     }
   ]
 }
