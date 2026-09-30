@@ -951,6 +951,65 @@
           "resposta": "Dá, mas o parmesão dá um toque salgado que equilibra o doce do bolo. Se tirar, o sabor fica mais simples e mais doce, e você pode usar queijo ralado comum no lugar."
         }
       ]
+    },
+    {
+      "id": "biscoito-amanteigado-air-fryer",
+      "nome": "Biscoito Amanteigado na Air Fryer",
+      "subtitulo": "Derrete na boca, com 3 ingredientes e uma regra",
+      "resumo": "Biscoito amanteigado na air fryer que derrete na boca, só com manteiga, açúcar e farinha. A regra é não sovar a massa, só misturar até juntar.",
+      "imagem": "/images/receitas/biscoito-amanteigado-air-fryer.png",
+      "dataPublicacao": "2026-09-29",
+      "introducao": "Biscoito amanteigado tem fama de difícil, mas a lista de ingredientes é curta: manteiga, açúcar e farinha. O que faz ele derreter na boca em vez de sair duro é uma regra simples: misturar rápido e parar. Na air fryer ele assa em poucos minutos, em levas pequenas.",
+      "porQue": {
+        "titulo": "Por que não pode sovar a massa?",
+        "texto": "Quanto mais você mexe a massa depois de juntar a farinha, mais o glúten dela se desenvolve. Em pão isso é bom, mas no biscoito deixa a massa elástica e o resultado duro. Misturando só até juntar, o biscoito fica macio e quebradiço."
+      },
+      "porcoes": 30,
+      "porcoesLabel": "biscoitos",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 12,
+      "ingredientes": [
+        "200 g de manteiga gelada",
+        "1 xícara de açúcar",
+        "3 xícaras de farinha de trigo"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Faça o creme",
+          "texto": "bata a manteiga gelada com o açúcar até formar um creme."
+        },
+        {
+          "titulo": "Junte a farinha",
+          "texto": "acrescente a farinha e misture só até juntar, sem sovar. Pare assim que a massa estiver uniforme."
+        },
+        {
+          "titulo": "Modele",
+          "texto": "use um saco de confeitar com bico pitanga pra formar os biscoitos. Se a massa ficar firme demais pro saco, modele pequenas bolinhas e achate com um garfo."
+        },
+        {
+          "titulo": "Asse em levas",
+          "texto": "disponha os biscoitos na cesta sem encostar uns nos outros e asse a 160°C por cerca de 12 minutos, até as bordas dourarem levemente."
+        },
+        {
+          "titulo": "Deixe esfriar",
+          "texto": "espere esfriar antes de mexer, pra os biscoitos firmarem e não quebrarem."
+        }
+      ],
+      "dica": "O erro mais comum é continuar mexendo a massa depois que a farinha já juntou. Massa trabalhada demais vira biscoito duro. Misture só até unir e pare, mesmo que pareça pouco.",
+      "faq": [
+        {
+          "pergunta": "Posso usar manteiga com sal?",
+          "resposta": "Pode, o biscoito fica um pouco mais salgadinho. Com manteiga sem sal você controla melhor o sabor final."
+        },
+        {
+          "pergunta": "Os biscoitos espalharam na cesta, o que houve?",
+          "resposta": "A massa provavelmente ficou quente demais. Se a manteiga amoleceu, leve a massa modelada à geladeira por uns 15 minutos antes de assar, pra o biscoito manter o formato."
+        },
+        {
+          "pergunta": "Como guardar?",
+          "resposta": "Depois de completamente frios, guarde em pote fechado, em local seco. A umidade tira a crocância do biscoito."
+        }
+      ]
     }
   ]
 }
