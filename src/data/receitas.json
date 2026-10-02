@@ -1010,6 +1010,70 @@
           "resposta": "Depois de completamente frios, guarde em pote fechado, em local seco. A umidade tira a crocância do biscoito."
         }
       ]
+    },
+    {
+      "id": "torta-salgada-de-frango-air-fryer",
+      "nome": "Torta Salgada de Frango na Air Fryer",
+      "subtitulo": "Bate a massa no liquidificador, recheia e leva à air fryer",
+      "resumo": "Torta salgada de frango com massa de liquidificador na air fryer, sem sujeira. O segredo é usar um recheio seco, sem caldo, pra massa não amolecer.",
+      "imagem": "/images/receitas/torta-salgada-de-frango-air-fryer.png",
+      "dataPublicacao": "2026-10-06",
+      "introducao": "Torta salgada de liquidificador é a receita que resolve jantar sem muita louça: a massa é batida no liquidificador, o recheio de frango vai no meio e a air fryer faz o resto. O cuidado que separa uma torta firme de uma mole está no recheio: ele precisa estar seco.",
+      "porQue": {
+        "titulo": "Por que o recheio precisa estar sem caldo?",
+        "texto": "A massa de liquidificador é bem líquida e assa devagar. Um recheio molhado, com caldo, encharca a camada de baixo e a torta fica mole no meio. Frango desfiado bem escorrido, com milho sem líquido e requeijão em pouca quantidade, mantém a massa firme."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 30,
+      "ingredientes": [
+        "3 ovos",
+        "1 xícara de leite",
+        "1/2 xícara de óleo",
+        "2 xícaras de farinha de trigo",
+        "1 colher (sopa) de fermento em pó",
+        "Sal a gosto",
+        "Recheio: cerca de 2 xícaras de frango cozido e desfiado, 1 lata de milho escorrida e requeijão a gosto",
+        "Queijo ralado e orégano pra finalizar"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Bata a massa",
+          "texto": "no liquidificador, bata os ovos, o leite, o óleo, a farinha, o fermento e o sal até ficar homogêneo."
+        },
+        {
+          "titulo": "Prepare o recheio",
+          "texto": "misture o frango desfiado com o milho escorrido e o requeijão. Se o frango estiver com caldo, escorra bem antes."
+        },
+        {
+          "titulo": "Monte a torta",
+          "texto": "unte uma forma que caiba na cesta, despeje metade da massa, espalhe o recheio e cubra com o resto da massa."
+        },
+        {
+          "titulo": "Finalize",
+          "texto": "polvilhe queijo ralado e orégano por cima."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 180°C por cerca de 30 minutos, até o topo dourar e o palito sair limpo."
+        }
+      ],
+      "dica": "O erro mais comum é rechear com frango úmido, cheio de caldo. Isso encharca a massa de baixo. Escorra o frango e o milho e use o requeijão em quantidade moderada.",
+      "faq": [
+        {
+          "pergunta": "Posso trocar o frango por outro recheio?",
+          "resposta": "Pode. Atum bem escorrido, presunto com queijo e legumes refogados funcionam. A regra é a mesma: recheio seco e sem excesso de líquido."
+        },
+        {
+          "pergunta": "Como saber se a torta está assada por dentro?",
+          "resposta": "Espete um palito no centro. Se sair limpo, sem massa crua, está pronta. Se sair sujo, devolva à air fryer por mais alguns minutos, cobrindo o topo com papel-alumínio se estiver escurecendo demais."
+        },
+        {
+          "pergunta": "Dá pra fazer no forno comum?",
+          "resposta": "Dá, com tempo um pouco maior, e você confere com o palito no centro. Cada forno tem seu ritmo, então vale acompanhar."
+        }
+      ]
     }
   ]
 }
