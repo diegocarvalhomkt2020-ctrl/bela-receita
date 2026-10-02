@@ -1074,6 +1074,74 @@
           "resposta": "Dá, com tempo um pouco maior, e você confere com o palito no centro. Cada forno tem seu ritmo, então vale acompanhar."
         }
       ]
+    },
+    {
+      "id": "polenta-frita-crocante-air-fryer",
+      "nome": "Polenta Frita Crocante na Air Fryer",
+      "subtitulo": "Crocante por fora e cremosa por dentro, com quase nada de óleo",
+      "resumo": "Polenta frita crocante na air fryer, dourada por fora e cremosa por dentro. O segredo é deixar a polenta gelar até firmar antes de cortar em palitos.",
+      "imagem": "/images/receitas/polenta-frita-crocante-air-fryer.png",
+      "dataPublicacao": "2026-10-02",
+      "introducao": "Polenta frita de boteco costuma ser fritura de imersão. Na air fryer você consegue a mesma casca crocante com só um borrifo de azeite, e o passo que decide o resultado acontece muito antes de ligar o aparelho: a polenta precisa esfriar completamente e firmar antes de ser cortada.",
+      "porQue": {
+        "titulo": "Por que a polenta precisa gelar antes de cortar?",
+        "texto": "Recém-cozida, a polenta é mole e desmancha ao ser cortada. Depois de esfriar bem na geladeira, ela firma e vira um bloco que segura o corte em palitos. Esse bloco firme também solta a umidade da superfície durante o assar, e é isso que forma a casca crocante em vez de uma polenta molenga."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 20,
+      "tempoExtra": {
+        "label": "Na geladeira até firmar",
+        "min": 120
+      },
+      "ingredientes": [
+        "1 xícara de fubá",
+        "4 xícaras de água",
+        "Sal a gosto",
+        "Azeite em spray ou um fio de azeite pra borrifar"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Cozinhe a polenta",
+          "texto": "numa panela, ferva a água com sal, junte o fubá aos poucos e mexa sem parar até engrossar bem, em fogo baixo."
+        },
+        {
+          "titulo": "Despeje numa forma",
+          "texto": "passe a polenta ainda quente pra uma forma retangular e alise a superfície."
+        },
+        {
+          "titulo": "Deixe gelar por completo",
+          "texto": "espere esfriar e leve à geladeira por cerca de 2 horas, até ficar bem firme."
+        },
+        {
+          "titulo": "Corte em palitos",
+          "texto": "desenforme e corte em palitos do mesmo tamanho, pra assarem por igual."
+        },
+        {
+          "titulo": "Borrife azeite",
+          "texto": "espalhe os palitos na cesta sem sobrepor e borrife azeite por cima."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 200°C por cerca de 20 minutos, virando os palitos na metade, até dourarem."
+        }
+      ],
+      "dica": "O erro mais comum é ter pressa e cortar a polenta ainda morna. Ela desmancha na mão e gruda na cesta. Se tiver dúvida, deixe mais 30 minutos na geladeira: polenta bem fria corta limpo e fica crocante.",
+      "faq": [
+        {
+          "pergunta": "Posso usar polenta pronta de pacote?",
+          "resposta": "Pode. A polenta pré-cozida já vem firme, o que ajuda, mas confira se ela está bem firme e sem excesso de água na superfície antes de cortar."
+        },
+        {
+          "pergunta": "Por que meus palitos grudaram na cesta?",
+          "resposta": "Geralmente a polenta não estava fria o bastante ou faltou azeite. Borrife bem os palitos e evite sobrepor na cesta."
+        },
+        {
+          "pergunta": "Dá pra fazer com antecedência?",
+          "resposta": "Dá. A polenta pode ficar pronta e cortada na geladeira de um dia pro outro, e você só borrifa e leva à air fryer na hora de servir."
+        }
+      ]
     }
   ]
 }
