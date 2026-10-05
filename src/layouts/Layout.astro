@@ -1,5 +1,5 @@
 ---
-const { title, description, image } = Astro.props;
+const { title, description, image, noindex } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const imagemAbsoluta = new URL(image || '/images/receitas/nuggets.jpg', Astro.site).toString();
 const pathname = Astro.url.pathname;
@@ -14,6 +14,7 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%8D%B0</text></svg>" />
     <title>{title} | Bela Receita</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonicalURL} />
     <meta name="google-site-verification" content="AFQmk0EicCrPLG25m9s-2JTl8IR5paLf9pNyeLl70Ek" />
     <meta name="p:domain_verify" content="561fb5da0b66e3c736f96595acf093be" />
