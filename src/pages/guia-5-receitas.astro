@@ -39,7 +39,7 @@ const breadcrumbSchema = {
   <div class="grade">
     {receitas.map((r) => (
       <a href={`/receitas/${r.id}/`} class="cartao">
-        <img src={r.imagem} alt={r.resumo} width="360" height="480" loading="lazy" />
+        <img src={r.imagem.replace('.jpg', '-mini.jpg')} alt={r.resumo} width="360" height="640" loading="lazy" />
         <div class="cartao-texto">
           <h2>{r.nome}</h2>
           <p>{r.subtitulo}</p>

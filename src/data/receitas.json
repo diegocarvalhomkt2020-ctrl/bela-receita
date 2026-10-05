@@ -6,7 +6,7 @@
       "nome": "Rösti de Batata na Air Fryer",
       "subtitulo": "A batata suíça crocante por fora e macia por dentro, com 3 ingredientes",
       "resumo": "Rösti de batata na air fryer, crocante por fora e macio por dentro, com só batata, manteiga e sal. O segredo é espremer bem a batata ralada.",
-      "imagem": "/images/receitas/rosti-de-batata-air-fryer.png",
+      "imagem": "/images/receitas/rosti-de-batata-air-fryer.jpg",
       "dataPublicacao": "2026-09-22",
       "introducao": "Rösti é a batata suíça: um disco de batata ralada, dourado e crocante por fora e macio por dentro, que serve de café da manhã reforçado ou acompanhamento. Na air fryer ele dispensa frigideira e quase não precisa de gordura. O passo que decide o resultado é o mais fácil de pular: espremer a batata ralada num pano até sair toda a água.",
       "porQue": {
@@ -66,7 +66,7 @@
       "nome": "Trufa de Chocolate Caseira",
       "subtitulo": "Ganache lisa e cremosa, só com creme de leite e chocolate",
       "resumo": "Trufa de chocolate caseira com ganache lisa e cremosa, feita só com creme de leite e chocolate meio amargo. O segredo é aquecer o creme sem deixar ferver.",
-      "imagem": "/images/receitas/trufa-de-chocolate.png",
+      "imagem": "/images/receitas/trufa-de-chocolate.jpg",
       "dataPublicacao": "2026-09-18",
       "introducao": "Trufa de chocolate parece coisa de confeitaria, mas a base é só creme de leite e chocolate. O que separa uma ganache lisa e brilhante de uma que talha e fica granulada é um detalhe que a maioria não percebe: a temperatura do creme na hora de despejar sobre o chocolate.",
       "porQue": {
@@ -138,7 +138,7 @@
       "nome": "Pão de Alho na Air Fryer",
       "subtitulo": "Sem precisar acender a churrasqueira",
       "resumo": "Pão de alho recheado feito na air fryer, com o recheio derretido por dentro e a casca dourada por fora. O segredo é embrulhar em papel alumínio antes de assar.",
-      "imagem": "/images/receitas/pao-de-alho-air-fryer.png",
+      "imagem": "/images/receitas/pao-de-alho-air-fryer.jpg",
       "dataPublicacao": "2026-09-13",
       "introducao": "Pão de alho de churrasco costuma exigir acender a churrasqueira só pra esquentar o pão. Na air fryer sai pronto em poucos minutos, e o passo que garante o recheio derretido por dentro (em vez de ressecado) é embrulhar o pão em papel alumínio antes da primeira leva no forno.",
       "porQue": {
@@ -199,7 +199,7 @@
       "nome": "Pudim de Leite Condensado na Air Fryer",
       "subtitulo": "Cremoso e sem furinhos, sem precisar ligar o forno",
       "resumo": "Pudim de leite condensado feito na air fryer, com a mesma cremosidade do pudim de forno. O segredo pra não ficar com furinhos é coar a massa antes de assar.",
-      "imagem": "/images/receitas/pudim-air-fryer.png",
+      "imagem": "/images/receitas/pudim-air-fryer.jpg",
       "dataPublicacao": "2026-09-04",
       "introducao": "Pudim de leite condensado é sobremesa clássica de qualquer mesa brasileira, e sai perfeito na air fryer sem precisar ligar o forno inteiro. O passo que a maioria pula, e que faz toda diferença na textura final, é coar a massa antes de despejar na forma.",
       "porQue": {
@@ -271,7 +271,7 @@
       "nome": "Pizza na Air Fryer",
       "subtitulo": "Pronta em 20 minutos, com a borda crocante que o forno de casa não consegue fazer",
       "resumo": "Pizza feita na air fryer com o meio nunca cru e a borda bem crocante. O segredo não é o recheio, é pré-assar a massa vazia antes de cobrir.",
-      "imagem": "/images/receitas/pizza-air-fryer.png",
+      "imagem": "/images/receitas/pizza-air-fryer.jpg",
       "dataPublicacao": "2026-09-04",
       "introducao": "Pizza na air fryer costuma sair com o meio cru quando o recheio vai direto sobre a massa crua. Pré-assar a massa sozinha por alguns minutos antes de cobrir resolve isso, e o resultado sai pronto em bem menos tempo que o forno de casa.",
       "porQue": {
@@ -331,7 +331,7 @@
       "nome": "Batata Frita Crocante na Air Fryer",
       "subtitulo": "Sequinha por fora, macia por dentro, sem óleo escondido",
       "resumo": "Batata frita feita na air fryer com a casquinha crocante de fritura de verdade, usando só uma colher de óleo. O segredo está no preparo antes de assar.",
-      "imagem": "/images/receitas/batata-frita-crocante.png",
+      "imagem": "/images/receitas/batata-frita-crocante.jpg",
       "dataPublicacao": "2026-09-02",
       "introducao": "Batata frita na air fryer que sai murcha ou mole por dentro quase sempre é erro de preparo, não da máquina. O amido que sobra na batata depois de cortada é o que mais atrapalha a crocância, e é bem fácil de resolver antes de ligar a air fryer.",
       "porQue": {
@@ -403,7 +403,7 @@
       "nome": "Coxinha de Frango na Air Fryer",
       "subtitulo": "Casquinha crocante, sem fritura",
       "resumo": "Coxinha de frango feita na air fryer, com casquinha crocante por fora e recheio cremoso de frango desfiado, sem precisar fritar em óleo.",
-      "imagem": "/images/receitas/coxinha.png",
+      "imagem": "/images/receitas/coxinha.jpg",
       "dataPublicacao": "2026-08-31",
       "introducao": "A coxinha é um dos salgados mais queridos do Brasil, mas fritar em casa dá trabalho e deixa a cozinha cheia de cheiro de óleo. Essa versão feita na air fryer mantém a casquinha crocante que todo mundo ama, com bem menos gordura e sem sujeira.",
       "porQue": {
@@ -539,7 +539,7 @@
       "nome": "Croquete de Carne na Air Fryer",
       "subtitulo": "Casquinha crocante e recheio cremoso",
       "resumo": "Croquete de carne feito na air fryer, com casquinha crocante por fora e recheio cremoso de carne com molho branco por dentro, sem fritura.",
-      "imagem": "/images/receitas/croquete.png",
+      "imagem": "/images/receitas/croquete.jpg",
       "dataPublicacao": "2026-08-21",
       "introducao": "Esse croquete de carne feito na air fryer tem aquela casquinha crocante por fora e um recheio cremoso de carne com molho branco por dentro, sem precisar fritar em óleo. É perfeito como entrada, petisco ou até para complementar o jantar.",
       "porQue": {
@@ -609,7 +609,7 @@
       "nome": "Pão de Mel Caseiro na Air Fryer",
       "subtitulo": "Macio, especiado e banhado no chocolate",
       "resumo": "Pão de mel caseiro feito na air fryer, macio, com canela e cacau, finalizado com uma banhada generosa de chocolate.",
-      "imagem": "/images/receitas/pao-de-mel.png",
+      "imagem": "/images/receitas/pao-de-mel.jpg",
       "dataPublicacao": "2026-08-21",
       "introducao": "Esse pão de mel caseiro feito na air fryer fica macio, levemente especiado com canela e cacau, e é finalizado com uma banhada generosa de chocolate. É mais rápido que a receita tradicional no forno e fica pronto para adoçar o lanche da tarde.",
       "porQue": {
@@ -671,7 +671,7 @@
       "nome": "Bolo Formigueiro na Air Fryer",
       "subtitulo": "Fofinho e com chocolate granulado",
       "resumo": "O clássico bolo formigueiro feito na air fryer, fofinho e com chocolate granulado espalhado por toda a massa.",
-      "imagem": "/images/receitas/bolo-formigueiro.png",
+      "imagem": "/images/receitas/bolo-formigueiro.jpg",
       "dataPublicacao": "2026-08-21",
       "introducao": "O clássico bolo formigueiro feito na air fryer fica fofinho, com aquele chocolate granulado espalhado por toda a massa. É uma receita simples, ótima para o café da tarde ou para adoçar o dia com pouco trabalho, e a air fryer deixa tudo pronto sem precisar acender o forno.",
       "porQue": {
@@ -885,7 +885,7 @@
       "nome": "Bolo de Fubá Cremoso na Air Fryer",
       "subtitulo": "Cria sozinho uma camada cremosa no fundo, sem ligar o forno",
       "resumo": "Bolo de fubá cremoso na air fryer, com o topo fofinho e uma camada cremosa no fundo. O segredo é a massa bem líquida, batida toda no liquidificador.",
-      "imagem": "/images/receitas/bolo-de-fuba-cremoso-air-fryer.png",
+      "imagem": "/images/receitas/bolo-de-fuba-cremoso-air-fryer.jpg",
       "dataPublicacao": "2026-09-25",
       "introducao": "Bolo de fubá cremoso é daqueles que parecem ter dois bolos numa fatia só: o topo fofo e, embaixo, uma camada cremosa que se forma sozinha durante o assar. Na air fryer sai em menos de uma hora, e o que faz a camada cremosa aparecer é um detalhe que assusta quem está começando: a massa fica bem líquida, e é assim mesmo.",
       "porQue": {
@@ -957,7 +957,7 @@
       "nome": "Biscoito Amanteigado na Air Fryer",
       "subtitulo": "Derrete na boca, com 3 ingredientes e uma regra",
       "resumo": "Biscoito amanteigado na air fryer que derrete na boca, só com manteiga, açúcar e farinha. A regra é não sovar a massa, só misturar até juntar.",
-      "imagem": "/images/receitas/biscoito-amanteigado-air-fryer.png",
+      "imagem": "/images/receitas/biscoito-amanteigado-air-fryer.jpg",
       "dataPublicacao": "2026-09-29",
       "introducao": "Biscoito amanteigado tem fama de difícil, mas a lista de ingredientes é curta: manteiga, açúcar e farinha. O que faz ele derreter na boca em vez de sair duro é uma regra simples: misturar rápido e parar. Na air fryer ele assa em poucos minutos, em levas pequenas.",
       "porQue": {
@@ -1016,7 +1016,7 @@
       "nome": "Torta Salgada de Frango na Air Fryer",
       "subtitulo": "Bate a massa no liquidificador, recheia e leva à air fryer",
       "resumo": "Torta salgada de frango com massa de liquidificador na air fryer, sem sujeira. O segredo é usar um recheio seco, sem caldo, pra massa não amolecer.",
-      "imagem": "/images/receitas/torta-salgada-de-frango-air-fryer.png",
+      "imagem": "/images/receitas/torta-salgada-de-frango-air-fryer.jpg",
       "dataPublicacao": "2026-10-06",
       "introducao": "Torta salgada de liquidificador é a receita que resolve jantar sem muita louça: a massa é batida no liquidificador, o recheio de frango vai no meio e a air fryer faz o resto. O cuidado que separa uma torta firme de uma mole está no recheio: ele precisa estar seco.",
       "porQue": {
@@ -1080,7 +1080,7 @@
       "nome": "Polenta Frita Crocante na Air Fryer",
       "subtitulo": "Crocante por fora e cremosa por dentro, com quase nada de óleo",
       "resumo": "Polenta frita crocante na air fryer, dourada por fora e cremosa por dentro. O segredo é deixar a polenta gelar até firmar antes de cortar em palitos.",
-      "imagem": "/images/receitas/polenta-frita-crocante-air-fryer.png",
+      "imagem": "/images/receitas/polenta-frita-crocante-air-fryer.jpg",
       "dataPublicacao": "2026-10-02",
       "introducao": "Polenta frita de boteco costuma ser fritura de imersão. Na air fryer você consegue a mesma casca crocante com só um borrifo de azeite, e o passo que decide o resultado acontece muito antes de ligar o aparelho: a polenta precisa esfriar completamente e firmar antes de ser cortada.",
       "porQue": {

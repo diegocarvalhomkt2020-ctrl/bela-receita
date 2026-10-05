@@ -69,7 +69,7 @@ const recipeSchema = {
   <h1>{r.nome}</h1>
   <p class="subtitulo">{r.subtitulo}</p>
 
-  <img src={r.imagem} alt={r.resumo} class="foto-capa" width="720" height="960" />
+  <img src={r.imagem} alt={r.resumo} class="foto-capa" width="720" height="1280" />
 
   <p>{r.introducao}</p>
 
@@ -79,7 +79,7 @@ const recipeSchema = {
 
     <div class="metadados">
       <div><strong>Preparo</strong><span>{r.tempoPreparoMin} min</span></div>
-      <div><strong>Cocção</strong><span>{r.tempoCozimentoMin} min</span></div>
+      {r.tempoCozimentoMin > 0 && <div><strong>Cocção</strong><span>{r.tempoCozimentoMin} min</span></div>}
       {r.tempoExtra && <div><strong>{r.tempoExtra.label}</strong><span>{r.tempoExtra.min} min</span></div>}
       <div><strong>Rende</strong><span>{r.porcoes} {r.porcoesLabel}</span></div>
     </div>
@@ -98,7 +98,7 @@ const recipeSchema = {
   </section>
 
   <div class="vale-saber">
-    <strong>Dica de quem já testou</strong>
+    <strong>Dica da Bela Receita</strong>
     <p>{r.dica}</p>
   </div>
 
@@ -114,11 +114,19 @@ const recipeSchema = {
     </section>
   )}
 
-  <p class="cta-ebook">
-    Gostou dessa receita? Se você curte praticidade na air fryer, dá uma olhada no e-book
-    <strong> Air Fryer Sem Segredo</strong>, com 30 receitas fáceis e testadas para air fryer.
-    <a href="https://ebook.dicasinteligentes.com/">Confira aqui →</a>
-  </p>
+  {r.semForno ? (
+    <p class="cta-ebook">
+      Gostou dessa receita? No e-book <strong>Air Fryer Sem Segredo</strong> tem 30 receitas
+      fáceis e testadas para air fryer.
+      <a href="https://ebook.dicasinteligentes.com/">Confira aqui →</a>
+    </p>
+  ) : (
+    <p class="cta-ebook">
+      Gostou dessa receita? Se você curte praticidade na air fryer, dá uma olhada no e-book
+      <strong> Air Fryer Sem Segredo</strong>, com 30 receitas fáceis e testadas para air fryer.
+      <a href="https://ebook.dicasinteligentes.com/">Confira aqui →</a>
+    </p>
+  )}
 
   <style>
     .trilha {
