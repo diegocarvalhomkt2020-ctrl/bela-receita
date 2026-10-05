@@ -1404,6 +1404,73 @@
           "resposta": "Espete um palito no centro: se sair limpo, o bolo está assado. Se sair com massa, devolva à air fryer por mais alguns minutos."
         }
       ]
+    },
+    {
+      "id": "cheesecake-de-frutas-vermelhas-sem-forno",
+      "nome": "Cheesecake de Frutas Vermelhas sem Forno",
+      "subtitulo": "Cremoso, sem forno e sem gelatina",
+      "resumo": "Cheesecake de frutas vermelhas sem forno e sem gelatina, com base de biscoito e creme de cream cheese. O suco de limão é o que firma o creme.",
+      "imagem": "/images/receitas/cheesecake-de-frutas-vermelhas-sem-forno.jpg",
+      "dataPublicacao": "2026-10-20",
+      "semForno": true,
+      "introducao": "Cheesecake costuma assustar por causa do forno e do banho-maria. Esta versão vai só para a geladeira: base de biscoito maisena, creme de cream cheese e geleia de frutas vermelhas por cima. E o que faz o creme firmar, sem gelatina, é o suco de limão.",
+      "porQue": {
+        "titulo": "Por que o limão firma o creme?",
+        "texto": "É o suco de limão, batido com o cream cheese e o leite condensado, que faz o creme firmar na geladeira, sem precisar de gelatina. Por isso ele não pode ser pulado."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 30,
+      "tempoCozimentoMin": 0,
+      "tempoExtra": {
+        "label": "Na geladeira",
+        "min": 240
+      },
+      "ingredientes": [
+        "200g de biscoito maisena",
+        "100g de manteiga derretida",
+        "400g de cream cheese",
+        "1 lata de leite condensado",
+        "Suco de 1 limão",
+        "Geleia de frutas vermelhas pra cobrir"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Faça a base",
+          "texto": "triture o biscoito maisena, misture com a manteiga derretida e prense no fundo de uma forma."
+        },
+        {
+          "titulo": "Bata o creme",
+          "texto": "bata o cream cheese, o leite condensado e o suco de limão até ficar liso."
+        },
+        {
+          "titulo": "Monte",
+          "texto": "despeje o creme sobre a base."
+        },
+        {
+          "titulo": "Gele",
+          "texto": "leve à geladeira por 4 horas."
+        },
+        {
+          "titulo": "Cubra",
+          "texto": "cubra com a geleia de frutas vermelhas e sirva."
+        }
+      ],
+      "dica": "O erro mais comum é pular ou diminuir o limão, que é o que firma o creme. Bata até o creme ficar bem liso antes de despejar sobre a base e espere as 4 horas completas na geladeira antes de cortar.",
+      "faq": [
+        {
+          "pergunta": "Precisa de gelatina?",
+          "resposta": "Não. Nesta receita quem firma o creme é o suco de limão, com 4 horas de geladeira."
+        },
+        {
+          "pergunta": "Posso usar outro biscoito na base?",
+          "resposta": "A receita usa biscoito maisena. Outros biscoitos não foram testados aqui e podem mudar a textura da base."
+        },
+        {
+          "pergunta": "Como saber se firmou?",
+          "resposta": "Depois das 4 horas, o creme deve estar firme ao toque. Se ainda estiver mole, deixe mais um tempo na geladeira antes de cortar."
+        }
+      ]
     }
   ]
 }
