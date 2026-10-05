@@ -1278,6 +1278,69 @@
           "resposta": "Dá, mas deixe pra gratinar só na hora de servir. Montada e guardada por muito tempo, a berinjela empanada perde a crocância com o molho."
         }
       ]
+    },
+    {
+      "id": "omelete-de-forno-com-queijo-air-fryer",
+      "nome": "Omelete de Forno com Queijo na Air Fryer",
+      "subtitulo": "Cresce igual suflê, sem precisar virar na frigideira",
+      "resumo": "Omelete de forno com queijo e presunto na air fryer, alto e fofinho. O segredo é bater bem os ovos até ficarem aerados antes de assar.",
+      "imagem": "/images/receitas/omelete-de-forno-com-queijo-air-fryer.jpg",
+      "dataPublicacao": "2026-10-13",
+      "introducao": "Omelete de frigideira exige virar na hora certa, e muita gente desiste no meio. Na air fryer ele assa inteiro, cresce e fica dourado sem ninguém precisar virar nada. O que faz o omelete subir é o passo mais simples da receita: bater bem os ovos.",
+      "porQue": {
+        "titulo": "Por que bater bem os ovos faz o omelete crescer?",
+        "texto": "Bater os ovos incorpora ar na mistura. Quando ela vai pro calor da air fryer, esse ar se expande e empurra a massa pra cima, e por isso o omelete cresce. Ovos só misturados, sem bater, resultam num omelete baixo e denso."
+      },
+      "porcoes": 2,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 5,
+      "tempoCozimentoMin": 15,
+      "ingredientes": [
+        "4 ovos",
+        "3 colheres (sopa) de leite",
+        "Queijo ralado a gosto",
+        "Presunto picado a gosto",
+        "Cheiro-verde picado",
+        "Sal e pimenta a gosto",
+        "Manteiga ou óleo pra untar"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Bata os ovos",
+          "texto": "numa tigela, bata os ovos com o leite, o sal e a pimenta até a mistura ficar espumosa e aerada."
+        },
+        {
+          "titulo": "Acrescente os recheios",
+          "texto": "junte o queijo ralado, o presunto picado e o cheiro-verde e misture delicadamente."
+        },
+        {
+          "titulo": "Unte a forma",
+          "texto": "use uma forma pequena, que caiba na cesta, untada com manteiga ou óleo."
+        },
+        {
+          "titulo": "Despeje a mistura",
+          "texto": "passe a mistura pra forma e leve à air fryer."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "a 180°C por cerca de 15 minutos, até o topo ficar dourado e firme ao toque."
+        }
+      ],
+      "dica": "O erro mais comum é bater pouco. Ovo só misturado dá um omelete baixo e denso. Bata até ficar espumoso, e sirva logo: como todo omelete que cresce com ar, ele murcha um pouco depois de sair do calor, e isso é normal.",
+      "faq": [
+        {
+          "pergunta": "Por que meu omelete murchou depois de assar?",
+          "resposta": "É normal: o ar que fez o omelete crescer sai aos poucos quando ele esfria. Servir logo depois de sair da air fryer mantém a altura por mais tempo."
+        },
+        {
+          "pergunta": "Posso trocar o presunto por outro recheio?",
+          "resposta": "Pode. Legumes picados, peito de peru e outros queijos funcionam bem. Se o recheio for úmido, como tomate, escorra bem pra não deixar o omelete aguado."
+        },
+        {
+          "pergunta": "Dá pra fazer sem leite?",
+          "resposta": "Dá. O leite deixa o omelete mais macio, mas você pode usar só ovos ou trocar por um pouco de água. O importante continua sendo bater bem."
+        }
+      ]
     }
   ]
 }
