@@ -269,8 +269,8 @@
     {
       "id": "pizza-na-air-fryer",
       "nome": "Pizza na Air Fryer",
-      "subtitulo": "Pronta em 20 minutos, com a borda crocante que o forno de casa não consegue fazer",
-      "resumo": "Pizza feita na air fryer com o meio nunca cru e a borda bem crocante. O segredo não é o recheio, é pré-assar a massa vazia antes de cobrir.",
+      "subtitulo": "Pronta em 20 minutos, com a borda crocante",
+      "resumo": "Pizza feita na air fryer com o meio bem assado e a borda crocante. O segredo não é o recheio, é pré-assar a massa vazia antes de cobrir.",
       "imagem": "/images/receitas/pizza-air-fryer.jpg",
       "dataPublicacao": "2026-09-04",
       "introducao": "Pizza na air fryer costuma sair com o meio cru quando o recheio vai direto sobre a massa crua. Pré-assar a massa sozinha por alguns minutos antes de cobrir resolve isso, e o resultado sai pronto em bem menos tempo que o forno de casa.",
@@ -310,7 +310,7 @@
           "texto": "retire com cuidado (a cesta fica bem quente) e sirva na hora, enquanto a borda ainda está crocante."
         }
       ],
-      "dica": "O erro mais comum é colocar o recheio direto na massa crua. O peso do molho e do queijo não deixa o calor chegar no centro a tempo, e a pizza sai com o meio cru mesmo com a borda pronta. Pré-assar a massa sozinha por alguns minutos resolve isso de vez.",
+      "dica": "O erro mais comum é colocar o recheio direto na massa crua. O peso do molho e do queijo não deixa o calor chegar no centro a tempo, e a pizza sai com o meio cru mesmo com a borda pronta. Pré-assar a massa sozinha por alguns minutos costuma resolver isso.",
       "faq": [
         {
           "pergunta": "Preciso usar massa pronta ou dá pra fazer caseira?",
@@ -475,7 +475,7 @@
       "id": "nuggets-caseiros-air-fryer",
       "nome": "Nuggets Caseiros de Air Fryer",
       "subtitulo": "Crocante e Sem Fritura",
-      "resumo": "Aprenda a fazer nuggets caseiros na air fryer, crocantes por fora e macios por dentro, sem óleo e prontos em poucos minutos.",
+      "resumo": "Aprenda a fazer nuggets caseiros na air fryer, crocantes por fora e macios por dentro, sem fritura e prontos em poucos minutos.",
       "imagem": "/images/receitas/nuggets.jpg",
       "dataPublicacao": "2026-08-18",
       "introducao": "Se você procura uma opção mais saudável e igualmente saborosa do que os nuggets industrializados, essa receita de nuggets caseiros feitos na air fryer é a escolha certa. Além de mais crocantes por fora e macios por dentro, eles são feitos sem fritura em óleo, o que reduz bastante a gordura sem perder o sabor. É uma receita simples, perfeita para o lanche das crianças ou para servir como entrada em qualquer refeição.",
