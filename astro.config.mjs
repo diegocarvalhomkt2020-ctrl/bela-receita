@@ -3,5 +3,6 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://belareceita.dicasinteligentes.com',
-  integrations: [sitemap()],
+  // guia-5-receitas é isca entregue por mensagem automática: fora do sitemap e com noindex
+  integrations: [sitemap({ filter: (page) => !page.includes('/guia-5-receitas') })],
 });
