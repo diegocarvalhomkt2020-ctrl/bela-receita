@@ -1142,6 +1142,75 @@
           "resposta": "Dá. A polenta pode ficar pronta e cortada na geladeira de um dia pro outro, e você só borrifa e leva à air fryer na hora de servir."
         }
       ]
+    },
+    {
+      "id": "espetinho-de-frango-com-legumes-air-fryer",
+      "nome": "Espetinho de Frango com Legumes na Air Fryer",
+      "subtitulo": "Espetinho de churrasco sem acender a churrasqueira",
+      "resumo": "Espetinho de frango com legumes na air fryer, suculento e pronto em 25 minutos. O segredo é cortar os cubos do mesmo tamanho pra assar por igual.",
+      "imagem": "/images/receitas/espetinho-de-frango-com-legumes-air-fryer.jpg",
+      "dataPublicacao": "2026-10-06",
+      "introducao": "Espetinho de churrasco costuma pedir carvão, fumaça e tempo. Na air fryer sai em 25 minutos, com frango suculento e legumes assados por igual. O detalhe que decide se o frango fica macio ou seco por dentro é simples: o tamanho dos cubos.",
+      "porQue": {
+        "titulo": "Por que os cubos precisam ter o mesmo tamanho?",
+        "texto": "Pedaços de tamanhos diferentes assam em tempos diferentes. Os menores ressecam enquanto os maiores ainda estão crus no meio. Cortando todos do mesmo tamanho, o frango cozinha por igual e o tempo de 15 minutos serve pra todos os espetos."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 15,
+      "tempoExtra": {
+        "label": "Marinando o frango",
+        "min": 20
+      },
+      "ingredientes": [
+        "500 g de peito de frango em cubos",
+        "2 dentes de alho amassados",
+        "1 colher (chá) de páprica",
+        "2 colheres (sopa) de azeite",
+        "Suco de 1/2 limão e sal a gosto",
+        "1 pimentão em pedaços",
+        "1 cebola em pedaços",
+        "1 abobrinha em rodelas grossas",
+        "Espetos de madeira"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Tempere o frango",
+          "texto": "misture os cubos de frango com o alho, a páprica, o azeite, o limão e o sal, e deixe marinar por 20 minutos."
+        },
+        {
+          "titulo": "Molhe os espetos",
+          "texto": "deixe os espetos de madeira de molho na água enquanto o frango marina, pra não queimarem na air fryer."
+        },
+        {
+          "titulo": "Monte os espetos",
+          "texto": "alterne frango, pimentão, cebola e abobrinha em cada espeto. Se o espeto não couber na cesta, corte-o ao meio."
+        },
+        {
+          "titulo": "Leve à air fryer",
+          "texto": "asse a 200°C por 15 minutos, virando os espetos na metade do tempo."
+        },
+        {
+          "titulo": "Confira o frango",
+          "texto": "corte um cubo ao meio: ele deve estar branco por dentro, sem nenhuma parte rosada."
+        }
+      ],
+      "dica": "O erro mais comum é misturar cubos grandes e pequenos no mesmo espeto. Os pequenos secam e os grandes ficam crus no meio. Corte tudo do mesmo tamanho e confira um cubo ao meio antes de servir.",
+      "faq": [
+        {
+          "pergunta": "Preciso molhar o espeto de madeira?",
+          "resposta": "É recomendado. O espeto seco pode queimar nas pontas com o calor da air fryer. De molho na água por uns 20 minutos, ele resiste bem mais."
+        },
+        {
+          "pergunta": "Posso usar coxa de frango em vez de peito?",
+          "resposta": "Pode. A coxa desossada costuma ficar mais macia, mas confira o ponto com atenção porque ela pode levar um pouco mais de tempo."
+        },
+        {
+          "pergunta": "Como saber se o frango está no ponto?",
+          "resposta": "Corte um cubo ao meio: deve estar branco por dentro e sem parte rosada. Se estiver rosado, devolva o espeto à air fryer por mais alguns minutos."
+        }
+      ]
     }
   ]
 }
