@@ -1211,6 +1211,73 @@
           "resposta": "Corte um cubo ao meio: deve estar branco por dentro e sem parte rosada. Se estiver rosado, devolva o espeto à air fryer por mais alguns minutos."
         }
       ]
+    },
+    {
+      "id": "berinjela-a-parmegiana-air-fryer",
+      "nome": "Berinjela à Parmegiana na Air Fryer",
+      "subtitulo": "Crocante, sem amargor e com pouco óleo",
+      "resumo": "Berinjela à parmegiana na air fryer, crocante e sem amargor. O segredo é salgar as rodelas e deixar descansar antes de empanar.",
+      "imagem": "/images/receitas/berinjela-a-parmegiana-air-fryer.jpg",
+      "dataPublicacao": "2026-10-09",
+      "introducao": "Berinjela à parmegiana costuma ser frita e pesada. Na air fryer ela fica crocante com muito menos óleo, e o que separa uma berinjela gostosa de uma amarga é um passo simples que muita gente pula: salgar as rodelas e deixar descansando por 20 minutos antes de empanar.",
+      "porQue": {
+        "titulo": "Por que salgar a berinjela antes de empanar?",
+        "texto": "O sal puxa a água da berinjela pra fora, e com ela sai boa parte do amargor. Depois de secar bem as rodelas, a berinjela empana melhor, porque a farinha panko gruda em superfície seca, e não fica encharcada no forno."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 15,
+      "tempoCozimentoMin": 18,
+      "tempoExtra": {
+        "label": "Descansando com sal",
+        "min": 20
+      },
+      "ingredientes": [
+        "2 berinjelas em rodelas",
+        "Sal grosso pra salgar",
+        "2 ovos batidos",
+        "Farinha panko pra empanar",
+        "Molho de tomate",
+        "Muçarela fatiada",
+        "Azeite em spray"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Corte e salgue",
+          "texto": "corte as berinjelas em rodelas de cerca de 1 cm, salpique sal grosso dos dois lados e deixe descansar por 20 minutos."
+        },
+        {
+          "titulo": "Seque bem",
+          "texto": "enxágue rapidamente ou tire o excesso de sal e seque bem cada rodela com papel-toalha."
+        },
+        {
+          "titulo": "Empane",
+          "texto": "passe as rodelas no ovo batido e depois na farinha panko, pressionando pra grudar."
+        },
+        {
+          "titulo": "Asse a primeira vez",
+          "texto": "disponha na cesta, borrife azeite e asse a 200°C por cerca de 12 minutos, virando na metade."
+        },
+        {
+          "titulo": "Monte e gratine",
+          "texto": "alterne camadas de berinjela, molho de tomate e muçarela numa forma pequena e volte à air fryer por cerca de 6 minutos, até a muçarela derreter."
+        }
+      ],
+      "dica": "O erro mais comum é pular o descanso com sal e empanar a berinjela ainda molhada. O resultado fica amargo e a casca amolece. Vinte minutos com sal e um bom papel-toalha resolvem os dois problemas.",
+      "faq": [
+        {
+          "pergunta": "Precisa mesmo salgar a berinjela?",
+          "resposta": "É o que ajuda a tirar o amargor e o excesso de água, e deixa a berinjela mais fácil de empanar. Se você tem pressa, pelo menos seque bem as rodelas antes de empanar."
+        },
+        {
+          "pergunta": "Posso fazer sem panko?",
+          "resposta": "Pode usar farinha de rosca comum. O panko fica mais crocante, mas a rosca comum também funciona, principalmente se você borrifar azeite por cima."
+        },
+        {
+          "pergunta": "Dá pra deixar montada antes?",
+          "resposta": "Dá, mas deixe pra gratinar só na hora de servir. Montada e guardada por muito tempo, a berinjela empanada perde a crocância com o molho."
+        }
+      ]
     }
   ]
 }
