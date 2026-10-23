@@ -1341,6 +1341,69 @@
           "resposta": "Dá. O leite deixa o omelete mais macio, mas você pode usar só ovos ou trocar por um pouco de água. O importante continua sendo bater bem."
         }
       ]
+    },
+    {
+      "id": "bolo-de-cenoura-air-fryer",
+      "nome": "Bolo de Cenoura com Calda na Air Fryer",
+      "subtitulo": "Fofinho, com calda de chocolate por cima",
+      "resumo": "Bolo de cenoura com calda de chocolate na air fryer, fofinho e batido no liquidificador. O segredo é bater a cenoura até não sobrar pedacinho.",
+      "imagem": "/images/receitas/bolo-de-cenoura-air-fryer.jpg",
+      "dataPublicacao": "2026-10-16",
+      "introducao": "Bolo de cenoura com calda de chocolate é clássico de café da tarde, e na air fryer ele assa em cerca de 35 minutos. A massa vai toda no liquidificador, e o que decide se o bolo sai fofinho é um detalhe simples: bater bem a cenoura com o óleo.",
+      "porQue": {
+        "titulo": "Por que bater a cenoura até não sobrar pedacinho?",
+        "texto": "Quanto mais lisa a mistura de cenoura, ovos e óleo, mais uniforme fica a massa. Pedacinhos que sobram deixam o bolo irregular. Batendo bem, a base fica lisa e o bolo fica fofinho de verdade."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "fatias",
+      "tempoPreparoMin": 10,
+      "tempoCozimentoMin": 35,
+      "ingredientes": [
+        "3 cenouras médias picadas",
+        "3 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "2½ xícaras de farinha de trigo",
+        "1 colher (sopa) de fermento",
+        "Calda: 4 colheres (sopa) de açúcar, 2 de cacau, 1 de manteiga e ½ xícara de leite"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Bata a base",
+          "texto": "no liquidificador, bata a cenoura, os ovos e o óleo até a mistura ficar bem lisa."
+        },
+        {
+          "titulo": "Misture o açúcar",
+          "texto": "despeje a base numa tigela e misture o açúcar."
+        },
+        {
+          "titulo": "Junte a farinha e o fermento",
+          "texto": "acrescente a farinha e o fermento por último e misture até incorporar."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "passe a massa para uma assadeira untada que caiba na cesta e asse a 170°C por cerca de 35 minutos."
+        },
+        {
+          "titulo": "Faça a calda",
+          "texto": "à parte, leve ao fogo o açúcar, o cacau, a manteiga e o leite, mexendo até virar uma calda, e despeje por cima do bolo."
+        }
+      ],
+      "dica": "O erro mais comum é bater pouco e deixar pedacinhos de cenoura na massa. Bata a cenoura com os ovos e o óleo até a mistura ficar bem lisa, e só depois junte o açúcar, a farinha e o fermento, nessa ordem.",
+      "faq": [
+        {
+          "pergunta": "Posso ralar a cenoura em vez de bater no liquidificador?",
+          "resposta": "O método desta receita é bater no liquidificador, porque é assim que a base fica lisa, sem pedacinho. Cenoura ralada não foi testada aqui."
+        },
+        {
+          "pergunta": "Por que o fermento entra por último?",
+          "resposta": "A receita pede a farinha e o fermento depois de a base estar batida e misturada com o açúcar. Essa é a ordem testada, então vale mantê-la."
+        },
+        {
+          "pergunta": "Como saber se o bolo está pronto?",
+          "resposta": "Espete um palito no centro: se sair limpo, o bolo está assado. Se sair com massa, devolva à air fryer por mais alguns minutos."
+        }
+      ]
     }
   ]
 }
