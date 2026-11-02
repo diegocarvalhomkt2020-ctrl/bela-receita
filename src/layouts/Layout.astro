@@ -70,6 +70,20 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
       <slot />
     </main>
     <footer class="rodape">
+      <nav class="redes" aria-label="Bela Receita nas redes sociais">
+        <a href="https://www.youtube.com/@belareceitaoficial" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15V9l5.8 3-5.8 3Z"/></svg>
+          YouTube
+        </a>
+        <a href="https://www.instagram.com/bela_receita" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4ZM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.2 4.2 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.7 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.7-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.7-5.8-5.8C15 2 14.7 2 12 2Zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1c-2.7-.1-4-1.4-4.1-4.1-.1-1-.1-1.3-.1-4s0-3 .1-4c.1-2.7 1.4-4 4.1-4.1 1-.1 1.3-.1 4-.1Z"/></svg>
+          Instagram
+        </a>
+        <a href="https://www.tiktok.com/@belareceita" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.2 6.2 0 1 0 5.3 6.2V8.6a7.8 7.8 0 0 0 4.4 1.4V6.7a4.4 4.4 0 0 1-4.4-4.4Z"/></svg>
+          TikTok
+        </a>
+      </nav>
       <p>
         <strong>Aviso de transparência.</strong> Este site participa de programas
         de afiliados e pode receber comissão pelas compras qualificadas feitas
@@ -185,6 +199,22 @@ const ehAtual = (href) => pathname === href || (href !== '/' && pathname.startsW
         color: var(--cor-texto-suave);
         font-size: 0.85rem;
       }
+      .redes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.25rem;
+        margin-bottom: 1rem;
+      }
+      .redes a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--cor-texto);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .redes a:hover { color: var(--cor-acento); }
+      .redes svg { width: 1.2rem; height: 1.2rem; fill: currentColor; }
     </style>
   </body>
 </html>

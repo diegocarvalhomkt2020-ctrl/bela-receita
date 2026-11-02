@@ -18,6 +18,11 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Bela Receita",
   "url": Astro.site?.toString(),
+  "sameAs": [
+    "https://www.youtube.com/@belareceitaoficial",
+    "https://www.instagram.com/bela_receita",
+    "https://www.tiktok.com/@belareceita",
+  ],
 };
 ---
 <Layout title="Receitas fáceis para Airfryer" description="Receitas para airfryer fáceis e saborosas: frangos crocantes, lanches, legumes e doces. Passo a passo simples pra fazer no dia a dia." image={recentes[0]?.imagem}>
