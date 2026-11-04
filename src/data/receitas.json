@@ -1471,6 +1471,71 @@
           "resposta": "Depois das 4 horas, o creme deve estar firme ao toque. Se ainda estiver mole, deixe mais um tempo na geladeira antes de cortar."
         }
       ]
+    },
+    {
+      "id": "quindim-brilhante-air-fryer",
+      "nome": "Quindim Brilhante na Air Fryer",
+      "subtitulo": "Só 4 ingredientes, assado em banho-maria",
+      "resumo": "Quindim na air fryer com só 4 ingredientes, brilhante e assado em banho-maria. O passo que não dá pra pular é peneirar as gemas.",
+      "imagem": "/images/receitas/quindim-brilhante-air-fryer.jpg",
+      "dataPublicacao": "2026-11-04",
+      "introducao": "Quindim leva só quatro ingredientes, mas tem um passo que não dá pra pular. Na air fryer ele assa em banho-maria, em cerca de 30 minutos, e fica com a base de coco e o topo brilhante.",
+      "porQue": {
+        "titulo": "Por que peneirar as gemas?",
+        "texto": "Peneirar as gemas é o que deixa o quindim brilhante e sem cheiro de ovo. É um passo rápido, e é ele que faz a diferença no resultado."
+      },
+      "porcoes": 6,
+      "porcoesLabel": "unidades",
+      "tempoPreparoMin": 10,
+      "tempoCozimentoMin": 30,
+      "tempoExtra": {
+        "label": "Descansando a mistura",
+        "min": 30
+      },
+      "ingredientes": [
+        "8 gemas peneiradas",
+        "1 xícara de açúcar",
+        "100g de coco ralado",
+        "1 colher (sopa) de manteiga derretida",
+        "Manteiga e açúcar pra untar as forminhas"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Peneire as gemas",
+          "texto": "passe as 8 gemas por uma peneira."
+        },
+        {
+          "titulo": "Misture",
+          "texto": "junte as gemas peneiradas com o açúcar, o coco ralado e a manteiga derretida."
+        },
+        {
+          "titulo": "Deixe descansar",
+          "texto": "reserve a mistura por 30 minutos."
+        },
+        {
+          "titulo": "Unte as forminhas",
+          "texto": "passe manteiga e depois açúcar nas forminhas e distribua a mistura."
+        },
+        {
+          "titulo": "Asse em banho-maria",
+          "texto": "leve as forminhas dentro de uma assadeira com água, que caiba na cesta, e asse a 160°C por 30 minutos."
+        }
+      ],
+      "dica": "O erro mais comum é pular a peneira. As gemas peneiradas deixam o quindim brilhante e sem cheiro de ovo, e esse passo leva só alguns minutos. Respeite também os 30 minutos de descanso antes de assar.",
+      "faq": [
+        {
+          "pergunta": "Como fazer banho-maria na air fryer?",
+          "resposta": "Coloque as forminhas dentro de uma assadeira com água, que caiba na cesta da sua air fryer, e asse a 160°C por 30 minutos."
+        },
+        {
+          "pergunta": "Preciso mesmo deixar a mistura descansar?",
+          "resposta": "A receita pede 30 minutos de descanso antes de untar as forminhas e assar. Siga a ordem do passo a passo."
+        },
+        {
+          "pergunta": "Posso trocar o coco ralado?",
+          "resposta": "A receita usa 100g de coco ralado. Trocar por outro ingrediente muda a receita, e esta página traz só a versão com coco ralado."
+        }
+      ]
     }
   ]
 }
