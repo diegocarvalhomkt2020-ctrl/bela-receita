@@ -1595,6 +1595,73 @@
           "resposta": "Não passe dos 12 minutos. Camarão passa do ponto rápido, então o tempo curto de forno é o cuidado principal."
         }
       ]
+    },
+    {
+      "id": "torta-de-limao-no-copinho-sem-forno",
+      "nome": "Torta de Limão no Copinho sem Forno",
+      "subtitulo": "Cremosa, em porções individuais e sem forno",
+      "resumo": "Torta de limão no copinho sem forno, com base de biscoito e creme de leite condensado. Leva 20 minutos de preparo e 2 horas de geladeira.",
+      "imagem": "/images/receitas/torta-de-limao-no-copinho-sem-forno.jpg",
+      "dataPublicacao": "2026-11-04",
+      "semForno": true,
+      "introducao": "Torta de limão em copinho dispensa forno e faca. A base é de biscoito maisena, o creme leva leite condensado, creme de leite e suco de limão, e cada porção já sai montada, o que facilita levar para uma festa.",
+      "porQue": {
+        "titulo": "Por que bater o creme até engrossar?",
+        "texto": "O creme de leite condensado, creme de leite e suco de limão deve ser batido até engrossar antes de ir para os copinhos. Depois, as 2 horas de geladeira completam o ponto da torta."
+      },
+      "porcoes": 6,
+      "porcoesLabel": "copinhos",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 0,
+      "tempoExtra": {
+        "label": "Na geladeira",
+        "min": 120
+      },
+      "ingredientes": [
+        "200g de biscoito maisena",
+        "80g de manteiga derretida",
+        "1 lata de leite condensado",
+        "1 caixinha de creme de leite",
+        "Suco de 3 limões",
+        "Raspas de limão pra finalizar"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Faça a base",
+          "texto": "triture o biscoito maisena, misture com a manteiga derretida e coloque no fundo dos copinhos."
+        },
+        {
+          "titulo": "Bata o creme",
+          "texto": "bata o leite condensado, o creme de leite e o suco dos 3 limões até engrossar."
+        },
+        {
+          "titulo": "Monte",
+          "texto": "despeje o creme sobre a base de cada copinho."
+        },
+        {
+          "titulo": "Gele",
+          "texto": "leve à geladeira por 2 horas."
+        },
+        {
+          "titulo": "Finalize",
+          "texto": "decore com raspas de limão na hora de servir."
+        }
+      ],
+      "dica": "O erro mais comum é despejar o creme antes de ele engrossar. Bata até ganhar consistência, distribua nos copinhos e espere as 2 horas de geladeira antes de servir.",
+      "faq": [
+        {
+          "pergunta": "Posso fazer em uma forma em vez de copinhos?",
+          "resposta": "A receita é pensada para copinhos. Esta página traz só a versão em copinhos."
+        },
+        {
+          "pergunta": "Quantos limões preciso?",
+          "resposta": "O creme leva o suco de 3 limões. As raspas, para finalizar, saem de um deles."
+        },
+        {
+          "pergunta": "Dá para levar para uma festa?",
+          "resposta": "Os copinhos facilitam, porque cada porção já vai montada. Leve na geladeira ou em bolsa térmica até a hora de servir."
+        }
+      ]
     }
   ]
 }
