@@ -1536,6 +1536,65 @@
           "resposta": "A receita usa 100g de coco ralado. Trocar por outro ingrediente muda a receita, e esta página traz só a versão com coco ralado."
         }
       ]
+    },
+    {
+      "id": "camarao-empanado-air-fryer",
+      "nome": "Camarão Empanado Crocante na Air Fryer",
+      "subtitulo": "Crocante por fora, pronto em 12 minutos de forno",
+      "resumo": "Camarão empanado crocante na air fryer, com 12 minutos de forno. O segredo é não passar do tempo, porque camarão passa do ponto rápido.",
+      "imagem": "/images/receitas/camarao-empanado-air-fryer.jpg",
+      "dataPublicacao": "2026-11-04",
+      "introducao": "Camarão empanado é petisco de fim de semana, e na air fryer ele fica crocante com só um borrifo de azeite. A casca vem de três camadas: farinha de trigo, ovo e panko com páprica. E o tempo curto de forno é o que mantém o camarão macio.",
+      "porQue": {
+        "titulo": "Por que não passar de 12 minutos?",
+        "texto": "Camarão passa do ponto rápido e fica borrachudo. Por isso o tempo na air fryer é curto: 12 minutos a 200°C, virando os camarões na metade."
+      },
+      "porcoes": 4,
+      "porcoesLabel": "porções",
+      "tempoPreparoMin": 20,
+      "tempoCozimentoMin": 12,
+      "ingredientes": [
+        "500g de camarão limpo",
+        "Alho, sal e pimenta a gosto",
+        "Suco de limão",
+        "Farinha de trigo pra empanar",
+        "Ovo batido",
+        "Farinha panko misturada com páprica",
+        "Azeite em spray"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Tempere",
+          "texto": "tempere o camarão limpo com alho, sal, pimenta e limão."
+        },
+        {
+          "titulo": "Empane",
+          "texto": "passe cada camarão na farinha de trigo, depois no ovo batido e por último na farinha panko misturada com páprica."
+        },
+        {
+          "titulo": "Borrife azeite",
+          "texto": "arrume os camarões na cesta e borrife azeite por cima."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "asse a 200°C por 12 minutos, virando na metade do tempo."
+        }
+      ],
+      "dica": "O erro mais comum é deixar mais tempo na air fryer achando que vai ficar mais crocante. O camarão passa do ponto rápido e fica borrachudo. Respeite os 12 minutos e vire na metade.",
+      "faq": [
+        {
+          "pergunta": "Posso deixar a cauda do camarão?",
+          "resposta": "A receita usa camarão limpo. Deixar ou não a cauda é opção sua; o importante é respeitar o tempo de forno."
+        },
+        {
+          "pergunta": "Posso usar farinha de rosca no lugar do panko?",
+          "resposta": "A receita usa panko misturado com páprica. Esta página traz só a versão com panko, sem variação com farinha de rosca comum."
+        },
+        {
+          "pergunta": "Como evitar camarão borrachudo?",
+          "resposta": "Não passe dos 12 minutos. Camarão passa do ponto rápido, então o tempo curto de forno é o cuidado principal."
+        }
+      ]
     }
   ]
 }
