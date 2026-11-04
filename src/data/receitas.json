@@ -1662,6 +1662,64 @@
           "resposta": "Os copinhos facilitam, porque cada porção já vai montada. Leve na geladeira ou em bolsa térmica até a hora de servir."
         }
       ]
+    },
+    {
+      "id": "pastel-de-nata-air-fryer",
+      "nome": "Pastel de Nata na Air Fryer",
+      "subtitulo": "Casquinha que estala e creme queimadinho por cima",
+      "resumo": "Pastel de nata na air fryer com massa folhada pronta e creme de gemas. As manchinhas escuras por cima do creme são o ponto certo, e não queimado.",
+      "imagem": "/images/receitas/pastel-de-nata-air-fryer.jpg",
+      "dataPublicacao": "2026-11-04",
+      "introducao": "Pastel de nata em casa fica mais fácil com massa folhada pronta. O creme de gemas, leite e limão vai ao fogo até engrossar, preenche as forminhas e assa em 15 minutos na air fryer, até aparecerem as manchinhas escuras por cima.",
+      "porQue": {
+        "titulo": "Por que as manchinhas escuras são o ponto certo?",
+        "texto": "As manchinhas escuras por cima do creme, no fim dos 15 minutos, não são queimado: é isso que dá o sabor do pastel de nata."
+      },
+      "porcoes": 8,
+      "porcoesLabel": "unidades",
+      "tempoPreparoMin": 25,
+      "tempoCozimentoMin": 15,
+      "ingredientes": [
+        "Massa folhada pronta",
+        "1 xícara de leite",
+        "3 gemas",
+        "½ xícara de açúcar",
+        "1 colher (sopa) de amido de milho",
+        "Raspas de limão"
+      ],
+      "modoPreparo": [
+        {
+          "titulo": "Forre as forminhas",
+          "texto": "forre as forminhas com a massa folhada."
+        },
+        {
+          "titulo": "Faça o creme",
+          "texto": "misture o leite, as gemas, o açúcar, o amido de milho e as raspas de limão e leve ao fogo até engrossar."
+        },
+        {
+          "titulo": "Preencha",
+          "texto": "encha as forminhas com o creme até três quartos."
+        },
+        {
+          "titulo": "Asse",
+          "texto": "asse a 200°C por 15 minutos, até o creme ficar com manchinhas escuras por cima."
+        }
+      ],
+      "dica": "O erro mais comum é tirar o pastel de nata cedo demais, achando que as manchinhas escuras são queimado. Elas são o ponto certo e é ali que mora o sabor. Preencha só até três quartos, como a receita pede.",
+      "faq": [
+        {
+          "pergunta": "Posso usar massa folhada comprada pronta?",
+          "resposta": "Sim, é a que esta receita usa. Basta forrar as forminhas com ela."
+        },
+        {
+          "pergunta": "O creme precisa engrossar no fogo?",
+          "resposta": "Sim. Leve o creme ao fogo até engrossar antes de preencher as forminhas."
+        },
+        {
+          "pergunta": "Por que encher só até três quartos?",
+          "resposta": "É a medida que a receita pede. Encher até a borda não é o recomendado."
+        }
+      ]
     }
   ]
 }
